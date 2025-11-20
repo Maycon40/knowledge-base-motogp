@@ -2,232 +2,397 @@
   {
     "name": "Jorge Lorenzo",
     "year": 2015,
-    "description": "Conquistou o título da MotoGP em uma batalha acirrada com seu companheiro de equipe Valentino Rossi.",
+    "description": "Em uma das temporadas mais icônicas, Jorge Lorenzo conquistou seu quinto e último título mundial na última corrida, em Valência, superando seu companheiro de equipe Valentino Rossi por apenas cinco pontos.",
     "category": "MotoGP",
-    "image": "https://gam.blogaboina.com.br/wp-content/uploads/2025/01/YFR_151109135117504_30-800x400-1.png"
+    "image": "https://gam.blogaboina.com.br/wp-content/uploads/2025/01/YFR_151109135117504_30-800x400-1.png",
+    "nationality": "Espanha",
+    "team": "Movistar Yamaha MotoGP",
+    "wins": 7,
+    "podiums": 12,
+    "poles": 5
   },
   {
     "name": "Johann Zarco",
     "year": 2015,
-    "description": "Dominou a temporada da Moto2, garantindo o título com várias corridas de antecedência.",
+    "description": "Dominou a temporada da Moto2, conquistando seu primeiro título mundial com uma performance consistente que incluiu 8 vitórias e 14 pódios, garantindo o campeonato com antecedência.",
     "category": "Moto2",
-    "image": "https://www.motosport.com.pt/wp-content/uploads/2016/10/Zarco.jpg"
+    "image": "https://www.motosport.com.pt/wp-content/uploads/2016/10/Zarco.jpg",
+    "nationality": "França",
+    "team": "Ajo Motorsport",
+    "wins": 8,
+    "podiums": 14,
+    "poles": 7
   },
   {
     "name": "Danny Kent",
     "year": 2015,
-    "description": "Tornou-se o primeiro campeão britânico na categoria de base desde Barry Sheene em 1977.",
+    "description": "Tornou-se o primeiro campeão mundial britânico desde Barry Sheene em 1977. Kent teve um início de temporada avassalador e, apesar de uma segunda metade nervosa, garantiu o título da Moto3 em Valência.",
     "category": "Moto3",
-    "image": "https://cdn-3.motorsport.com/static/img/amp/600000/650000/659000/659500/659590/s6_776553/moto3-valencia-2015-le-champion-du-monde-2015-danny-kent-leopard-racing.jpg"
+    "image": "https://cdn-3.motorsport.com/static/img/amp/600000/650000/659000/659500/659590/s6_776553/moto3-valencia-2015-le-champion-du-monde-2015-danny-kent-leopard-racing.jpg",
+    "nationality": "Reino Unido",
+    "team": "Leopard Racing",
+    "wins": 6,
+    "podiums": 9,
+    "poles": 5
   },
   {
     "name": "Marc Márquez",
     "year": 2016,
-    "description": "Venceu seu terceiro título na categoria rainha com consistência, apesar de uma moto considerada difícil.",
+    "description": "Adotando uma nova abordagem focada na consistência, Márquez conquistou seu terceiro título na MotoGP. Ele somou pontos cruciais durante toda a temporada e selou o campeonato no Japão, casa da Honda.",
     "category": "MotoGP",
-    "image": "https://s2.glbimg.com/229MCXhXGa7-wmj7iHK_IjrPCaY=/0x0:3839x2866/690x515/s.glbimg.com/es/ge/f/original/2016/10/16/636122042096690334.jpg"
+    "image": "https://s2.glbimg.com/229MCXhXGa7-wmj7iHK_IjrPCaY=/0x0:3839x2866/690x515/s.glbimg.com/es/ge/f/original/2016/10/16/636122042096690334.jpg",
+    "nationality": "Espanha",
+    "team": "Repsol Honda Team",
+    "wins": 5,
+    "podiums": 12,
+    "poles": 7
   },
   {
     "name": "Johann Zarco",
     "year": 2016,
-    "description": "Conquistou o bicampeonato na Moto2, tornando-se o primeiro piloto a defender o título na categoria.",
+    "description": "Fez história ao se tornar o primeiro piloto a conquistar o bicampeonato na categoria Moto2. Zarco superou uma forte concorrência para garantir seu segundo título consecutivo antes de subir para a MotoGP.",
     "category": "Moto2",
-    "image": "https://www.kmcero.es/wp-content/uploads/2016/10/celebracion-titulo-moto2-johann-zarco.jpg"
+    "image": "https://www.kmcero.es/wp-content/uploads/2016/10/celebracion-titulo-moto2-johann-zarco.jpg",
+    "nationality": "França",
+    "team": "Ajo Motorsport",
+    "wins": 7,
+    "podiums": 10,
+    "poles": 7
   },
   {
     "name": "Brad Binder",
     "year": 2016,
-    "description": "Sagrou-se campeão da Moto3 com uma performance impressionante ao longo do ano.",
+    "description": "Brad Binder sagrou-se campeão da Moto3 com uma performance dominante e memorável, incluindo uma vitória épica em Jerez, onde largou em último e ultrapassou todo o grid para vencer.",
     "category": "Moto3",
-    "image": "https://www.motonline.com.br/noticia/wp-content/uploads/2020/08/Brad-Binder-Moto3-World-Champion-2016.jpg"
+    "image": "https://www.motonline.com.br/noticia/wp-content/uploads/2020/08/Brad-Binder-Moto3-World-Champion-2016.jpg",
+    "nationality": "África do Sul",
+    "team": "Red Bull KTM Ajo",
+    "wins": 7,
+    "podiums": 14,
+    "poles": 6
   },
   {
     "name": "Marc Márquez",
     "year": 2017,
-    "description": "Garantiu seu sexto título mundial em uma disputa emocionante contra Andrea Dovizioso.",
+    "description": "Em uma das disputas mais emocionantes da era moderna, Márquez travou uma batalha intensa com Andrea Dovizioso durante toda a temporada, garantindo seu sexto título mundial na corrida final em Valência.",
     "category": "MotoGP",
-    "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/11/12/15105000554096.jpg"
+    "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/11/12/15105000554096.jpg",
+    "nationality": "Espanha",
+    "team": "Repsol Honda Team",
+    "wins": 6,
+    "podiums": 12,
+    "poles": 8
   },
   {
     "name": "Franco Morbidelli",
     "year": 2017,
-    "description": "Primeiro campeão italiano na categoria intermediária desde Marco Simoncelli em 2008.",
+    "description": "Tornou-se o primeiro campeão italiano na categoria intermediária desde Marco Simoncelli (2008). Morbidelli mostrou grande maturidade e velocidade, vencendo 8 corridas para selar o título da Moto2.",
     "category": "Moto2",
-    "image": "https://cdn-9.motorsport.com/images/amp/YNyX8AV2/s1000/moto2-sepang-2017-third-place-and-champion-franco-morbidelli-marc-vds-6863242.jpg"
+    "image": "https://cdn-9.motorsport.com/images/amp/YNyX8AV2/s1000/moto2-sepang-2017-third-place-and-champion-franco-morbidelli-marc-vds-6863242.jpg",
+    "nationality": "Itália",
+    "team": "EG 0,0 Marc VDS",
+    "wins": 8,
+    "podiums": 12,
+    "poles": 6
   },
   {
     "name": "Joan Mir",
     "year": 2017,
-    "description": "Dominou a Moto3 com 10 vitórias, estabelecendo um novo recorde para a categoria.",
+    "description": "Joan Mir teve uma temporada de domínio absoluto na Moto3, vencendo 10 corridas e estabelecendo um novo recorde de vitórias na categoria. Sua performance o coroou campeão com ampla vantagem.",
     "category": "Moto3",
-    "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/d8c761ea-9c0a-4cb5-bf5c-7d217e02e468/SjusSYlX.jpg?width=1440&height=810"
+    "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/d8c761ea-9c0a-4cb5-bf5c-7d217e02e468/SjusSYlX.jpg?width=1440&height=810",
+    "nationality": "Espanha",
+    "team": "Leopard Racing",
+    "wins": 10,
+    "podiums": 13,
+    "poles": 1
   },
   {
     "name": "Marc Márquez",
     "year": 2018,
-    "description": "Conquistou o pentacampeonato da MotoGP, solidificando seu domínio na era moderna.",
+    "description": "Continuando seu domínio na categoria rainha, Márquez conquistou seu quinto título da MotoGP (sétimo no total) com uma combinação de velocidade e audácia, selando o campeonato novamente no Japão.",
     "category": "MotoGP",
-    "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2018/10/21/5d7cdd42-b189-4bc0-984d-37cca2053bef/marc-marquez-japanese-motogp-2018"
+    "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2018/10/21/5d7cdd42-b189-4bc0-984d-37cca2053bef/marc-marquez-japanese-motogp-2018",
+    "nationality": "Espanha",
+    "team": "Repsol Honda Team",
+    "wins": 9,
+    "podiums": 14,
+    "poles": 6
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2018,
-    "description": "Venceu o campeonato da Moto2 pela equipe Sky Racing Team VR46.",
+    "description": "Em sua segunda temporada na Moto2, 'Pecco' Bagnaia brilhou, vencendo o campeonato pela equipe de Valentino Rossi. Sua performance dominante com 8 vitórias garantiu sua promoção para a MotoGP.",
     "category": "Moto2",
-    "image": "https://cdn-9.motorsport.com/images/mgl/0L1rrkj2/s700/francesco-bagnaia-sky-racing--1.jpg"
+    "image": "https://cdn-9.motorsport.com/images/mgl/0L1rrkj2/s700/francesco-bagnaia-sky-racing--1.jpg",
+    "nationality": "Itália",
+    "team": "Sky Racing Team VR46",
+    "wins": 8,
+    "podiums": 12,
+    "poles": 6
   },
   {
     "name": "Jorge Martín",
     "year": 2018,
-    "description": "Levou o título da Moto3 em uma temporada muito disputada.",
+    "description": "Apelidado de 'Martinator', Jorge Martín superou uma lesão no meio da temporada para conquistar o título da Moto3 em uma batalha acirrada contra Marco Bezzecchi, mostrando grande resiliência.",
     "category": "Moto3",
-    "image": "https://www.delconcausa.com/cdn/shop/articles/martin1-scaled.jpg?v=1679052857&width=1500"
+    "image": "https://www.delconcausa.com/cdn/shop/articles/martin1-scaled.jpg?v=1679052857&width=1500",
+    "nationality": "Espanha",
+    "team": "Del Conca Gresini Moto3",
+    "wins": 7,
+    "podiums": 10,
+    "poles": 11
   },
   {
     "name": "Marc Márquez",
     "year": 2019,
-    "description": "Uma temporada quase perfeita, terminando em primeiro ou segundo em todas as corridas que completou.",
+    "description": "Márquez teve uma das temporadas mais dominantes da história, conquistando seu oitavo título mundial. Ele terminou em primeiro ou segundo em todas as corridas que completou, somando um recorde de 420 pontos.",
     "category": "MotoGP",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Marc_M%C3%A1rquez_2019_Buriram_8.jpeg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Marc_M%C3%A1rquez_2019_Buriram_8.jpeg",
+    "nationality": "Espanha",
+    "team": "Repsol Honda Team",
+    "wins": 12,
+    "podiums": 18,
+    "poles": 10
   },
   {
     "name": "Álex Márquez",
     "year": 2019,
-    "description": "Juntou-se ao irmão Marc como campeão mundial, vencendo a categoria Moto2.",
+    "description": "Em um ano histórico para a família, Álex Márquez conquistou o título da Moto2, juntando-se ao seu irmão Marc (campeão da MotoGP) como campeões mundiais na mesma temporada.",
     "category": "Moto2",
-    "image": "https://marcvds.com/uploads/2019/12/a9b00095-1024x683.jpg"
+    "image": "https://marcvds.com/uploads/2019/12/a9b00095-1024x683.jpg",
+    "nationality": "Espanha",
+    "team": "EG 0,0 Marc VDS",
+    "wins": 5,
+    "podiums": 10,
+    "poles": 6
   },
   {
     "name": "Lorenzo Dalla Porta",
     "year": 2019,
-    "description": "Tornou-se campeão da Moto3, garantindo o título para a Itália.",
+    "description": "Com uma temporada marcada pela inteligência e consistência, Lorenzo Dalla Porta se tornou campeão da Moto3, sendo o piloto que mais pontuou e subiu ao pódio durante o ano.",
     "category": "Moto3",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbS7m5XhJY0oDAdZxcTVjyUMsw0Z2mtozfA&s"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbS7m5XhJY0oDAdZxcTVjyUMsw0Z2mtozfA&s",
+    "nationality": "Itália",
+    "team": "Leopard Racing",
+    "wins": 4,
+    "podiums": 11,
+    "poles": 1
   },
   {
     "name": "Joan Mir",
     "year": 2020,
-    "description": "Conquistou o título da MotoGP para a Suzuki, o primeiro da montadora em 20 anos.",
+    "description": "Em uma temporada imprevisível e encurtada pela pandemia, Joan Mir e a Suzuki surpreenderam o mundo. Com uma consistência notável, ele conquistou o título da MotoGP, o primeiro da montadora em 20 anos.",
     "category": "MotoGP",
-    "image": "https://cdn.crash.net/2025-01/Joan%20Mir.jpg?width=1600&aspect_ratio=1:1"
+    "image": "https://cdn.crash.net/2025-01/Joan%20Mir.jpg?width=1600&aspect_ratio=1:1",
+    "nationality": "Espanha",
+    "team": "Team Suzuki Ecstar",
+    "wins": 1,
+    "podiums": 7,
+    "poles": 0
   },
   {
     "name": "Enea Bastianini",
     "year": 2020,
-    "description": "Venceu o campeonato da Moto2 em uma temporada muito equilibrada.",
+    "description": "Apelidado de 'La Bestia', Enea Bastianini emergiu como campeão da Moto2 em uma das temporadas mais equilibradas da história, superando seus rivais na última etapa em Portugal.",
     "category": "Moto2",
-    "image": "https://bomdia.eu/luxemburgo/wp-content/uploads/sites/7/2020/11/DOC.20201122.30078830.JSG_0622.jpg"
+    "image": "https://bomdia.eu/luxemburgo/wp-content/uploads/sites/7/2020/11/DOC.20201122.30078830.JSG_0622.jpg",
+    "nationality": "Itália",
+    "team": "Italtrans Racing Team",
+    "wins": 3,
+    "podiums": 7,
+    "poles": 0
   },
   {
     "name": "Albert Arenas",
     "year": 2020,
-    "description": "Sagrou-se campeão da Moto3 na última corrida da temporada em Portugal.",
+    "description": "Albert Arenas conquistou o título da Moto3 em um final de temporada dramático. A decisão ficou para a última corrida em Portimão, onde ele superou Ai Ogura e Tony Arbolino por apenas quatro pontos.",
     "category": "Moto3",
-    "image": "https://as.sobrenet.pt/s/image/tsr/brandm/content/1920x1280/q2acf2vxgzkzdib31tbudzatn22.jpg"
+    "image": "https://as.sobrenet.pt/s/image/tsr/brandm/content/1920x1280/q2acf2vxgzkzdib31tbudzatn22.jpg",
+    "nationality": "Espanha",
+    "team": "Gaviota Aspar Team",
+    "wins": 3,
+    "podiums": 5,
+    "poles": 0
   },
   {
     "name": "Fabio Quartararo",
     "year": 2021,
-    "description": "Tornou-se o primeiro francês a vencer o título da categoria rainha.",
+    "description": "Fabio Quartararo fez história ao se tornar o primeiro francês a vencer um campeonato mundial na categoria rainha. Pilotando pela Yamaha, ele mostrou velocidade e maturidade para garantir o título.",
     "category": "MotoGP",
-    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/04/26/foto-2_-fabio-quartararo-conquistou-o-campeonato-com-a-yamaha-em-2021-foto_reproducao_-motogp-_-u856bl9x9a2e.jpg"
+    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/04/26/foto-2_-fabio-quartararo-conquistou-o-campeonato-com-a-yamaha-em-2021-foto_reproducao_-motogp-_-u856bl9x9a2e.jpg",
+    "nationality": "França",
+    "team": "Monster Energy Yamaha MotoGP",
+    "wins": 5,
+    "podiums": 10,
+    "poles": 5
   },
   {
     "name": "Remy Gardner",
     "year": 2021,
-    "description": "Filho do campeão de 500cc de 1987, Wayne Gardner, conquistou o título da Moto2.",
+    "description": "Seguindo os passos de seu pai, Wayne Gardner (campeão de 500cc em 1987), Remy Gardner conquistou o título da Moto2 em uma batalha intensa com seu companheiro de equipe, Raúl Fernández.",
     "category": "Moto2",
-    "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/42eb1709-3dd5-4226-b836-4e64bcda8afe/mcdC93sT.jpg?width=1440&height=810"
+    "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/42eb1709-3dd5-4226-b836-4e64bcda8afe/mcdC93sT.jpg?width=1440&height=810",
+    "nationality": "Austrália",
+    "team": "Red Bull KTM Ajo",
+    "wins": 5,
+    "podiums": 12,
+    "poles": 3
   },
   {
     "name": "Pedro Acosta",
     "year": 2021,
-    "description": "Venceu o campeonato da Moto3 em sua temporada de estreia de forma espetacular.",
+    "description": "O 'Tubarão de Mazarrón' chocou o mundo ao vencer o campeonato da Moto3 em sua temporada de estreia. Acosta mostrou um talento geracional, com performances espetaculares como a vitória em Doha largando do pit lane.",
     "category": "Moto3",
-    "image": "https://www.grandepremio.com.br/cdn-cgi/image/width=1200,height=675,fit=contain,gravity=0.5x0.5,quality=75,format=webp/wp-content/uploads/2021/11/000_9R846U.jpg"
+    "image": "https://www.grandepremio.com.br/cdn-cgi/image/width=1200,height=675,fit=contain,gravity=0.5x0.5,quality=75,format=webp/wp-content/uploads/2021/11/000_9R846U.jpg",
+    "nationality": "Espanha",
+    "team": "Red Bull KTM Ajo",
+    "wins": 6,
+    "podiums": 8,
+    "poles": 1
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2022,
-    "description": "Conquistou o título para a Ducati, o primeiro de um piloto italiano em uma moto italiana desde Giacomo Agostini.",
+    "description": "Em uma virada histórica, 'Pecco' Bagnaia reverteu um déficit de 91 pontos para Fabio Quartararo e conquistou o título para a Ducati, o primeiro da montadora desde 2007 e o primeiro de um piloto italiano em moto italiana desde 1972.",
     "category": "MotoGP",
-    "image": "https://cdn-4.motorsport.com/images/mgl/6AEoEoo6/s8/francesco-bagnaia-ducati-team-1.jpg"
+    "image": "https://cdn-4.motorsport.com/images/mgl/6AEoEoo6/s8/francesco-bagnaia-ducati-team-1.jpg",
+    "nationality": "Itália",
+    "team": "Ducati Lenovo Team",
+    "wins": 7,
+    "podiums": 10,
+    "poles": 5
   },
   {
     "name": "Augusto Fernández",
     "year": 2022,
-    "description": "Garantiu o título da Moto2 na última etapa em Valência.",
+    "description": "Após uma temporada de grande consistência e batalhas emocionantes com Ai Ogura, Augusto Fernández sagrou-se campeão da Moto2 na última etapa em Valência, garantindo sua vaga na MotoGP.",
     "category": "Moto2",
-    "image": "https://s7g10.scene7.com/is/image/ktm/AF_VAL_?wid=1000&dpr=off"
+    "image": "https://s7g10.scene7.com/is/image/ktm/AF_VAL_?wid=1000&dpr=off",
+    "nationality": "Espanha",
+    "team": "Red Bull KTM Ajo",
+    "wins": 4,
+    "podiums": 9,
+    "poles": 2
   },
   {
     "name": "Izan Guevara",
     "year": 2022,
-    "description": "Dominou a temporada da Moto3 para se tornar campeão mundial.",
+    "description": "Com um estilo de pilotagem agressivo e veloz, Izan Guevara dominou a temporada da Moto3, conquistando o título com duas corridas de antecedência na Austrália.",
     "category": "Moto3",
-    "image": "https://thumbs.web.sapo.io/?W=800&H=0&delay_optim=1&epic=ODZleoXqbqVoHi1pZ81L2/mq0kxQxrl5oNjDMO4xEv8KEK0dybEy6rUXgGCVrgPIpjkk07hibH3m/lqMopD4VjL+EfeCZGa2i3NXsXRu4/GrtS0="
+    "image": "https://thumbs.web.sapo.io/?W=800&H=0&delay_optim=1&epic=ODZleoXqbqVoHi1pZ81L2/mq0kxQxrl5oNjDMO4xEv8KEK0dybEy6rUXgGCVrgPIpjkk07hibH3m/lqMopD4VjL+EfeCZGa2i3NXsXRu4/GrtS0=",
+    "nationality": "Espanha",
+    "team": "Valresa GasGas Aspar Team",
+    "wins": 7,
+    "podiums": 12,
+    "poles": 5
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2023,
-    "description": "Defendeu com sucesso seu título da MotoGP, tornando-se bicampeão.",
+    "description": "Bagnaia defendeu seu título em uma temporada marcada pela rivalidade com Jorge Martín e pela introdução das Corridas Sprint. Ele superou a pressão e uma lesão grave para se tornar bicampeão na última etapa.",
     "category": "MotoGP",
-    "image": "https://www.grandepremio.com.br/wp-content/uploads/2023/11/F_3yjyyWMAAxzD9-1024x684.jpeg"
+    "image": "https://www.grandepremio.com.br/wp-content/uploads/2023/11/F_3yjyyWMAAxzD9-1024x684.jpeg",
+    "nationality": "Itália",
+    "team": "Ducati Lenovo Team",
+    "wins": 7,
+    "podiums": 15,
+    "poles": 7
   },
   {
     "name": "Pedro Acosta",
     "year": 2023,
-    "description": "Conquistou seu segundo título mundial, desta vez na categoria Moto2.",
+    "description": "Em apenas sua segunda temporada na Moto2, Pedro Acosta demonstrou novamente seu talento excepcional, conquistando seu segundo título mundial com uma performance dominante ao longo do ano.",
     "category": "Moto2",
-    "image": "https://www.mcnews.com.au/wp-content/uploads/2023/11/2023-Moto2-World-Champion-Pedro-Acosta-10.jpg"
+    "image": "https://www.mcnews.com.au/wp-content/uploads/2023/11/2023-Moto2-World-Champion-Pedro-Acosta-10.jpg",
+    "nationality": "Espanha",
+    "team": "Red Bull KTM Ajo",
+    "wins": 7,
+    "podiums": 14,
+    "poles": 3
   },
   {
     "name": "Jaume Masià",
     "year": 2023,
-    "description": "Venceu o campeonato da Moto3 após uma longa e consistente carreira na categoria.",
+    "description": "Após várias temporadas na categoria, o experiente Jaume Masià finalmente conquistou o cobiçado título da Moto3, usando sua consistência e velocidade para superar os rivais em um ano muito disputado.",
     "category": "Moto3",
-    "image": "https://kytasia.com/wp-content/uploads/2024/04/Masia-champion.webp"
+    "image": "https://kytasia.com/wp-content/uploads/2024/04/Masia-champion.webp",
+    "nationality": "Espanha",
+    "team": "Leopard Racing",
+    "wins": 4,
+    "podiums": 10,
+    "poles": 6
   },
   {
     "name": "Jorge Martín",
     "year": 2024,
-    "description": "Tornou-se o 30º piloto diferente a ser campeão da categoria rainha (MotoGP/500cc).",
+    "description": "Após ser vice-campeão em 2023, Jorge Martín finalmente alcançou a glória máxima, tornando-se campeão mundial de MotoGP. Com velocidade explosiva, ele se tornou o primeiro campeão por uma equipe satélite na era moderna.",
     "category": "MotoGP",
-    "image": "https://cdn.motorsport.com/images/mgl/2eAoNXb2/s1000/jorge-martin-pramac-racing.jpg"
+    "image": "https://cdn.motorsport.com/images/mgl/2eAoNXb2/s1000/jorge-martin-pramac-racing.jpg",
+    "nationality": "Espanha",
+    "team": "Prima Pramac Racing",
+    "wins": 3,
+    "podiums": 13,
+    "poles": 7
   },
   {
     "name": "Ai Ogura",
     "year": 2024,
-    "description": "Conquistou o título da Moto2, recolocando o Japão no topo da categoria intermediária.",
+    "description": "Depois de quase vencer em 2022, Ai Ogura realizou seu sonho e se tornou o primeiro campeão mundial japonês na Moto2. Sua pilotagem suave e inteligente o levou ao título em uma temporada consistente.",
     "category": "Moto2",
-    "image": "https://imagenes.heraldo.es/files/image_990_556/uploads/imagenes/2024/10/27/motorcycling-grand-prix-of-thailand-race.jpeg"
+    "image": "https://imagenes.heraldo.es/files/image_990_556/uploads/imagenes/2024/10/27/motorcycling-grand-prix-of-thailand-race.jpeg",
+    "nationality": "Japão",
+    "team": "MT Helmets - MSi",
+    "wins": 3,
+    "podiums": 8,
+    "poles": 2
   },
   {
     "name": "David Alonso",
     "year": 2024,
-    "description": "Primeiro colombiano a vencer um campeonato mundial de motovelocidade, conquistando o título da Moto3.",
+    "description": "David Alonso fez história para seu país ao se tornar o primeiro colombiano campeão mundial de motovelocidade. Com uma temporada de domínio absoluto na Moto3, ele quebrou recordes e garantiu o título com antecedência.",
     "category": "Moto3",
-    "image": "https://www.grandepremio.com.br/wp-content/uploads/2024/10/Moto3-2024-Japao-Motegi-Domingo-Aspar-David-Alonso4-1200x800.jpeg"
+    "image": "https://www.grandepremio.com.br/wp-content/uploads/2024/10/Moto3-2024-Japao-Motegi-Domingo-Aspar-David-Alonso4-1200x800.jpeg",
+    "nationality": "Colômbia",
+    "team": "CFMoto Aspar Team",
+    "wins": 14,
+    "podiums": 15,
+    "poles": 7
   },
   {
     "name": "Marc Márquez",
     "year": 2025,
     "description": "Campeão da MotoGP de maneira muito dominante, conquistando o título com 5 corridas de antecedencia. Com esse título ele conseguiu fazer uma das maiores voltas por cima da história dos esportes voltando a ser campeão 5 anos depois de ter quebrado o braço.",
     "category": "MotoGP",
-    "image": "https://motociclismoonline.com.br/wp-content/uploads/2025/09/Marc-Marquez-campeao-motogp-2025-02.jpg"
+    "image": "https://motociclismoonline.com.br/wp-content/uploads/2025/09/Marc-Marquez-campeao-motogp-2025-02.jpg",
+    "nationality": "Espanha",
+    "team": "Ducati Lenovo Team",
+    "wins": 11,
+    "podiums": 15,
+    "poles": 8
   },
   {
     "name": "Diogo Moreira",
     "year": 2025,
     "description": "Primeiro campeão brasileiro do campeonato mundial de motovelocidade, conquistando o título da Moto2.",
     "category": "Moto2",
-    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/11/16/imagem-do-whatsapp-de-2025-11-16-a(s)-10-52-23_f2f80d4f-1ji4huc1sko4x.jpg"
+    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/11/16/imagem-do-whatsapp-de-2025-11-16-a(s)-10-52-23_f2f80d4f-1ji4huc1sko4x.jpg",
+    "nationality": "Brasil",
+    "team": "Italtrans Racing Team",
+    "wins": 4,
+    "podiums": 9,
+    "poles": 7
   },
   {
     "name": "José Antonio Rueda",
     "year": 2025,
     "description": "Campeão com várias corridas de antecedência, conquistando o título da Moto2, mas ficando de fora do resto da temporada por causa de um acidente muito grave.",
     "category": "Moto3",
-    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/10/26/rueda-1jygktrnrn8m9.jpg"
+    "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/10/26/rueda-1jygktrnrn8m9.jpg",
+    "nationality": "Espanha",
+    "team": "Red Bull KTM Ajo",
+    "wins": 9,
+    "podiums": 13,
+    "poles": 5
   }
 ]

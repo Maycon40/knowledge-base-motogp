@@ -1,10 +1,26 @@
 class Card {
-  constructor({ name, year, description, category, image }) {
+  constructor({
+    name,
+    year,
+    description,
+    category,
+    image,
+    nationality,
+    team,
+    wins,
+    podiums,
+    poles,
+  }) {
     this.name = name;
     this.year = Number(year); // Garante que o ano seja um número para ordenação
     this.description = description;
     this.category = category;
     this.image = image;
+    this.nationality = nationality;
+    this.team = team;
+    this.wins = wins;
+    this.podiums = podiums;
+    this.poles = poles;
   }
 
   createHTMLElement() {
@@ -22,6 +38,7 @@ class Card {
     }</div>
       <div class="card-content">
           <h2>${this.name}</h2>
+          <p class="nationality">${this.nationality}</p>
           <p>${this.year}</p>
           <p>${this.description}</p>
       </div>
@@ -37,10 +54,19 @@ class App {
     this.searchForm = document.querySelector(".search-form");
     this.searchInput = document.querySelector("#search-input");
     this.filterNav = document.querySelector(".filter-nav");
+    this.layoutSwitcher = document.querySelector(".layout-switcher");
+    this.nationalityFilter = document.querySelector("#nationality-filter");
+    this.detailedContainer = document.querySelector(".detailed-container");
 
     // Estado da aplicação
     this.allCards = []; // Guarda todos os cards, nunca é modificado após o load
+    this.filteredCards = [];
+    this.currentLayout = "grid"; // 'grid' or 'detailed'
+    this.detailedViewIndex = 0;
+
+    // Estado dos filtros
     this.currentCategory = "all";
+    this.currentNationality = "all";
     this.searchTerm = "";
   }
 
@@ -51,6 +77,7 @@ class App {
       // Ordena os dados por ano (mais recente primeiro) antes de criar os cards
       data.sort((a, b) => b.year - a.year);
       this.allCards = data.map((item) => new Card(item));
+      this.populateNationalityFilter();
     } catch (error) {
       console.error("Erro ao carregar os dados:", error);
     }
@@ -58,11 +85,95 @@ class App {
 
   render(cardsToRender) {
     this.cardContainer.innerHTML = ""; // Limpa o container antes de renderizar
-    if (cardsToRender.length === 0) {
+    if (this.filteredCards.length === 0) {
       this.cardContainer.innerHTML = `<p class="no-results">Nenhum resultado encontrado.</p>`;
+      this.detailedContainer.innerHTML = `<p class="no-results">Nenhum resultado encontrado.</p>`;
+      return;
     }
-    cardsToRender.forEach((card) => {
-      this.cardContainer.appendChild(card.createHTMLElement());
+
+    if (this.currentLayout === "grid") {
+      this.filteredCards.forEach((card) => {
+        this.cardContainer.appendChild(card.createHTMLElement());
+      });
+    } else {
+      this.renderDetailedView();
+    }
+  }
+
+  renderDetailedView() {
+    const card = this.filteredCards[this.detailedViewIndex];
+    if (!card) return;
+
+    const imageHtml = card.image
+      ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}" loading="lazy"></div>`
+      : "";
+
+    this.detailedContainer.innerHTML = `
+      <div class="detailed-view">
+        ${imageHtml}
+        <div class="card-content">
+          <div class="card-header">
+            <div>
+              <h2>${card.name}</h2>
+              <p class="nationality">${card.nationality}</p>
+            </div>
+            <div class="card-category category-${card.category.toLowerCase()}">${
+      card.category
+    }</div>
+          </div>
+          <p><strong>${card.year}</strong> - ${card.team}</p>
+          
+          <div class="detailed-stats">
+            <div class="stat">
+              <span class="stat-value">${card.wins}</span>
+              <span class="stat-label">Vitórias</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">${card.podiums}</span>
+              <span class="stat-label">Pódios</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">${card.poles}</span>
+              <span class="stat-label">Poles</span>
+            </div>
+          </div>
+
+          <p>${card.description}</p>
+        </div>
+      </div>
+      <div class="detailed-nav">
+        <button class="nav-btn" id="prev-btn" ${
+          this.detailedViewIndex === 0 ? "disabled" : ""
+        }>Anterior</button>
+        <span class="nav-counter">${this.detailedViewIndex + 1} / ${
+      this.filteredCards.length
+    }</span>
+        <button class="nav-btn" id="next-btn" ${
+          this.detailedViewIndex === this.filteredCards.length - 1
+            ? "disabled"
+            : ""
+        }>Próximo</button>
+      </div>
+    `;
+
+    document
+      .getElementById("prev-btn")
+      .addEventListener("click", () => this.navigateDetailedView(-1));
+    document
+      .getElementById("next-btn")
+      .addEventListener("click", () => this.navigateDetailedView(1));
+  }
+
+  populateNationalityFilter() {
+    const nationalities = [
+      ...new Set(this.allCards.map((card) => card.nationality)),
+    ];
+    nationalities.sort(); // Ordena alfabeticamente
+    nationalities.forEach((nationality) => {
+      const option = document.createElement("option");
+      option.value = nationality;
+      option.textContent = nationality;
+      this.nationalityFilter.appendChild(option);
     });
   }
 
@@ -84,35 +195,86 @@ class App {
         const category = event.target.dataset.category;
         this.currentCategory = category;
 
+        const filterGroup = event.target.closest(".filter-group");
+
         // Atualiza a classe 'active' nos botões
-        this.filterNav.querySelector(".active").classList.remove("active");
+        filterGroup.querySelector(".active").classList.remove("active");
         event.target.classList.add("active");
 
         this.filterAndRender();
       }
     });
+
+    // Evento para o filtro de nacionalidade
+    this.nationalityFilter.addEventListener("change", (event) => {
+      this.currentNationality = event.target.value;
+      this.filterAndRender();
+    });
+
+    // Evento para trocar de layout
+    this.layoutSwitcher.addEventListener("click", (event) => {
+      if (event.target.classList.contains("layout-btn")) {
+        const layout = event.target.dataset.layout;
+        if (this.currentLayout === layout) return;
+
+        this.currentLayout = layout;
+
+        this.layoutSwitcher.querySelector(".active").classList.remove("active");
+        event.target.classList.add("active");
+
+        this.toggleLayout();
+      }
+    });
+  }
+
+  toggleLayout() {
+    if (this.currentLayout === "grid") {
+      this.cardContainer.classList.remove("hidden");
+      this.detailedContainer.classList.add("hidden");
+    } else {
+      this.cardContainer.classList.add("hidden");
+      this.detailedContainer.classList.remove("hidden");
+    }
+    this.render();
   }
 
   filterAndRender() {
-    let filteredCards = [...this.allCards];
+    let tempFiltered = [...this.allCards];
 
     // 1. Filtra por categoria
     if (this.currentCategory !== "all") {
-      filteredCards = filteredCards.filter(
+      tempFiltered = tempFiltered.filter(
         (card) => card.category === this.currentCategory
+      );
+    }
+
+    // 2. Filtra por nacionalidade
+    if (this.currentNationality !== "all") {
+      tempFiltered = tempFiltered.filter(
+        (card) => card.nationality === this.currentNationality
       );
     }
 
     // 2. Filtra pelo termo de busca (nome do piloto ou ano)
     if (this.searchTerm) {
-      filteredCards = filteredCards.filter(
+      tempFiltered = tempFiltered.filter(
         (card) =>
           card.name.toLowerCase().includes(this.searchTerm) ||
           card.year.toString().includes(this.searchTerm)
       );
     }
 
-    this.render(filteredCards);
+    this.filteredCards = tempFiltered;
+    this.detailedViewIndex = 0; // Reseta o índice ao filtrar
+    this.render();
+  }
+
+  navigateDetailedView(direction) {
+    const newIndex = this.detailedViewIndex + direction;
+    if (newIndex >= 0 && newIndex < this.filteredCards.length) {
+      this.detailedViewIndex = newIndex;
+      this.renderDetailedView();
+    }
   }
 }
 

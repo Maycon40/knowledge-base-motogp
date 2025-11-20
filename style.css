@@ -14,7 +14,7 @@
   --bg-color: #121212; /* Fundo escuro profundo */
   --surface-color: #1e1e1e; /* Cor de superfície para cards */
   --border-color: #2a2a2a;
-  --motogp-color: #be1b1b; /* Azul para MotoGP */
+  --motogp-color: #d32f2f; /* Vermelho MotoGP */
   --moto2-color: #ffc107;  /* Amarelo para Moto2 */
   --moto3-color: #4caf50;  /* Verde para Moto3 */
 }
@@ -91,11 +91,41 @@ header h1 {
   border-color: var(--primary-color-dark);
 }
 
+.layout-switcher {
+  display: flex;
+  background-color: var(--surface-color);
+  border-radius: 2rem;
+  padding: 0.25rem;
+  border: 1px solid var(--border-color);
+}
+
+.layout-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  background: transparent;
+  color: var(--tertiary-color);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.layout-btn.active {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .filter-nav {
   display: flex;
-  gap: 0.5rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .filter-btn {
@@ -121,6 +151,24 @@ header h1 {
   color: var(--secondary-color);
   border-color: var(--primary-color);
   font-weight: 700;
+}
+
+.filter-select {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border-color);
+  background: var(--surface-color);
+  color: var(--tertiary-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.filter-select:hover {
+  border-color: #444;
 }
 
 /* Renomeado de 'main' para '.card-container' para ser mais específico */
@@ -205,6 +253,13 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
+.card .nationality {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--tertiary-color);
+  margin-bottom: 1rem;
+}
+
 .card p:first-of-type {
   font-size: 1rem;
   font-weight: 500;
@@ -222,6 +277,110 @@ header h1 {
 .no-results {
   color: var(--tertiary-color);
   text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.detailed-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detailed-view {
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.detailed-view .card-image-container {
+  height: 400px;
+  border-radius: 12px 12px 0 0;
+}
+
+.detailed-view .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detailed-view .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detailed-view .card-header h2 {
+  margin-bottom: 0;
+}
+
+.detailed-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--tertiary-color);
+  text-transform: uppercase;
+}
+
+.detailed-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.nav-btn:disabled {
+  background-color: var(--border-color);
+  cursor: not-allowed;
+}
+
+.nav-counter {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--tertiary-color);
 }
 
 .footer {
@@ -263,6 +422,13 @@ header h1 {
     padding: 1.5rem 1rem;
     grid-template-columns: 1fr;
   }
+  .detailed-container {
+    padding: 0 1rem;
+    margin: 1.5rem auto;
+  }
+  .detailed-view .card-image-container {
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -271,6 +437,13 @@ header h1 {
   }
   .filter-btn {
     padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+  .detailed-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav-btn {
+    padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
   }
 }

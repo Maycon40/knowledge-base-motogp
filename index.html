@@ -26,23 +26,48 @@
         <button id="botao-busca" type="submit">Buscar</button>
       </form>
       <nav class="filter-nav">
-        <button class="filter-btn active" data-category="all">Todos</button>
-        <button class="filter-btn" data-category="MotoGP">MotoGP</button>
-        <button class="filter-btn" data-category="Moto2">Moto2</button>
-        <button class="filter-btn" data-category="Moto3">Moto3</button>
+        <div class="layout-switcher">
+          <button class="layout-btn active" data-layout="grid">Grid</button>
+          <button class="layout-btn" data-layout="detailed">Detalhes</button>
+        </div>
+        <div class="filter-group">
+          <button class="filter-btn active" data-category="all">Todos</button>
+          <button class="filter-btn" data-category="MotoGP">MotoGP</button>
+          <button class="filter-btn" data-category="Moto2">Moto2</button>
+          <button class="filter-btn" data-category="Moto3">Moto3</button>
+        </div>
+        <div class="filter-group">
+          <select id="nationality-filter" class="filter-select">
+            <option value="all">Todas as Nacionalidades</option>
+          </select>
+        </div>
       </nav>
     </header>
 
     <main class="card-container"></main>
 
+    <section class="detailed-container hidden"></section>
+
     <footer class="footer">
-      <p>&copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.</p>
+      <p>
+        &copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.
+      </p>
       <ul class="footer-links">
         <li>
-          <a href="https://github.com/Maycon40" target="_blank" rel="noopener noreferrer">Github</a>
+          <a
+            href="https://github.com/Maycon40"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Github</a
+          >
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/maycon-santos-045803355/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          <a
+            href="https://www.linkedin.com/in/maycon-santos-045803355/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Linkedin</a
+          >
         </li>
       </ul>
     </footer>
