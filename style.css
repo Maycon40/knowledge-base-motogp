@@ -15,8 +15,8 @@
   --surface-color: #1e1e1e; /* Cor de superfície para cards */
   --border-color: #2a2a2a;
   --motogp-color: #d32f2f; /* Vermelho MotoGP */
-  --moto2-color: #ffc107;  /* Amarelo para Moto2 */
-  --moto3-color: #4caf50;  /* Verde para Moto3 */
+  --moto2-color: #ffc107; /* Amarelo para Moto2 */
+  --moto3-color: #4caf50; /* Verde para Moto3 */
 }
 
 body {
@@ -32,7 +32,7 @@ header {
   align-items: center;
   gap: 1.5rem;
   position: sticky;
-  top: 0;
+  top: 0; /* Mantém o header fixo no topo */
   background: rgba(18, 18, 18, 0.85);
   backdrop-filter: blur(10px);
   z-index: 100;
@@ -279,17 +279,39 @@ header h1 {
   text-align: center;
 }
 
+.detailed-layout-active {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Trava o scroll da página no modo detalhes */
+}
+
+.detailed-layout-active .footer {
+  display: none; /* Esconde o rodapé no modo detalhes */
+}
+
+.content-wrapper {
+  flex: 1; /* Faz este container ocupar todo o espaço restante */
+  position: relative; /* Cria um contexto para os filhos posicionados absolutamente */
+  overflow: hidden; /* Esconde as partes dos slides que estão fora da tela */
+  display: flex;
+  flex-direction: column;
+}
+
 .hidden {
   display: none !important;
 }
 
 .detailed-container {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 2rem;
+  position: absolute; /* Ocupa o espaço do content-wrapper */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ocupa 100% do content-wrapper */
+  padding: 1.5rem; /* Reduz o espaçamento ao redor */
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .detailed-view {
@@ -297,19 +319,92 @@ header h1 {
   border-radius: 12px;
   border: 1px solid var(--border-color);
   overflow: hidden;
-  display: flex;
+  display: grid; /* Alterado para Grid para o novo layout */
   flex-direction: column;
+  width: 95%;
+  height: 95%;
+  max-height: 80vh; /* Aumenta a altura máxima */
+  position: absolute; /* Essencial para o empilhamento das animações */
+}
+
+@media (min-width: 769px) {
+  .detailed-view {
+    grid-template-columns: 40% 60%; /* Duas colunas em telas maiores */
+  }
+}
+/* Novas animações horizontais */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Classes de animação horizontal */
+.slide-in-right {
+  animation: slideInRight 0.5s ease-out forwards;
+}
+.slide-out-left {
+  animation: slideOutLeft 0.5s ease-in forwards;
+}
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+.slide-out-right {
+  animation: slideOutRight 0.5s ease-in forwards;
 }
 
 .detailed-view .card-image-container {
-  height: 400px;
-  border-radius: 12px 12px 0 0;
+  height: 100%; /* Ocupa a altura total do grid item */
+  border-radius: 0;
 }
 
 .detailed-view .card-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 1.5rem;
+  overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande em telas pequenas */
+}
+
+@media (min-width: 769px) {
+  .detailed-view .card-content {
+    padding: 2rem;
+  }
 }
 
 .detailed-view .card-header {
@@ -349,45 +444,45 @@ header h1 {
   text-transform: uppercase;
 }
 
-.detailed-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-btn {
-  background-color: var(--primary-color);
+.detailed-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10; /* Garante que fiquem acima do card */
+  background-color: rgba(0, 0, 0, 0.3);
   color: var(--secondary-color);
-  border: none;
-  padding: 0.75rem 2rem;
-  border-radius: 2rem;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 700;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover {
-  background-color: var(--primary-color-dark);
+.detailed-nav-btn.left {
+  left: 1.5rem;
+}
+.detailed-nav-btn.right {
+  right: 1.5rem;
 }
 
-.nav-btn:disabled {
-  background-color: var(--border-color);
+.detailed-nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.detailed-nav-btn:disabled {
+  opacity: 0.2;
   cursor: not-allowed;
 }
-
-.nav-counter {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--tertiary-color);
-}
-
 .footer {
   text-align: center;
   padding: 2rem;
-  display: flex;
   flex-direction: column;
+  flex-shrink: 0; /* Impede que o footer encolha */
   gap: 1rem;
   color: var(--tertiary-color);
   border-top: 1px solid var(--border-color);
@@ -422,13 +517,19 @@ header h1 {
     padding: 1.5rem 1rem;
     grid-template-columns: 1fr;
   }
-  .detailed-container {
-    padding: 0 1rem;
-    margin: 1.5rem auto;
-  }
   .detailed-view .card-image-container {
     height: 250px;
   }
+  .detailed-nav-btn.left {
+    left: 1rem;
+  }
+  .detailed-nav-btn.right {
+    right: 1rem;
+  }
+}
+
+.detailed-container {
+  padding: 1rem;
 }
 
 @media (max-width: 480px) {
@@ -441,9 +542,5 @@ header h1 {
   }
   .detailed-stats {
     grid-template-columns: 1fr 1fr;
-  }
-  .nav-btn {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
   }
 }

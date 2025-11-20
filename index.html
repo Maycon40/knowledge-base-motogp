@@ -44,9 +44,14 @@
       </nav>
     </header>
 
-    <main class="card-container"></main>
-
-    <section class="detailed-container hidden"></section>
+    <div class="content-wrapper">
+      <main class="card-container"></main>
+      <section class="detailed-container hidden">
+        <!-- O conteúdo será renderizado pelo JS aqui -->
+        <button class="detailed-nav-btn left" id="prev-btn" aria-label="Anterior">&lt;</button>
+        <button class="detailed-nav-btn right" id="next-btn" aria-label="Próximo">&gt;</button>
+      </section>
+    </div>
 
     <footer class="footer">
       <p>

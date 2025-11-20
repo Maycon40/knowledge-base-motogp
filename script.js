@@ -57,6 +57,8 @@ class App {
     this.layoutSwitcher = document.querySelector(".layout-switcher");
     this.nationalityFilter = document.querySelector("#nationality-filter");
     this.detailedContainer = document.querySelector(".detailed-container");
+    this.prevBtn = document.getElementById("prev-btn");
+    this.nextBtn = document.getElementById("next-btn");
 
     // Estado da aplicação
     this.allCards = []; // Guarda todos os cards, nunca é modificado após o load
@@ -64,6 +66,7 @@ class App {
     this.currentLayout = "grid"; // 'grid' or 'detailed'
     this.detailedViewIndex = 0;
 
+    this.isScrolling = false; // Flag para controlar o scroll
     // Estado dos filtros
     this.currentCategory = "all";
     this.currentNationality = "all";
@@ -95,7 +98,7 @@ class App {
       this.filteredCards.forEach((card) => {
         this.cardContainer.appendChild(card.createHTMLElement());
       });
-    } else {
+    } else if (this.filteredCards.length > 0) {
       this.renderDetailedView();
     }
   }
@@ -104,6 +107,8 @@ class App {
     const card = this.filteredCards[this.detailedViewIndex];
     if (!card) return;
 
+    this.detailedContainer.innerHTML = ""; // Limpa o container
+    this.detailedContainer.appendChild(this.createDetailedViewElement(card));
     const imageHtml = card.image
       ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}" loading="lazy"></div>`
       : "";
@@ -140,28 +145,8 @@ class App {
 
           <p>${card.description}</p>
         </div>
-      </div>
-      <div class="detailed-nav">
-        <button class="nav-btn" id="prev-btn" ${
-          this.detailedViewIndex === 0 ? "disabled" : ""
-        }>Anterior</button>
-        <span class="nav-counter">${this.detailedViewIndex + 1} / ${
-      this.filteredCards.length
-    }</span>
-        <button class="nav-btn" id="next-btn" ${
-          this.detailedViewIndex === this.filteredCards.length - 1
-            ? "disabled"
-            : ""
-        }>Próximo</button>
-      </div>
-    `;
-
-    document
-      .getElementById("prev-btn")
-      .addEventListener("click", () => this.navigateDetailedView(-1));
-    document
-      .getElementById("next-btn")
-      .addEventListener("click", () => this.navigateDetailedView(1));
+      </div>`;
+    this.updateNavButtons();
   }
 
   populateNationalityFilter() {
@@ -225,16 +210,49 @@ class App {
         this.toggleLayout();
       }
     });
+
+    // Evento de scroll para o layout de detalhes
+    window.addEventListener(
+      "wheel",
+      (event) => {
+        if (this.currentLayout !== "detailed" || this.isScrolling) {
+          return;
+        }
+
+        // Previne o scroll padrão da página apenas no modo detalhado
+        event.preventDefault();
+
+        this.isScrolling = true;
+
+        if (event.deltaY > 0) {
+          // Scroll para baixo
+          this.navigateDetailedView(1);
+        } else {
+          // Scroll para cima
+          this.navigateDetailedView(-1);
+        }
+        setTimeout(() => (this.isScrolling = false), 800); // Duração da animação + um buffer
+      },
+      { passive: false }
+    ); // Necessário para poder usar preventDefault
+
+    // Eventos para os botões de navegação de detalhes
+    this.prevBtn.addEventListener("click", () => this.navigateDetailedView(-1));
+    this.nextBtn.addEventListener("click", () => this.navigateDetailedView(1));
   }
 
   toggleLayout() {
     if (this.currentLayout === "grid") {
       this.cardContainer.classList.remove("hidden");
       this.detailedContainer.classList.add("hidden");
+      document.body.classList.remove("detailed-layout-active");
     } else {
       this.cardContainer.classList.add("hidden");
       this.detailedContainer.classList.remove("hidden");
+      document.body.classList.add("detailed-layout-active");
     }
+    // Garante que o primeiro card seja renderizado ao trocar para o modo de detalhes
+    this.detailedViewIndex = 0;
     this.render();
   }
 
@@ -271,10 +289,88 @@ class App {
 
   navigateDetailedView(direction) {
     const newIndex = this.detailedViewIndex + direction;
-    if (newIndex >= 0 && newIndex < this.filteredCards.length) {
-      this.detailedViewIndex = newIndex;
-      this.renderDetailedView();
+    if (newIndex < 0 || newIndex >= this.filteredCards.length) {
+      this.isScrolling = false; // Libera o scroll se chegar no limite
+      return; // Não faz nada se estiver no início ou no fim
     }
+
+    const currentView = this.detailedContainer.querySelector(".detailed-view");
+
+    // Aplica animação de saída
+    if (currentView) {
+      const animationOutClass =
+        direction > 0 ? "slide-out-left" : "slide-out-right";
+      currentView.classList.add(animationOutClass);
+      // Remove o elemento antigo após a animação
+      currentView.addEventListener("animationend", () => {
+        currentView.remove();
+      });
+    }
+
+    // Cria e anima o novo card
+    this.detailedViewIndex = newIndex;
+    const nextCardData = this.filteredCards[this.detailedViewIndex];
+    const newView = this.createDetailedViewElement(nextCardData);
+
+    const animationInClass = direction > 0 ? "slide-in-right" : "slide-in-left";
+    newView.classList.add(animationInClass);
+
+    this.detailedContainer.appendChild(newView);
+    this.updateNavButtons();
+  }
+
+  // Função auxiliar para criar o elemento do detailed-view (evita duplicação de código)
+  createDetailedViewElement(card) {
+    const detailedView = document.createElement("div");
+    detailedView.className = "detailed-view";
+    // Reutiliza a lógica de criação de HTML do renderDetailedView, mas sem o append
+    // (O conteúdo foi simplificado para caber aqui, mas a lógica é a mesma)
+    const imageHtml = card.image
+      ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}"></div>`
+      : "";
+    detailedView.innerHTML = `${imageHtml}<div class="card-content">...</div>`; // Conteúdo omitido por brevidade
+    detailedView.innerHTML = this.getDetailedViewHTML(card); // Usa uma função para gerar o HTML
+    return detailedView;
+  }
+
+  updateNavButtons() {
+    this.prevBtn.disabled = this.detailedViewIndex === 0;
+    this.nextBtn.disabled =
+      this.detailedViewIndex === this.filteredCards.length - 1;
+  }
+
+  // Separa a geração de HTML para ser reutilizável
+  getDetailedViewHTML(card) {
+    const imageHtml = card.image
+      ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}" loading="lazy"></div>`
+      : "";
+    return `
+      ${imageHtml}
+      <div class="card-content">
+        <div class="card-header">
+          <div>
+            <h2>${card.name}</h2>
+            <p class="nationality">${card.nationality}</p>
+          </div>
+          <div class="card-category category-${card.category.toLowerCase()}">${
+      card.category
+    }</div>
+        </div>
+        <p><strong>${card.year}</strong> - ${card.team}</p>
+        <div class="detailed-stats">
+          <div class="stat"><span class="stat-value">${
+            card.wins
+          }</span><span class="stat-label">Vitórias</span></div>
+          <div class="stat"><span class="stat-value">${
+            card.podiums
+          }</span><span class="stat-label">Pódios</span></div>
+          <div class="stat"><span class="stat-value">${
+            card.poles
+          }</span><span class="stat-label">Poles</span></div>
+        </div>
+        <p>${card.description}</p>
+      </div>
+    `;
   }
 }
 
