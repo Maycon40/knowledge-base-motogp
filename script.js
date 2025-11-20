@@ -1,19 +1,30 @@
 class Card {
-  constructor({ name, year, description, category }) {
+  constructor({ name, year, description, category, image }) {
     this.name = name;
     this.year = Number(year); // Garante que o ano seja um número para ordenação
     this.description = description;
     this.category = category;
+    this.image = image;
   }
 
   createHTMLElement() {
     const article = document.createElement("article");
     article.classList.add("card");
+
+    const imageHtml = this.image
+      ? `<div class="card-image-container"><img src="${this.image}" alt="Foto de ${this.name}" loading="lazy"></div>`
+      : "";
+
     article.innerHTML = `
-        <h2>${this.name}</h2>
-        <p>${this.year}</p>
-        <p>${this.description}</p>
-        <!-- O link não existe no data.json, então foi removido -->
+      ${imageHtml}
+      <div class="card-category category-${this.category.toLowerCase()}">${
+      this.category
+    }</div>
+      <div class="card-content">
+          <h2>${this.name}</h2>
+          <p>${this.year}</p>
+          <p>${this.description}</p>
+      </div>
     `;
     return article;
   }
@@ -69,7 +80,7 @@ class App {
 
     // Evento para os botões de filtro de categoria
     this.filterNav.addEventListener("click", (event) => {
-      if (event.target.tagName === "BUTTON") {
+      if (event.target.classList.contains("filter-btn")) {
         const category = event.target.dataset.category;
         this.currentCategory = category;
 
