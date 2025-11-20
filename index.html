@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Uma base de conhecimento interativa com todos os campeões mundiais de MotoGP, Moto2 e Moto3 dos últimos 10 anos."
+    />
+    <meta
+      name="keywords"
+      content="MotoGP, Moto2, Moto3, Campeões, Motovelocidade, Marc Márquez, Valentino Rossi, Fabio Quartararo"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Campeões da MotoGP | Base de Conhecimento</title>
+  </head>
+  <body>
+    <header>
+      <h1>Campeões da Motovelocidade</h1>
+      <form class="search-form">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Pesquise por piloto ou ano..."
+        />
+        <button id="botao-busca" type="submit">Buscar</button>
+      </form>
+      <nav class="filter-nav">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="MotoGP">MotoGP</button>
+        <button class="filter-btn" data-category="Moto2">Moto2</button>
+        <button class="filter-btn" data-category="Moto3">Moto3</button>
+      </nav>
+    </header>
+
+    <main class="card-container"></main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.</p>
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/Maycon40" target="_blank" rel="noopener noreferrer">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/maycon-santos-045803355/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

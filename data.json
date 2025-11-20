@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Jorge Lorenzo",
+    "year": 2015,
+    "description": "Conquistou o título da MotoGP em uma batalha acirrada com seu companheiro de equipe Valentino Rossi.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Johann Zarco",
+    "year": 2015,
+    "description": "Dominou a temporada da Moto2, garantindo o título com várias corridas de antecedência.",
+    "category": "Moto2"
+  },
+  {
+    "name": "Danny Kent",
+    "year": 2015,
+    "description": "Tornou-se o primeiro campeão britânico na categoria de base desde Barry Sheene em 1977.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Marc Márquez",
+    "year": 2016,
+    "description": "Venceu seu terceiro título na categoria rainha com consistência, apesar de uma moto considerada difícil.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Johann Zarco",
+    "year": 2016,
+    "description": "Conquistou o bicampeonato na Moto2, tornando-se o primeiro piloto a defender o título na categoria.",
+    "category": "Moto2"
+  },
+  {
+    "name": "Brad Binder",
+    "year": 2016,
+    "description": "Sagrou-se campeão da Moto3 com uma performance impressionante ao longo do ano.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Marc Márquez",
+    "year": 2017,
+    "description": "Garantiu seu sexto título mundial em uma disputa emocionante contra Andrea Dovizioso.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Franco Morbidelli",
+    "year": 2017,
+    "description": "Primeiro campeão italiano na categoria intermediária desde Marco Simoncelli em 2008.",
+    "category": "Moto2"
+  },
+  {
+    "name": "Joan Mir",
+    "year": 2017,
+    "description": "Dominou a Moto3 com 10 vitórias, estabelecendo um novo recorde para a categoria.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Marc Márquez",
+    "year": 2018,
+    "description": "Conquistou o pentacampeonato da MotoGP, solidificando seu domínio na era moderna.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Francesco Bagnaia",
+    "year": 2018,
+    "description": "Venceu o campeonato da Moto2 pela equipe Sky Racing Team VR46.",
+    "category": "Moto2"
+  },
+  {
+    "name": "Jorge Martín",
+    "year": 2018,
+    "description": "Levou o título da Moto3 em uma temporada muito disputada.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Marc Márquez",
+    "year": 2019,
+    "description": "Uma temporada quase perfeita, terminando em primeiro ou segundo em todas as corridas que completou.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Álex Márquez",
+    "year": 2019,
+    "description": "Juntou-se ao irmão Marc como campeão mundial, vencendo a categoria Moto2.",
+    "category": "Moto2"
+  },
+  {
+    "name": "Lorenzo Dalla Porta",
+    "year": 2019,
+    "description": "Tornou-se campeão da Moto3, garantindo o título para a Itália.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Joan Mir",
+    "year": 2020,
+    "description": "Conquistou o título da MotoGP para a Suzuki, o primeiro da montadora em 20 anos. [2]",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Enea Bastianini",
+    "year": 2020,
+    "description": "Venceu o campeonato da Moto2 em uma temporada muito equilibrada. [22]",
+    "category": "Moto2"
+  },
+  {
+    "name": "Albert Arenas",
+    "year": 2020,
+    "description": "Sagrou-se campeão da Moto3 na última corrida da temporada em Portugal.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Fabio Quartararo",
+    "year": 2021,
+    "description": "Tornou-se o primeiro francês a vencer o título da categoria rainha. [2]",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Remy Gardner",
+    "year": 2021,
+    "description": "Filho do campeão de 500cc de 1987, Wayne Gardner, conquistou o título da Moto2. [22]",
+    "category": "Moto2"
+  },
+  {
+    "name": "Pedro Acosta",
+    "year": 2021,
+    "description": "Venceu o campeonato da Moto3 em sua temporada de estreia de forma espetacular.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Francesco Bagnaia",
+    "year": 2022,
+    "description": "Conquistou o título para a Ducati, o primeiro de um piloto italiano em uma moto italiana desde Giacomo Agostini. [2, 9]",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Augusto Fernández",
+    "year": 2022,
+    "description": "Garantiu o título da Moto2 na última etapa em Valência. [22]",
+    "category": "Moto2"
+  },
+  {
+    "name": "Izan Guevara",
+    "year": 2022,
+    "description": "Dominou a temporada da Moto3 para se tornar campeão mundial.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Francesco Bagnaia",
+    "year": 2023,
+    "description": "Defendeu com sucesso seu título da MotoGP, tornando-se bicampeão. [4, 9]",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Pedro Acosta",
+    "year": 2023,
+    "description": "Conquistou seu segundo título mundial, desta vez na categoria Moto2. [22]",
+    "category": "Moto2"
+  },
+  {
+    "name": "Jaume Masià",
+    "year": 2023,
+    "description": "Venceu o campeonato da Moto3 após uma longa e consistente carreira na categoria.",
+    "category": "Moto3"
+  },
+  {
+    "name": "Jorge Martín",
+    "year": 2024,
+    "description": "Tornou-se o 30º piloto diferente a ser campeão da categoria rainha (MotoGP/500cc). [9]",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Ai Ogura",
+    "year": 2024,
+    "description": "Conquistou o título da Moto2, recolocando o Japão no topo da categoria intermediária. [15, 23]",
+    "category": "Moto2"
+  },
+  {
+    "name": "David Alonso",
+    "year": 2024,
+    "description": "Primeiro colombiano a vencer um campeonato mundial de motovelocidade, conquistando o título da Moto3. [23]",
+    "category": "Moto3"
+  },
+  {
+    "name": "Marc Márquez",
+    "year": 2025,
+    "description": "Campeão da MotoGP de maneira muito dominante, conquistando o título com 5 corridas de antecedencia. Com esse título ele conseguiu fazer uma das maiores voltas por cima da história dos esportes voltando a ser campeão 5 anos depois de ter quebrado o braço.",
+    "category": "MotoGP"
+  },
+  {
+    "name": "Diogo Moreira",
+    "year": 2025,
+    "description": "Primeiro campeão brasileiro do campeonato mundial de motovelocidade, conquistando o título da Moto2. [23]",
+    "category": "Moto2"
+  },
+  {
+    "name": "José Antonio Rueda",
+    "year": 2025,
+    "description": "Campeão com várias corridas de antecedência, conquistando o título da Moto2, mas ficando de fora do resto da temporada por causa de um acidente muito grave. [23]",
+    "category": "Moto3"
+  }
+]

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #d32f2f; /* Vermelho de corrida */
+  --primary-color-dark: #b71c1c;
+  --secondary-color: #f5f5f5; /* Branco suave */
+  --tertiary-color: #bdbdbd; /* Cinza claro */
+  --bg-color: #121212; /* Fundo escuro profundo */
+  --surface-color: #1e1e1e; /* Cor de superfície para cards */
+  --border-color: #2a2a2a;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--secondary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: sticky;
+  top: 0;
+  background: rgba(18, 18, 18, 0.85);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+#search-input {
+  flex-grow: 1;
+  padding: 0.75rem 1.25rem;
+  border-radius: 2rem 0 0 2rem;
+  border: 1px solid var(--border-color);
+  background: var(--surface-color);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+#search-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.3);
+}
+
+#botao-busca {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0 2rem 2rem 0;
+  border: 1px solid var(--primary-color); /* Borda consistente */
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  outline: none;
+}
+
+#botao-busca:hover {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+.filter-nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--tertiary-color);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.filter-btn:hover {
+  background-color: var(--surface-color);
+  color: var(--secondary-color);
+  border-color: #444;
+}
+
+.filter-btn.active {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* Renomeado de 'main' para '.card-container' para ser mais específico */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Renomeado de 'article' para '.card' para corresponder à classe JS */
+.card {
+  background: var(--surface-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border-color: #444;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.card p:first-of-type {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--tertiary-color);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .card-container {
+    padding: 1.5rem 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .filter-btn {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+}
