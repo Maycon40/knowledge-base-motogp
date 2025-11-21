@@ -376,16 +376,23 @@ figcaption.card-content {
   align-items: center;
 }
 
+/* Este é o "palco" onde os cards detalhados são animados */
+#detailed-card-content {
+  position: relative; /* Cria o contexto de posicionamento para os cards */
+  width: 95%;
+  height: 95%;
+  max-height: 80vh;
+}
+
 .detailed-view {
   background-color: var(--surface-color);
   border-radius: 12px;
   border: 1px solid var(--border-color);
   overflow: hidden;
   display: grid; /* Alterado para Grid para o novo layout */
-  flex-direction: column;
-  width: 95%;
-  height: 95%;
-  max-height: 80vh; /* Aumenta a altura máxima */
+  /* Ocupa 100% do palco (#detailed-card-content) */
+  width: 100%;
+  height: 100%;
   position: absolute; /* Essencial para o empilhamento das animações */
 }
 
@@ -512,7 +519,7 @@ figcaption.card-content,
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10; /* Garante que fiquem acima do card */
+  z-index: 101; /* Garante que fiquem acima do header (z-index: 100) */
   background-color: rgba(0, 0, 0, 0.3);
   color: var(--secondary-color);
   border: 1px solid var(--border-color);
@@ -581,14 +588,36 @@ figcaption.card-content,
     padding: 1.5rem 1rem;
     grid-template-columns: 1fr;
   }
+  /* No modo mobile, a visualização detalhada se comporta como um card normal, permitindo scroll vertical */
+  .detailed-layout-active {
+    height: auto;
+    overflow: auto;
+  }
+  .detailed-view {
+    grid-template-columns: 1fr; /* Garante uma única coluna */
+    height: auto; /* Altura dinâmica para caber todo o conteúdo */
+    max-height: none; /* Remove a altura máxima */
+    margin-bottom: 2rem; /* Espaçamento na parte inferior */
+    position: relative; /* Garante que o card permaneça no fluxo normal da página */
+  }
   .detailed-view .card-image-container {
     height: 250px;
   }
+  /* Em telas pequenas, as setas ficam fixas na tela para estarem sempre visíveis */
+  /* Posiciona as setas em relação ao .content-wrapper */
+  .detailed-nav-btn {
+    position: absolute;
+  }
   .detailed-nav-btn.left {
-    left: 1rem;
+    left: 1rem; /* Ajusta o espaçamento para telas menores */
   }
   .detailed-nav-btn.right {
-    right: 1rem;
+    right: 1rem; /* Ajusta o espaçamento para telas menores */
+  }
+  /* Garante que o container se comporte como um bloco normal no fluxo da página */
+  .detailed-container {
+    position: relative;
+    height: auto;
   }
 }
 

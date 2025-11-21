@@ -102,6 +102,7 @@ class App {
     this.layoutSwitcher = document.querySelector(".layout-switcher");
     this.nationalityFilter = document.querySelector("#nationality-filter");
     this.detailedContainer = document.querySelector(".detailed-container");
+    this.detailedCardContent = document.getElementById("detailed-card-content"); // Novo seletor
     this.prevBtn = document.getElementById("prev-btn");
     this.nextBtn = document.getElementById("next-btn");
 
@@ -135,7 +136,7 @@ class App {
     this.cardContainer.innerHTML = ""; // Limpa o container antes de renderizar
     if (this.filteredCards.length === 0) {
       this.cardContainer.innerHTML = `<p class="no-results">Nenhum resultado encontrado.</p>`;
-      this.detailedContainer.innerHTML = `<p class="no-results">Nenhum resultado encontrado.</p>`;
+      this.detailedCardContent.innerHTML = `<p class="no-results">Nenhum resultado encontrado.</p>`;
       return;
     }
 
@@ -152,45 +153,8 @@ class App {
     const card = this.filteredCards[this.detailedViewIndex];
     if (!card) return;
 
-    this.detailedContainer.innerHTML = ""; // Limpa o container
-    this.detailedContainer.appendChild(this.createDetailedViewElement(card));
-    const imageHtml = card.image
-      ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}" loading="lazy"></div>`
-      : "";
-
-    this.detailedContainer.innerHTML = `
-      <div class="detailed-view">
-        ${imageHtml}
-        <div class="card-content">
-          <div class="card-header">
-            <div>
-              <h2>${card.name}</h2>
-              <p class="nationality">${card.nationality}</p>
-            </div>
-            <div class="card-category category-${card.category.toLowerCase()}">${
-      card.category
-    }</div>
-          </div>
-          <p><strong>${card.year}</strong> - ${card.team}</p>
-          
-          <div class="detailed-stats">
-            <div class="stat">
-              <span class="stat-value">${card.wins}</span>
-              <span class="stat-label">Vitórias</span>
-            </div>
-            <div class="stat">
-              <span class="stat-value">${card.podiums}</span>
-              <span class="stat-label">Pódios</span>
-            </div>
-            <div class="stat">
-              <span class="stat-value">${card.poles}</span>
-              <span class="stat-label">Poles</span>
-            </div>
-          </div>
-
-          <p>${card.description}</p>
-        </div>
-      </div>`;
+    // Usa a função auxiliar para gerar o HTML completo do card detalhado
+    this.detailedCardContent.innerHTML = this.getDetailedViewHTML(card);
     this.updateNavButtons();
   }
 
@@ -260,7 +224,11 @@ class App {
     window.addEventListener(
       "wheel",
       (event) => {
-        if (this.currentLayout !== "detailed" || this.isScrolling) {
+        if (
+          this.currentLayout !== "detailed" ||
+          this.isScrolling ||
+          window.innerWidth <= 768 // Ignora o evento em telas mobile
+        ) {
           return;
         }
 
@@ -339,28 +307,11 @@ class App {
       return; // Não faz nada se estiver no início ou no fim
     }
 
-    const currentView = this.detailedContainer.querySelector(".detailed-view");
-
-    // Aplica animação de saída
-    if (currentView) {
-      const animationOutClass =
-        direction > 0 ? "slide-out-left" : "slide-out-right";
-      currentView.classList.add(animationOutClass);
-      // Remove o elemento antigo após a animação
-      currentView.addEventListener("animationend", () => {
-        currentView.remove();
-      });
-    }
-
-    // Cria e anima o novo card
+    // Atualiza o índice e renderiza novamente a visualização de detalhes.
+    // Esta abordagem é mais simples e robusta, garantindo que o estado
+    // e a visualização estejam sempre sincronizados, tanto no desktop quanto no mobile.
     this.detailedViewIndex = newIndex;
-    const nextCardData = this.filteredCards[this.detailedViewIndex];
-    const newView = this.createDetailedViewElement(nextCardData);
-
-    const animationInClass = direction > 0 ? "slide-in-right" : "slide-in-left";
-    newView.classList.add(animationInClass);
-
-    this.detailedContainer.appendChild(newView);
+    this.renderDetailedView(); // Re-renderiza o card correto
     this.updateNavButtons();
   }
 
@@ -368,12 +319,6 @@ class App {
   createDetailedViewElement(card) {
     const detailedView = document.createElement("div");
     detailedView.className = "detailed-view";
-    // Reutiliza a lógica de criação de HTML do renderDetailedView, mas sem o append
-    // (O conteúdo foi simplificado para caber aqui, mas a lógica é a mesma)
-    const imageHtml = card.image
-      ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}"></div>`
-      : "";
-    detailedView.innerHTML = `${imageHtml}<div class="card-content">...</div>`; // Conteúdo omitido por brevidade
     detailedView.innerHTML = this.getDetailedViewHTML(card); // Usa uma função para gerar o HTML
     return detailedView;
   }
@@ -390,30 +335,32 @@ class App {
       ? `<div class="card-image-container"><img src="${card.image}" alt="Foto de ${card.name}" loading="lazy"></div>`
       : "";
     return `
-      ${imageHtml}
-      <div class="card-content">
-        <div class="card-header">
-          <div>
-            <h2>${card.name}</h2>
-            <p class="nationality">${card.nationality}</p>
-          </div>
-          <div class="card-category category-${card.category.toLowerCase()}">${
+      <div class="detailed-view">
+        ${imageHtml}
+        <div class="card-content">
+          <div class="card-header">
+            <div>
+              <h2>${card.name}</h2>
+              <p class="nationality">${card.nationality}</p>
+            </div>
+            <div class="card-category category-${card.category.toLowerCase()}">${
       card.category
     }</div>
+          </div>
+          <p><strong>${card.year}</strong> - ${card.team}</p>
+          <div class="detailed-stats">
+            <div class="stat"><span class="stat-value">${
+              card.wins
+            }</span><span class="stat-label">Vitórias</span></div>
+            <div class="stat"><span class="stat-value">${
+              card.podiums
+            }</span><span class="stat-label">Pódios</span></div>
+            <div class="stat"><span class="stat-value">${
+              card.poles
+            }</span><span class="stat-label">Poles</span></div>
+          </div>
+          <p>${card.description}</p>
         </div>
-        <p><strong>${card.year}</strong> - ${card.team}</p>
-        <div class="detailed-stats">
-          <div class="stat"><span class="stat-value">${
-            card.wins
-          }</span><span class="stat-label">Vitórias</span></div>
-          <div class="stat"><span class="stat-value">${
-            card.podiums
-          }</span><span class="stat-label">Pódios</span></div>
-          <div class="stat"><span class="stat-value">${
-            card.poles
-          }</span><span class="stat-label">Poles</span></div>
-        </div>
-        <p>${card.description}</p>
       </div>
     `;
   }

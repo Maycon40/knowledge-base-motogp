@@ -1,7 +1,5 @@
 # Base de Conhecimento MotoGP - Campeões Mundiais (2015-2025)
 
-![Imagem mostrando vários cards com informaçãos dos campeões.](base_conhecimento_motovelocidade.png)
-
 ## Visão Geral
 
 Esta é uma base de conhecimento interativa que fornece informações detalhadas sobre todos os campeões mundiais de MotoGP, Moto2 e Moto3 dos últimos 10 anos (2015-2025). O projeto foi desenvolvido para ser uma fonte de consulta rápida e completa para fãs de motovelocidade, jornalistas e pesquisadores.
@@ -16,7 +14,7 @@ Esta é uma base de conhecimento interativa que fornece informações detalhadas
 - **Layouts:**
   - **Cards:** Visualize os cards dos campeões em um layout de grade responsivo.
   - **Detalhes:** Explore informações detalhadas de cada campeão em um layout dedicado, com estatísticas e descrições completas.
-- **Navegação Detalhada:** Navegue entre os campeões no modo de detalhes usando os botões de navegação ou o scroll do mouse.
+- **Navegação Detalhada:** Navegue entre os campeões no modo de detalhes usando o scroll do mouse.
 
 ## Acessibilidade e Performance
 
@@ -34,6 +32,15 @@ O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a per
 - **Navegação via Teclado:** A aplicação é totalmente navegável utilizando apenas o teclado. Elementos interativos como botões, links e campos de formulário possuem estados de foco (`:focus`) claros e visíveis.
 
 - **Labels e Atributos ARIA:** Controles de formulário possuem `label`s associadas e botões que utilizam apenas ícones possuem o atributo `aria-label` para fornecer uma descrição textual de sua ação.
+
+<br/>
+
+A seguinte imagem mostra o resultado no Lighthouse, mostrando que a página tem boa acessibilidade, performance, melhores práticas e seo.
+
+<p align="center">
+  <img src="performance_acessibilidade.png" alt="Imagem mostrando que a página tem uma performance de 84, acessibilidade de 100, melhores práticas de 100 e seo de 100 no lighthouse" />
+</p>
+<br/>
 
 ## Tecnologias Utilizadas
 
