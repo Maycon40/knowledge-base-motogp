@@ -12,6 +12,11 @@
       content="MotoGP, Moto2, Moto3, Campeões, Motovelocidade, Marc Márquez, Valentino Rossi, Fabio Quartararo"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
     <title>Campeões da MotoGP | Base de Conhecimento</title>
   </head>
   <body>
@@ -53,6 +58,28 @@
       </section>
     </div>
 
+    <!-- Botão Flutuante do Chat -->
+    <button id="chat-fab" class="chat-fab" aria-label="Abrir chat">
+      <span class="material-symbols-outlined"> chat </span>
+    </button>
+
+    <!-- Popup do Chat -->
+    <div id="chat-popup" class="chat-popup hidden">
+      <div class="chat-header">
+        <h3>Assistente MotoGP</h3>
+        <button id="close-chat-btn" class="close-chat-btn" aria-label="Fechar chat">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+      </div>
+      <div id="chat-messages" class="chat-messages">
+        <!-- Mensagens do chat serão inseridas aqui -->
+      </div>
+      <form id="chat-form" class="chat-form">
+        <input type="text" id="chat-input" placeholder="Pergunte algo..." autocomplete="off" />
+        <button type="submit" aria-label="Enviar mensagem"><span class="material-symbols-outlined"> send </span></button>
+      </form>
+    </div>
+
     <footer class="footer">
       <p>
         &copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.
@@ -77,6 +104,6 @@
       </ul>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>

@@ -376,7 +376,16 @@ class App {
 
 document.addEventListener("DOMContentLoaded", async () => {
   const app = new App(".card-container");
-  app.addEventListeners(); // Configura os eventos
   await app.loadData("data.json");
+  app.addEventListeners(); // Configura os eventos da app principal
   app.filterAndRender(); // Renderização inicial
+
+  // Inicializa o chatbot com os dados carregados
+  try {
+    const { Chatbot } = await import("./chat.js");
+
+    new Chatbot(app.allCards.map((card) => ({ ...card })));
+  } catch (error) {
+    console.error("Erro ao inicializar o chatbot:", error);
+  }
 });
