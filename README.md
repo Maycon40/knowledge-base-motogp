@@ -35,11 +35,6 @@ O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a per
 
 - **Labels e Atributos ARIA:** Controles de formulário possuem `label`s associadas e botões que utilizam apenas ícones possuem o atributo `aria-label` para fornecer uma descrição textual de sua ação.
 
-- **Otimização de Carregamento (FCP e LCP):**
-  - O CSS principal é carregado de forma assíncrona (`preload`) para não bloquear a renderização inicial da página.
-  - As fontes são carregadas com `font-display: swap` para garantir que o texto seja sempre visível.
-  - A imagem principal (LCP) é carregada com alta prioridade (`fetchpriority="high"`) e sem lazy-loading para acelerar a pintura do conteúdo mais importante.
-
 ## Tecnologias Utilizadas
 
 - **HTML:** Estrutura da página e conteúdo.
