@@ -6,23 +6,57 @@
   padding: 0;
 }
 
+/* === Definições de Tema e Cores === */
+
 :root {
-  --primary-color: #d32f2f; /* Vermelho de corrida */
-  --primary-color-dark: #b71c1c;
+  /* Tema Escuro (Padrão) */
+  --primary-color: #c23c3c; /* Vermelho de corrida */
+  --primary-color-dark: #f15454;
   --secondary-color: #f5f5f5; /* Branco suave */
-  --tertiary-color: #bdbdbd; /* Cinza claro */
+  --tertiary-color: #bbbbbb; /* Cinza claro */
   --bg-color: #121212; /* Fundo escuro profundo */
+  --bg-color-rgb: 18, 18, 18; /* Valores RGB para o fundo */
   --surface-color: #1e1e1e; /* Cor de superfície para cards */
   --border-color: #2a2a2a;
   --motogp-color: #d32f2f; /* Vermelho MotoGP */
   --moto2-color: #ffc107; /* Amarelo para Moto2 */
-  --moto3-color: #4caf50; /* Verde para Moto3 */
+  --moto3-color: #126add; /* Verde para Moto3 */
 }
+
+body.light-theme {
+  /* Tema Claro (Acessível) */
+  --primary-color: #3a96ff; /* Azul forte e acessível */
+  --primary-color-dark: #0a5dbd;
+  --secondary-color: #1b1d1f; /* Texto principal quase preto */
+  --tertiary-color: #6c757d; /* Texto secundário cinza */
+  --bg-color: #f8f9fa; /* Fundo branco-acinzentado suave */
+  --bg-color-rgb: 248, 249, 250; /* Valores RGB para o fundo */
+  --surface-color: #ffffff; /* Superfície branca para cards */
+  --border-color: #9c9d9e;
+  --motogp-color: #d32f2f; /* Mantém cores vibrantes para categorias */
+  --moto2-color: #ffc107;
+  --moto3-color: #126add;
+}
+
+/* Classe de utilidade para acessibilidade (esconde visualmente, mas mantém para leitores de tela) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+/* === Estilos Gerais e Cabeçalho === */
 
 body {
   background: var(--bg-color);
   color: var(--secondary-color);
   font-family: "Roboto", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de tema */
 }
 
 header {
@@ -33,7 +67,10 @@ header {
   gap: 1.5rem;
   position: sticky;
   top: 0; /* Mantém o header fixo no topo */
-  background: rgba(18, 18, 18, 0.85);
+  background: rgba(
+    var(--bg-color-rgb),
+    0.85
+  ); /* Usa variável para a cor de fundo */
   backdrop-filter: blur(10px);
   z-index: 100;
   border-bottom: 1px solid var(--border-color);
@@ -110,6 +147,24 @@ header h1 {
   transition: all 0.3s ease;
 }
 
+/* Estilo específico para o botão de tema */
+#theme-switcher {
+  width: 44px; /* Tamanho do botão */
+  height: 44px;
+  padding: 0;
+  border-radius: 50%; /* Deixa o botão circular */
+  border: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-switcher:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
 .layout-btn.active {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -171,7 +226,8 @@ header h1 {
   border-color: #444;
 }
 
-/* Renomeado de 'main' para '.card-container' para ser mais específico */
+/* === Estilos dos Cards === */
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -181,11 +237,9 @@ header h1 {
   margin: 0 auto;
 }
 
-/* Renomeado de 'article' para '.card' para corresponder à classe JS */
 .card {
   background: var(--surface-color);
   border-radius: 8px;
-  /* O padding foi movido para .card-content */
   border: 1px solid var(--border-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
@@ -242,7 +296,13 @@ header h1 {
   background-color: var(--moto3-color);
 }
 
-.card-content {
+/* O conteúdo do card agora é uma <figcaption> */
+.card figure {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Garante que a figure ocupe todo o espaço do card */
+}
+figcaption.card-content {
   padding: 1.5rem;
 }
 
@@ -278,6 +338,8 @@ header h1 {
   color: var(--tertiary-color);
   text-align: center;
 }
+
+/* === Layout de Visualização Detalhada === */
 
 .detailed-layout-active {
   display: flex;
@@ -393,6 +455,7 @@ header h1 {
   border-radius: 0;
 }
 
+figcaption.card-content,
 .detailed-view .card-content {
   display: flex;
   flex-direction: column;
@@ -402,6 +465,7 @@ header h1 {
 }
 
 @media (min-width: 769px) {
+  figcaption.card-content,
   .detailed-view .card-content {
     padding: 2rem;
   }
@@ -543,184 +607,4 @@ header h1 {
   .detailed-stats {
     grid-template-columns: 1fr 1fr;
   }
-}
-
-/* === Estilos do Chatbot === */
-
-.chat-fab {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  z-index: 1000;
-  transition: all 0.3s ease;
-}
-
-.chat-fab:hover {
-  background-color: var(--primary-color-dark);
-  transform: scale(1.1);
-}
-
-.chat-fab .material-symbols-outlined {
-  font-size: 2rem;
-}
-
-.chat-popup {
-  position: fixed;
-  bottom: 6.5rem;
-  right: 2rem;
-  width: 90%;
-  max-width: 400px;
-  height: 60vh;
-  max-height: 500px;
-  background-color: var(--surface-color);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  z-index: 1001;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-}
-
-.chat-popup.hidden {
-  transform: scale(0);
-  opacity: 0;
-}
-
-.chat-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1.25rem;
-  background-color: var(--bg-color);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.chat-header h3 {
-  color: var(--primary-color);
-  font-weight: 700;
-  margin: 0;
-}
-
-.close-chat-btn {
-  background: none;
-  border: none;
-  color: var(--tertiary-color);
-  cursor: pointer;
-  padding: 0.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: background-color 0.2s ease;
-}
-
-.close-chat-btn:hover {
-  background-color: var(--border-color);
-  color: var(--secondary-color);
-}
-
-.chat-messages {
-  flex-grow: 1;
-  padding: 1rem;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.chat-message {
-  padding: 0.75rem 1rem;
-  border-radius: 12px;
-  max-width: 85%;
-  line-height: 1.5;
-}
-
-.chat-message.user {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  align-self: flex-end;
-  border-bottom-right-radius: 4px;
-}
-
-.chat-message.model {
-  background-color: var(--bg-color);
-  color: var(--secondary-color);
-  align-self: flex-start;
-  border-bottom-left-radius: 4px;
-}
-
-.chat-message.model.loading span {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: var(--tertiary-color);
-  animation: bounce 1.3s infinite;
-}
-
-.chat-message.model.loading span:nth-child(2) {
-  animation-delay: 0.15s;
-}
-.chat-message.model.loading span:nth-child(3) {
-  animation-delay: 0.3s;
-}
-
-@keyframes bounce {
-  0%,
-  80%,
-  100% {
-    transform: scale(0);
-  }
-  40% {
-    transform: scale(1);
-  }
-}
-
-.chat-form {
-  display: flex;
-  border-top: 1px solid var(--border-color);
-  padding: 0.5rem;
-  gap: 0.5rem;
-}
-
-.chat-form input {
-  flex-grow: 1;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: var(--secondary-color);
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 0.5rem;
-}
-
-.chat-form button {
-  background: none;
-  border: none;
-  color: var(--primary-color);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  border-radius: 50%;
-  transition: background-color 0.2s ease;
-}
-
-.chat-form button:hover {
-  background-color: var(--border-color);
 }

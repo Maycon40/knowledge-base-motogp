@@ -11,10 +11,19 @@
       name="keywords"
       content="MotoGP, Moto2, Moto3, Campeões, Motovelocidade, Marc Márquez, Valentino Rossi, Fabio Quartararo"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Carregamento otimizado do CSS para não bloquear a renderização -->
+    <link
+      rel="preload"
+      href="style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="style.css"
+    /></noscript>
     <!-- Google Fonts Icons -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap"
       rel="stylesheet"
     />
     <title>Campeões da MotoGP | Base de Conhecimento</title>
@@ -31,8 +40,13 @@
         <button id="botao-busca" type="submit">Buscar</button>
       </form>
       <nav class="filter-nav">
+        <button id="theme-switcher" class="layout-btn" aria-label="Mudar tema">
+          <span class="material-symbols-outlined"
+            ><!-- O ícone será inserido pelo JS --></span
+          >
+        </button>
         <div class="layout-switcher">
-          <button class="layout-btn active" data-layout="grid">Grid</button>
+          <button class="layout-btn active" data-layout="grid">Cards</button>
           <button class="layout-btn" data-layout="detailed">Detalhes</button>
         </div>
         <div class="filter-group">
@@ -42,43 +56,25 @@
           <button class="filter-btn" data-category="Moto3">Moto3</button>
         </div>
         <div class="filter-group">
+          <label for="nationality-filter" class="sr-only">Filtrar por nacionalidade</label>
           <select id="nationality-filter" class="filter-select">
             <option value="all">Todas as Nacionalidades</option>
           </select>
         </div>
       </nav>
     </header>
-
-    <div class="content-wrapper">
-      <main class="card-container"></main>
+    
+    <!-- A tag <main> agora envolve todo o conteúdo principal -->
+    <main class="content-wrapper">
+      <section class="card-container">
+        <!-- Cards são renderizados aqui -->
+      </section>
       <section class="detailed-container hidden">
         <!-- O conteúdo será renderizado pelo JS aqui -->
         <button class="detailed-nav-btn left" id="prev-btn" aria-label="Anterior">&lt;</button>
         <button class="detailed-nav-btn right" id="next-btn" aria-label="Próximo">&gt;</button>
       </section>
-    </div>
-
-    <!-- Botão Flutuante do Chat -->
-    <button id="chat-fab" class="chat-fab" aria-label="Abrir chat">
-      <span class="material-symbols-outlined"> chat </span>
-    </button>
-
-    <!-- Popup do Chat -->
-    <div id="chat-popup" class="chat-popup hidden">
-      <div class="chat-header">
-        <h3>Assistente MotoGP</h3>
-        <button id="close-chat-btn" class="close-chat-btn" aria-label="Fechar chat">
-          <span class="material-symbols-outlined"> close </span>
-        </button>
-      </div>
-      <div id="chat-messages" class="chat-messages">
-        <!-- Mensagens do chat serão inseridas aqui -->
-      </div>
-      <form id="chat-form" class="chat-form">
-        <input type="text" id="chat-input" placeholder="Pergunte algo..." autocomplete="off" />
-        <button type="submit" aria-label="Enviar mensagem"><span class="material-symbols-outlined"> send </span></button>
-      </form>
-    </div>
+    </main>
 
     <footer class="footer">
       <p>

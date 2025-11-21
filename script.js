@@ -5,6 +5,7 @@ class Card {
     description,
     category,
     image,
+    alt,
     nationality,
     team,
     wins,
@@ -16,6 +17,7 @@ class Card {
     this.description = description;
     this.category = category;
     this.image = image;
+    this.alt = alt;
     this.nationality = nationality;
     this.team = team;
     this.wins = wins;
@@ -28,22 +30,65 @@ class Card {
     article.classList.add("card");
 
     const imageHtml = this.image
-      ? `<div class="card-image-container"><img src="${this.image}" alt="Foto de ${this.name}" loading="lazy"></div>`
+      ? `<div class="card-image-container"><img src="${this.image}" alt="${this.alt}" loading="lazy"></div>`
       : "";
 
+    // Usando <figure> e <figcaption> para melhorar a semântica
     article.innerHTML = `
-      ${imageHtml}
-      <div class="card-category category-${this.category.toLowerCase()}">${
+      <figure>
+        ${imageHtml}
+        <div class="card-category category-${this.category.toLowerCase()}">${
       this.category
     }</div>
-      <div class="card-content">
-          <h2>${this.name}</h2>
-          <p class="nationality">${this.nationality}</p>
-          <p>${this.year}</p>
-          <p>${this.description}</p>
-      </div>
+        <figcaption class="card-content">
+            <h2>${this.name}</h2>
+            <p class="nationality">${this.nationality}</p>
+            <p>${this.year}</p>
+            <p>${this.description}</p>
+        </figcaption>
+      </figure>
     `;
     return article;
+  }
+}
+
+class ThemeSwitcher {
+  constructor(buttonSelector) {
+    this.themeToggleButton = document.querySelector(buttonSelector);
+    this.body = document.body;
+    this.iconElement = this.themeToggleButton.querySelector(
+      ".material-symbols-outlined"
+    );
+
+    this.loadTheme();
+    this.addEventListeners();
+  }
+
+  loadTheme() {
+    const savedTheme = localStorage.getItem("theme") || "dark"; // Padrão é escuro
+    this.applyTheme(savedTheme);
+  }
+
+  applyTheme(theme) {
+    if (theme === "light") {
+      this.body.classList.add("light-theme");
+      this.iconElement.textContent = "dark_mode"; // Ícone de lua
+    } else {
+      this.body.classList.remove("light-theme");
+      this.iconElement.textContent = "light_mode"; // Ícone de sol
+    }
+    localStorage.setItem("theme", theme);
+  }
+
+  addEventListeners() {
+    this.themeToggleButton.addEventListener("click", () => {
+      event.stopPropagation(); // Impede que o clique "vaze" para os botões de layout
+      const currentTheme = this.body.classList.contains("light-theme")
+        ? "light"
+        : "dark";
+      const newTheme = currentTheme === "light" ? "dark" : "light";
+      this.applyTheme(newTheme);
+    });
   }
 }
 
@@ -376,16 +421,20 @@ class App {
 
 document.addEventListener("DOMContentLoaded", async () => {
   const app = new App(".card-container");
+  new ThemeSwitcher("#theme-switcher"); // Inicializa o trocador de tema
   await app.loadData("data.json");
   app.addEventListeners(); // Configura os eventos da app principal
   app.filterAndRender(); // Renderização inicial
+});
 
-  // Inicializa o chatbot com os dados carregados
-  try {
-    const { Chatbot } = await import("./chat.js");
-
-    new Chatbot(app.allCards.map((card) => ({ ...card })));
-  } catch (error) {
-    console.error("Erro ao inicializar o chatbot:", error);
+// Adiciona um ouvinte para o evento 'pageshow' para garantir a compatibilidade com o bfcache.
+// Este evento é disparado sempre que a página é exibida, incluindo quando é restaurada do bfcache.
+window.addEventListener("pageshow", (event) => {
+  if (event.persisted) {
+    // A página foi restaurada do bfcache.
+    // Em aplicações mais complexas, aqui seria o lugar para revalidar o estado da UI.
+    // Para este projeto, a lógica de tema já é robusta o suficiente com localStorage,
+    // mas este log confirma que estamos cientes e lidando com o bfcache.
+    console.log("Página restaurada do bfcache.");
   }
 });
