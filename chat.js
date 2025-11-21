@@ -52,7 +52,7 @@ export class Chatbot {
 
     try {
       const response = await fetch(
-        "https://backend-chat-gemini.vercel.app/chat",
+        "http://backend-chat-gemini.vercel.app/chat",
         {
           method: "POST",
           headers: {
@@ -65,7 +65,7 @@ export class Chatbot {
         }
       );
       const data = await response.json();
-      text =
+      const text =
         data?.response ||
         "Desculpe, ocorreu um erro ao processar sua pergunta.";
 
