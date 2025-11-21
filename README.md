@@ -1,8 +1,11 @@
-# Base de Conhecimento MotoGP - Campeões Mundiais (2015-2025)
+# Motovelocidade - Campeões Mundiais (2015-2025)
 
-## Visão Geral
+## Objetivo
 
-Esta é uma base de conhecimento interativa que fornece informações detalhadas sobre todos os campeões mundiais de MotoGP, Moto2 e Moto3 dos últimos 10 anos (2015-2025). O projeto foi desenvolvido para ser uma fonte de consulta rápida e completa para fãs de motovelocidade, jornalistas e pesquisadores.
+O principal objetivo é apresentar ao máximo de pessoas o mundo da motovelocidade onde as disputas são intensas e emocionantes, compartilhando um pouco da minha paixão pelo esporte.
+Para isso construi uma base de dados dos campeões mundias da MotoGP, Moto2 e Moto3 desde 2015 até 2025, falando um pouco sobre essas grandes referências do esporte para que as pessoas possam conhecer um pouco de cada um dos pilotos.
+
+Mim esforcei para deixar o site acessível para todas as pessoas tomando o cuidado de colocar cores de alto contraste, de descrever cada imagem da tela e também de facilitar a navegação usando o teclado.
 
 ## Funcionalidades
 
@@ -40,17 +43,23 @@ O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a per
 
 <br/>
 
-A seguinte imagem mostra o resultado no Lighthouse, mostrando que a página tem boa acessibilidade, performance, melhores práticas e seo.
+### Ferramentas usadas para testar a acessibilidade e performance
+
+A seguinte imagem mostra o resultado no Lighthouse, mostrando que a página tem boa acessibilidade, performance, melhores práticas e um bom seo.
 
 <p align="center">
   <img src="performance_acessibilidade.png" alt="Imagem mostrando que a página tem uma performance de 84, acessibilidade de 100, melhores práticas de 100 e seo de 100 no lighthouse" />
 </p>
 <br/>
 
+Usei a Coblis (Color Blindness Simulator) para ver se o site estava fácil de ser enxergado por pessoas com deficiência visual.
+
+https://www.color-blindness.com/coblis-color-blindness-simulator/
+
 ## Tecnologias Utilizadas
 
 - **HTML:** Estrutura da página e conteúdo.
-- **CSS:** Estilos visuais, layout responsivo e animações.
+- **CSS:** Estilos visuais e layout responsivo.
 - **JavaScript:**
   - Lógica da aplicação, manipulação do DOM e interatividade.
   - Filtros, busca, troca de layouts e navegação detalhada.
