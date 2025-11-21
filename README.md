@@ -16,6 +16,11 @@ Esta é uma base de conhecimento interativa que fornece informações detalhadas
   - **Detalhes:** Explore informações detalhadas de cada campeão em um layout dedicado, com estatísticas e descrições completas.
 - **Navegação Detalhada:** Navegue entre os campeões no modo de detalhes usando o scroll do mouse.
 
+## Versão online
+
+Acesse o projeto usando o seguinte link:
+https://maycon40.github.io/knowledge-base-motogp/
+
 ## Acessibilidade e Performance
 
 O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a performance, garantindo que o conteúdo seja acessível e rápido para o maior número de pessoas possível.

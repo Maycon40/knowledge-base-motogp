@@ -199,6 +199,38 @@ class App {
       }
     });
 
+    // Melhora a navegação por teclado nos filtros de categoria com as setas
+    this.filterNav.addEventListener("keydown", (event) => {
+      const target = event.target;
+      // Verifica se o alvo é um botão de filtro de categoria
+      if (
+        !target.classList.contains("filter-btn") ||
+        !target.dataset.category
+      ) {
+        return;
+      }
+
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        event.preventDefault(); // Previne o scroll da página
+
+        const categoryButtons = Array.from(
+          this.filterNav.querySelectorAll(".filter-btn[data-category]")
+        );
+        const currentIndex = categoryButtons.indexOf(target);
+
+        let nextIndex;
+        if (event.key === "ArrowRight") {
+          nextIndex = (currentIndex + 1) % categoryButtons.length;
+        } else {
+          // ArrowLeft
+          nextIndex =
+            (currentIndex - 1 + categoryButtons.length) %
+            categoryButtons.length;
+        }
+        categoryButtons[nextIndex].focus(); // Move o foco para o próximo botão
+      }
+    });
+
     // Evento para o filtro de nacionalidade
     this.nationalityFilter.addEventListener("change", (event) => {
       this.currentNationality = event.target.value;

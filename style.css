@@ -123,6 +123,11 @@ header h1 {
   outline: none;
 }
 
+#botao-busca:focus-visible {
+  outline: 2px solid var(--primary-color-dark);
+  outline-offset: 2px;
+}
+
 #botao-busca:hover {
   background-color: var(--primary-color-dark);
   border-color: var(--primary-color-dark);
@@ -192,13 +197,17 @@ header h1 {
   cursor: pointer;
   font-weight: 500;
   transition: all 0.3s ease;
-  outline: none;
 }
 
 .filter-btn:hover {
   background-color: var(--surface-color);
   color: var(--secondary-color);
   border-color: #444;
+}
+
+.filter-btn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
 }
 
 .filter-btn.active {
@@ -219,11 +228,15 @@ header h1 {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  outline: none;
 }
 
 .filter-select:hover {
   border-color: #444;
+}
+
+.filter-select:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
 }
 
 /* === Estilos dos Cards === */
