@@ -18,11 +18,27 @@ Esta é uma base de conhecimento interativa que fornece informações detalhadas
   - **Detalhes:** Explore informações detalhadas de cada campeão em um layout dedicado, com estatísticas e descrições completas.
 - **Navegação Detalhada:** Navegue entre os campeões no modo de detalhes usando os botões de navegação ou o scroll do mouse.
 
-## Acessibilidade
+## Acessibilidade e Performance
 
-Em cada imagem do site foi incluído atributos alt descritivo que ajuda as pessoas com deficiência visual a entender o que está sendo mostrado.
-Coloquei as cores de maneira que pessoas com daltonismo consiguam enchergar a página.
-Incluí light mode e dark mode para a pessoas conseguir vê a página em um ambiente mais agradável.
+O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a performance, garantindo que o conteúdo seja acessível e rápido para o maior número de pessoas possível.
+
+- **HTML Semântico:** A estrutura do site utiliza tags HTML semânticas (`<main>`, `<header>`, `<footer>`, `<section>`, `<figure>`, `<figcaption>`) para fornecer um contexto claro e uma estrutura lógica do conteúdo, facilitando a navegação por leitores de tela.
+
+- **Textos Alternativos Descritivos:** Todas as imagens dos campeões possuem um atributo `alt` detalhado. Essa descrição ajuda usuários com deficiência visual a compreenderem o conteúdo visual da imagem através de leitores de tela.
+
+- **Temas de Alto Contraste:**
+
+  - **Tema Claro Acessível:** O tema claro foi projetado com uma paleta de cores de alto contraste (azul forte sobre fundo claro), beneficiando usuários com baixa visão ou diferentes formas de daltonismo.
+  - **Escolha do Usuário:** A opção de alternar entre os temas claro e escuro permite que os usuários escolham o modo de visualização mais confortável para suas necessidades, com a preferência salva no navegador.
+
+- **Navegação via Teclado:** A aplicação é totalmente navegável utilizando apenas o teclado. Elementos interativos como botões, links e campos de formulário possuem estados de foco (`:focus`) claros e visíveis.
+
+- **Labels e Atributos ARIA:** Controles de formulário possuem `label`s associadas e botões que utilizam apenas ícones possuem o atributo `aria-label` para fornecer uma descrição textual de sua ação.
+
+- **Otimização de Carregamento (FCP e LCP):**
+  - O CSS principal é carregado de forma assíncrona (`preload`) para não bloquear a renderização inicial da página.
+  - As fontes são carregadas com `font-display: swap` para garantir que o texto seja sempre visível.
+  - A imagem principal (LCP) é carregada com alta prioridade (`fetchpriority="high"`) e sem lazy-loading para acelerar a pintura do conteúdo mais importante.
 
 ## Tecnologias Utilizadas
 
