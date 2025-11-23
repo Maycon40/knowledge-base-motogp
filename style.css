@@ -674,6 +674,12 @@ figcaption.card-content,
     position: relative;
     height: auto;
   }
+  /* Remove a altura fixa do palco em mobile para que o card possa crescer */
+  #detailed-card-content {
+    height: auto;
+    width: 100%;
+    max-height: none;
+  }
 
   /* Mostra o botão de filtros e ajusta o layout da navegação */
   #toggle-filters-btn {
