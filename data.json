@@ -2,429 +2,826 @@
   {
     "name": "Jorge Lorenzo",
     "year": 2015,
-    "description": "Em uma das temporadas mais icônicas, Jorge Lorenzo conquistou seu quinto e último título mundial na última corrida, em Valência, superando seu companheiro de equipe Valentino Rossi por apenas cinco pontos.",
     "category": "MotoGP",
     "image": "https://gam.blogaboina.com.br/wp-content/uploads/2025/01/YFR_151109135117504_30-800x400-1.png",
-    "alt": "O piloto de MotoGP Jorge Lorenzo, um homem branco sorridente, vestido com um macacão de corrida azul e branco da Movistar Yamaha, ergue um grande troféu dourado acima de sua cabeça com os braços estendidos. Ele está no pódio vermelho e branco com \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" ao fundo, sob um céu azul claro.",
     "team": "Movistar Yamaha MotoGP",
     "wins": 7,
     "podiums": 12,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "Em uma das temporadas mais icônicas, Jorge Lorenzo conquistou seu quinto e último título mundial na última corrida, em Valência, superando seu companheiro de equipe Valentino Rossi por apenas cinco pontos.",
+      "alt": "O piloto de MotoGP Jorge Lorenzo, um homem branco sorridente, vestido com um macacão de corrida azul e branco da Movistar Yamaha, ergue um grande troféu dourado acima de sua cabeça com os braços estendidos. Ele está no pódio vermelho e branco com \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" ao fundo, sob um céu azul claro.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "In one of the most iconic seasons, Jorge Lorenzo won his fifth and final world title in the last race, in Valencia, beating his teammate Valentino Rossi by just five points.",
+      "alt": "MotoGP rider Jorge Lorenzo, a smiling white man dressed in a blue and white Movistar Yamaha racing suit, raises a large golden trophy above his head with his arms outstretched. He is on the red and white podium with \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" in the background, under a clear blue sky.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "En una de las temporadas más icónicas, Jorge Lorenzo conquistó su quinto y último título mundial en la última carrera, en Valencia, superando a su compañero de equipo Valentino Rossi por solo cinco puntos.",
+      "alt": "El piloto de MotoGP Jorge Lorenzo, un hombre blanco sonriente, vestido con un mono de carreras azul y blanco de Movistar Yamaha, levanta un gran trofeo dorado sobre su cabeza con los brazos extendidos. Está en el podio rojo y blanco con \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" al fondo, bajo un cielo azul claro.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Johann Zarco",
     "year": 2015,
-    "description": "Dominou a temporada da Moto2, conquistando seu primeiro título mundial com uma performance consistente que incluiu 8 vitórias e 14 pódios, garantindo o campeonato com antecedência.",
     "category": "Moto2",
     "image": "https://www.motosport.com.pt/wp-content/uploads/2016/10/Zarco.jpg",
-    "alt": "O piloto de motovelocidade Johann Zarco, um homem branco sorridente, se inclina sobre sua motocicleta de corrida branca e preta, segurando seu capacete dourado e preto com o logo \"SHARK\". Ele veste uma camiseta branca com o logotipo \"Visit Malaysia\". À sua direita, uma grande placa preta e dourada exibe \"WORLD CHAMPION MOTO2 2015\".",
-    "nationality": "França",
     "team": "Ajo Motorsport",
     "wins": 8,
     "podiums": 14,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Dominou a temporada da Moto2, conquistando seu primeiro título mundial com uma performance consistente que incluiu 8 vitórias e 14 pódios, garantindo o campeonato com antecedência.",
+      "alt": "O piloto de motovelocidade Johann Zarco, um homem branco sorridente, se inclina sobre sua motocicleta de corrida branca e preta, segurando seu capacete dourado e preto com o logo \"SHARK\". Ele veste uma camiseta branca com o logotipo \"Visit Malaysia\". À sua direita, uma grande placa preta e dourada exibe \"WORLD CHAMPION MOTO2 2015\".",
+      "nationality": "França"
+    },
+    "en": {
+      "description": "Dominated the Moto2 season, winning his first world title with a consistent performance that included 8 wins and 14 podiums, securing the championship early.",
+      "alt": "Motorcycle racer Johann Zarco, a smiling white man, leans over his white and black racing motorcycle, holding his gold and black helmet with the \"SHARK\" logo. He is wearing a white t-shirt with the \"Visit Malaysia\" logo. To his right, a large black and gold sign displays \"WORLD CHAMPION MOTO2 2015\".",
+      "nationality": "France"
+    },
+    "es": {
+      "description": "Dominó la temporada de Moto2, conquistando su primer título mundial con una actuación consistente que incluyó 8 victorias y 14 podios, asegurando el campeonato con antelación.",
+      "alt": "El piloto de motociclismo Johann Zarco, un hombre blanco sonriente, se inclina sobre su motocicleta de carreras blanca y negra, sosteniendo su casco dorado y negro con el logo \"SHARK\". Viste una camiseta blanca con el logotipo \"Visit Malaysia\". A su derecha, un gran cartel negro y dorado muestra \"WORLD CHAMPION MOTO2 2015\".",
+      "nationality": "Francia"
+    }
   },
   {
     "name": "Danny Kent",
     "year": 2015,
-    "description": "Tornou-se o primeiro campeão mundial britânico desde Barry Sheene em 1977. Kent teve um início de temporada avassalador e, apesar de uma segunda metade nervosa, garantiu o título da Moto3 em Valência.",
     "category": "Moto3",
     "image": "https://cdn-3.motorsport.com/static/img/amp/600000/650000/659000/659500/659590/s6_776553/moto3-valencia-2015-le-champion-du-monde-2015-danny-kent-leopard-racing.jpg",
-    "alt": "O piloto de motovelocidade Danny Kent, um homem branco de boné amarelo, vestido em um macacão de corrida branco, preto e amarelo, sorri enquanto espirra champanhe de uma garrafa. Ele está em um pódio vermelho e branco com \"MOTUL\" em letras grandes. Borrifos de champanhe são visíveis no ar, e o piloto está molhado e festejando.",
-    "nationality": "Reino Unido",
     "team": "Leopard Racing",
     "wins": 6,
     "podiums": 9,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "Tornou-se o primeiro campeão mundial britânico desde Barry Sheene em 1977. Kent teve um início de temporada avassalador e, apesar de uma segunda metade nervosa, garantiu o título da Moto3 em Valência.",
+      "alt": "O piloto de motovelocidade Danny Kent, um homem branco de boné amarelo, vestido em um macacão de corrida branco, preto e amarelo, sorri enquanto espirra champanhe de uma garrafa. Ele está em um pódio vermelho e branco com \"MOTUL\" em letras grandes. Borrifos de champanhe são visíveis no ar, e o piloto está molhado e festejando.",
+      "nationality": "Reino Unido"
+    },
+    "en": {
+      "description": "Became the first British world champion since Barry Sheene in 1977. Kent had a stunning start to the season and, despite a nervous second half, secured the Moto3 title in Valencia.",
+      "alt": "Motorcycle racer Danny Kent, a white man in a yellow cap, dressed in a white, black, and yellow racing suit, smiles while spraying champagne from a bottle. He is on a red and white podium with \"MOTUL\" in large letters. Champagne spray is visible in the air, and the rider is wet and celebrating.",
+      "nationality": "United Kingdom"
+    },
+    "es": {
+      "description": "Se convirtió en el primer campeón mundial británico desde Barry Sheene en 1977. Kent tuvo un inicio de temporada arrollador y, a pesar de una segunda mitad nerviosa, aseguró el título de Moto3 en Valencia.",
+      "alt": "El piloto de motociclismo Danny Kent, un hombre blanco con una gorra amarilla, vestido con un mono de carreras blanco, negro y amarillo, sonríe mientras rocía champán de una botella. Está en un podio rojo y blanco con \"MOTUL\" en letras grandes. El rocío de champán es visible en el aire, y el piloto está mojado y celebrando.",
+      "nationality": "Reino Unido"
+    }
   },
   {
     "name": "Marc Márquez",
     "year": 2016,
-    "description": "Adotando uma nova abordagem focada na consistência, Márquez conquistou seu terceiro título na MotoGP. Ele somou pontos cruciais durante toda a temporada e selou o campeonato no Japão, casa da Honda.",
     "category": "MotoGP",
     "image": "https://s2.glbimg.com/229MCXhXGa7-wmj7iHK_IjrPCaY=/0x0:3839x2866/690x515/s.glbimg.com/es/ge/f/original/2016/10/16/636122042096690334.jpg",
-    "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente, vestido com um macacão de corrida branco, laranja e azul da Repsol Honda, ergue os braços em celebração, segurando uma placa de papel com \"93 MARQUEZ CHAMPION\" na mão esquerda e seu capacete dourado e preto na direita. Ele mostra a língua em um gesto divertido. O fundo é vermelho com \"MOTOGP GRAND PRIX OF JAPAN 2016\".",
-    "nationality": "Espanha",
     "team": "Repsol Honda Team",
     "wins": 5,
     "podiums": 12,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Adotando uma nova abordagem focada na consistência, Márquez conquistou seu terceiro título na MotoGP. Ele somou pontos cruciais durante toda a temporada e selou o campeonato no Japão, casa da Honda.",
+      "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente, vestido com um macacão de corrida branco, laranja e azul da Repsol Honda, ergue os braços em celebração, segurando uma placa de papel com \"93 MARQUEZ CHAMPION\" na mão esquerda e seu capacete dourado e preto na direita. Ele mostra a língua em um gesto divertido. O fundo é vermelho com \"MOTOGP GRAND PRIX OF JAPAN 2016\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Adopting a new approach focused on consistency, Márquez won his third MotoGP title. He scored crucial points throughout the season and sealed the championship in Japan, Honda's home.",
+      "alt": "MotoGP rider Marc Márquez, a smiling white man dressed in a white, orange, and blue Repsol Honda racing suit, raises his arms in celebration, holding a paper sign with \"93 MARQUEZ CHAMPION\" in his left hand and his gold and black helmet in his right. He sticks out his tongue in a playful gesture. The background is red with \"MOTOGP GRAND PRIX OF JAPAN 2016\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Adoptando un nuevo enfoque centrado en la consistencia, Márquez conquistó su tercer título en MotoGP. Sumó puntos cruciales durante toda la temporada y selló el campeonato en Japón, la casa de Honda.",
+      "alt": "El piloto de MotoGP Marc Márquez, un hombre blanco sonriente, vestido con un mono de carreras blanco, naranja y azul de Repsol Honda, levanta los brazos en celebración, sosteniendo un cartel de papel con \"93 MARQUEZ CHAMPION\" en su mano izquierda y su casco dorado y negro en la derecha. Saca la lengua en un gesto juguetón. El fondo es rojo con \"MOTOGP GRAND PRIX OF JAPAN 2016\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Johann Zarco",
     "year": 2016,
-    "description": "Fez história ao se tornar o primeiro piloto a conquistar o bicampeonato na categoria Moto2. Zarco superou uma forte concorrência para garantir seu segundo título consecutivo antes de subir para a MotoGP.",
     "category": "Moto2",
     "image": "https://www.kmcero.es/wp-content/uploads/2016/10/celebracion-titulo-moto2-johann-zarco.jpg",
-    "alt": "Dois pilotos de motovelocidade em uma motocicleta de corrida branca, preta e vermelha. O piloto da frente, em macacão branco e preto, está na moto. O piloto de trás, em macacão preto e vermelho, segura uma grande bandeira branca com a inscrição \"WORLD CHAMPION MOTO2 2X BACKFLIP\". Eles estão em uma pista de corrida com grama e barreiras laranja ao fundo.",
-    "nationality": "França",
     "team": "Ajo Motorsport",
     "wins": 7,
     "podiums": 10,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Fez história ao se tornar o primeiro piloto a conquistar o bicampeonato na categoria Moto2. Zarco superou uma forte concorrência para garantir seu segundo título consecutivo antes de subir para a MotoGP.",
+      "alt": "Dois pilotos de motovelocidade em uma motocicleta de corrida branca, preta e vermelha. O piloto da frente, em macacão branco e preto, está na moto. O piloto de trás, em macacão preto e vermelho, segura uma grande bandeira branca com a inscrição \"WORLD CHAMPION MOTO2 2X BACKFLIP\". Eles estão em uma pista de corrida com grama e barreiras laranja ao fundo.",
+      "nationality": "França"
+    },
+    "en": {
+      "description": "Made history by becoming the first rider to win back-to-back championships in the Moto2 class. Zarco overcame strong competition to secure his second consecutive title before moving up to MotoGP.",
+      "alt": "Two motorcycle racers on a white, black, and red racing motorcycle. The front rider, in a white and black suit, is on the bike. The back rider, in a black and red suit, holds a large white flag with the inscription \"WORLD CHAMPION MOTO2 2X BACKFLIP\". They are on a racetrack with grass and orange barriers in the background.",
+      "nationality": "France"
+    },
+    "es": {
+      "description": "Hizo historia al convertirse en el primer piloto en ganar dos campeonatos consecutivos en la categoría de Moto2. Zarco superó una fuerte competencia para asegurar su segundo título consecutivo antes de subir a MotoGP.",
+      "alt": "Dos pilotos de motociclismo en una motocicleta de carreras blanca, negra y roja. El piloto de adelante, con un mono blanco y negro, está en la moto. El piloto de atrás, con un mono negro y rojo, sostiene una gran bandera blanca con la inscripción \"WORLD CHAMPION MOTO2 2X BACKFLIP\". Están en una pista de carreras con césped y barreras naranjas al fondo.",
+      "nationality": "Francia"
+    }
   },
   {
     "name": "Brad Binder",
     "year": 2016,
-    "description": "Brad Binder sagrou-se campeão da Moto3 com uma performance dominante e memorável, incluindo uma vitória épica em Jerez, onde largou em último e ultrapassou todo o grid para vencer.",
     "category": "Moto3",
     "image": "https://www.motonline.com.br/noticia/wp-content/uploads/2020/08/Brad-Binder-Moto3-World-Champion-2016.jpg",
-    "alt": "Um grupo de pessoas, incluindo o piloto de motovelocidade que está sentado em uma motocicleta de corrida KTM vermelha. Ele veste um boné amarelo e uma camiseta branca, com as mãos erguidas em celebração, com o punho direito cerrado. Ao seu redor, membros da equipe sorriem e apontam para ele. À direita, há uma grande placa preta e dourada com \"MOTO3 WORLD CHAMPION 2017\" parcialmente visível.",
-    "nationality": "África do Sul",
     "team": "Red Bull KTM Ajo",
     "wins": 7,
     "podiums": 14,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Brad Binder sagrou-se campeão da Moto3 com uma performance dominante e memorável, incluindo uma vitória épica em Jerez, onde largou em último e ultrapassou todo o grid para vencer.",
+      "alt": "Um grupo de pessoas, incluindo o piloto de motovelocidade que está sentado em uma motocicleta de corrida KTM vermelha. Ele veste um boné amarelo e uma camiseta branca, com as mãos erguidas em celebração, com o punho direito cerrado. Ao seu redor, membros da equipe sorriem e apontam para ele. À direita, há uma grande placa preta e dourada com \"MOTO3 WORLD CHAMPION 2017\" parcialmente visível.",
+      "nationality": "África do Sul"
+    },
+    "en": {
+      "description": "Brad Binder became Moto3 champion with a dominant and memorable performance, including an epic victory in Jerez, where he started last and overtook the entire grid to win.",
+      "alt": "A group of people, including the motorcycle racer who is sitting on a red KTM racing motorcycle. He is wearing a yellow cap and a white t-shirt, with his hands raised in celebration, his right fist clenched. Around him, team members smile and point at him. To the right, there is a large black and gold sign with \"MOTO3 WORLD CHAMPION 2017\" partially visible.",
+      "nationality": "South Africa"
+    },
+    "es": {
+      "description": "Brad Binder se proclamó campeón de Moto3 con una actuación dominante y memorable, incluyendo una victoria épica en Jerez, donde partió último y adelantó a toda la parrilla para ganar.",
+      "alt": "Un grupo de personas, incluido el piloto de motociclismo que está sentado en una motocicleta de carreras KTM roja. Lleva una gorra amarilla y una camiseta blanca, con las manos levantadas en celebración, con el puño derecho cerrado. A su alrededor, los miembros del equipo sonríen y le señalan. A la derecha, hay un gran cartel negro y dorado con \"MOTO3 WORLD CHAMPION 2017\" parcialmente visible.",
+      "nationality": "Sudáfrica"
+    }
   },
   {
     "name": "Marc Márquez",
     "year": 2017,
-    "description": "Em uma das disputas mais emocionantes da era moderna, Márquez travou uma batalha intensa com Andrea Dovizioso durante toda a temporada, garantindo seu sexto título mundial na corrida final em Valência.",
     "category": "MotoGP",
     "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/11/12/15105000554096.jpg",
-    "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente de boné azul da Michelin e macacão de corrida branco, laranja e azul da Repsol Honda, ergue seu capacete dourado e preto na mão esquerda e um telefone na direita, em celebração. O macacão mostra um dado vermelho com o número 6 e a inscrição \"World Champion 2017\". Ele está em um pódio vermelho com \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" ao fundo.",
-    "nationality": "Espanha",
     "team": "Repsol Honda Team",
     "wins": 6,
     "podiums": 12,
-    "poles": 8
+    "poles": 8,
+    "pt": {
+      "description": "Em uma das disputas mais emocionantes da era moderna, Márquez travou uma batalha intensa com Andrea Dovizioso durante toda a temporada, garantindo seu sexto título mundial na corrida final em Valência.",
+      "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente de boné azul da Michelin e macacão de corrida branco, laranja e azul da Repsol Honda, ergue seu capacete dourado e preto na mão esquerda e um telefone na direita, em celebração. O macacão mostra um dado vermelho com o número 6 e a inscrição \"World Champion 2017\". Ele está em um pódio vermelho com \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" ao fundo.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "In one of the most exciting battles of the modern era, Márquez fought an intense battle with Andrea Dovizioso throughout the season, securing his sixth world title in the final race in Valencia.",
+      "alt": "MotoGP rider Marc Márquez, a smiling white man in a blue Michelin cap and a white, orange, and blue Repsol Honda racing suit, raises his gold and black helmet in his left hand and a phone in his right, in celebration. The suit shows a red die with the number 6 and the inscription \"World Champion 2017\". He is on a red podium with \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" in the background.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "En una de las disputas más emocionantes de la era moderna, Márquez libró una intensa batalla con Andrea Dovizioso durante toda la temporada, asegurando su sexto título mundial en la carrera final en Valencia.",
+      "alt": "El piloto de MotoGP Marc Márquez, un hombre blanco sonriente con una gorra azul de Michelin y un mono de carreras blanco, naranja y azul de Repsol Honda, levanta su casco dorado y negro en su mano izquierda y un teléfono en la derecha, en celebración. El mono muestra un dado rojo con el número 6 y la inscripción \"World Champion 2017\". Está en un podio rojo con \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\" al fondo.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Franco Morbidelli",
     "year": 2017,
-    "description": "Tornou-se o primeiro campeão italiano na categoria intermediária desde Marco Simoncelli (2008). Morbidelli mostrou grande maturidade e velocidade, vencendo 8 corridas para selar o título da Moto2.",
     "category": "Moto2",
     "image": "https://cdn-9.motorsport.com/images/amp/YNyX8AV2/s1000/moto2-sepang-2017-third-place-and-champion-franco-morbidelli-marc-vds-6863242.jpg",
-    "alt": "Franco Morbidelli no centro, sorrindo e segurando uma placa que diz \"WORLD CHAMPION 2017\", cercado por membros de sua equipe e apoiadores, que também sorriem e dão joinhas. Todos estão vestindo camisetas brancas, algumas com o número '1' estampado. A foto foi tirada em uma pista de corrida, e a traseira de uma motocicleta de corrida, com um capacete Monster Energy, é visível em primeiro plano.",
-    "nationality": "Itália",
     "team": "EG 0,0 Marc VDS",
     "wins": 8,
     "podiums": 12,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Tornou-se o primeiro campeão italiano na categoria intermediária desde Marco Simoncelli (2008). Morbidelli mostrou grande maturidade e velocidade, vencendo 8 corridas para selar o título da Moto2.",
+      "alt": "Franco Morbidelli no centro, sorrindo e segurando uma placa que diz \"WORLD CHAMPION 2017\", cercado por membros de sua equipe e apoiadores, que também sorriem e dão joinhas. Todos estão vestindo camisetas brancas, algumas com o número '1' estampado. A foto foi tirada em uma pista de corrida, e a traseira de uma motocicleta de corrida, com um capacete Monster Energy, é visível em primeiro plano.",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "Became the first Italian champion in the intermediate class since Marco Simoncelli (2008). Morbidelli showed great maturity and speed, winning 8 races to seal the Moto2 title.",
+      "alt": "Franco Morbidelli in the center, smiling and holding a sign that says \"WORLD CHAMPION 2017\", surrounded by his team members and supporters, who are also smiling and giving thumbs up. Everyone is wearing white t-shirts, some with the number '1' printed on them. The photo was taken on a racetrack, and the rear of a racing motorcycle, with a Monster Energy helmet, is visible in the foreground.",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "Se convirtió en el primer campeón italiano en la categoría intermedia desde Marco Simoncelli (2008). Morbidelli demostró una gran madurez y velocidad, ganando 8 carreras para sellar el título de Moto2.",
+      "alt": "Franco Morbidelli en el centro, sonriendo y sosteniendo un cartel que dice \"WORLD CHAMPION 2017\", rodeado por los miembros de su equipo y seguidores, que también sonríen y levantan los pulgares. Todos visten camisetas blancas, algunas con el número '1' impreso. La foto fue tomada en una pista de carreras, y la parte trasera de una motocicleta de carreras, con un casco de Monster Energy, es visible en primer plano.",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Joan Mir",
     "year": 2017,
-    "description": "Joan Mir teve uma temporada de domínio absoluto na Moto3, vencendo 10 corridas e estabelecendo um novo recorde de vitórias na categoria. Sua performance o coroou campeão com ampla vantagem.",
     "category": "Moto3",
     "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/d8c761ea-9c0a-4cb5-bf5c-7d217e02e468/SjusSYlX.jpg?width=1440&height=810",
-    "alt": "O piloto de motovelocidade Joan Mir, um homem branco sorridente de óculos de sol, boné amarelo com \"DUNLOP 2017 CHAMPION\" e camiseta branca e azul-clara, segura uma placa preta que diz \"WORLD CHAMPION 2017\". Ele está à frente de uma motocicleta de corrida azul-clara e branca, com logotipos de patrocinadores \"Leopard\" e \"Anonimo Watches\". Um homem barbudo sorri ao seu lado direito.",
-    "nationality": "Espanha",
     "team": "Leopard Racing",
     "wins": 10,
     "podiums": 13,
-    "poles": 1
+    "poles": 1,
+    "pt": {
+      "description": "Joan Mir teve uma temporada de domínio absoluto na Moto3, vencendo 10 corridas e estabelecendo um novo recorde de vitórias na categoria. Sua performance o coroou campeão com ampla vantagem.",
+      "alt": "O piloto de motovelocidade Joan Mir, um homem branco sorridente de óculos de sol, boné amarelo com \"DUNLOP 2017 CHAMPION\" e camiseta branca e azul-clara, segura uma placa preta que diz \"WORLD CHAMPION 2017\". Ele está à frente de uma motocicleta de corrida azul-clara e branca, com logotipos de patrocinadores \"Leopard\" e \"Anonimo Watches\". Um homem barbudo sorri ao seu lado direito.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Joan Mir had a season of absolute dominance in Moto3, winning 10 races and setting a new record for victories in the category. His performance crowned him champion with a wide margin.",
+      "alt": "Motorcycle racer Joan Mir, a smiling white man with sunglasses, a yellow cap with \"DUNLOP 2017 CHAMPION\" and a white and light blue t-shirt, holds a black sign that says \"WORLD CHAMPION 2017\". He is in front of a light blue and white racing motorcycle, with sponsor logos \"Leopard\" and \"Anonimo Watches\". A bearded man smiles to his right.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Joan Mir tuvo una temporada de dominio absoluto en Moto3, ganando 10 carreras y estableciendo un nuevo récord de victorias en la categoría. Su actuación lo coronó campeón con un amplio margen.",
+      "alt": "El piloto de motociclismo Joan Mir, un hombre blanco sonriente con gafas de sol, una gorra amarilla con \"DUNLOP 2017 CHAMPION\" y una camiseta blanca y azul claro, sostiene un cartel negro que dice \"WORLD CHAMPION 2017\". Está frente a una motocicleta de carreras azul claro y blanca, con los logotipos de los patrocinadores \"Leopard\" y \"Anonimo Watches\". Un hombre barbudo sonríe a su derecha.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Marc Márquez",
     "year": 2018,
-    "description": "Continuando seu domínio na categoria rainha, Márquez conquistou seu quinto título da MotoGP (sétimo no total) com uma combinação de velocidade e audácia, selando o campeonato novamente no Japão.",
     "category": "MotoGP",
     "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2018/10/21/5d7cdd42-b189-4bc0-984d-37cca2053bef/marc-marquez-japanese-motogp-2018",
-    "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente, ajoelha-se no pódio vermelho, com o punho esquerdo erguido em celebração e segurando seu capacete preto e dourado na mão direita. Ele veste um macacão de corrida branco, laranja e azul da Repsol Honda com o número 93. Confetes vermelhos caem ao redor, e fumaça branca sobe do chão do pódio, enquanto uma multidão desfocada assiste.",
-    "nationality": "Espanha",
     "team": "Repsol Honda Team",
     "wins": 9,
     "podiums": 14,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Continuando seu domínio na categoria rainha, Márquez conquistou seu quinto título da MotoGP (sétimo no total) com uma combinação de velocidade e audácia, selando o campeonato novamente no Japão.",
+      "alt": "O piloto de MotoGP Marc Márquez, um homem branco sorridente, ajoelha-se no pódio vermelho, com o punho esquerdo erguido em celebração e segurando seu capacete preto e dourado na mão direita. Ele veste um macacão de corrida branco, laranja e azul da Repsol Honda com o número 93. Confetes vermelhos caem ao redor, e fumaça branca sobe do chão do pódio, enquanto uma multidão desfocada assiste.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Continuing his dominance in the premier class, Márquez won his fifth MotoGP title (seventh overall) with a combination of speed and audacity, sealing the championship again in Japan.",
+      "alt": "MotoGP rider Marc Márquez, a smiling white man, kneels on the red podium, with his left fist raised in celebration and holding his black and gold helmet in his right hand. He is wearing a white, orange, and blue Repsol Honda racing suit with the number 93. Red confetti falls around, and white smoke rises from the podium floor, while a blurred crowd watches.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Continuando su dominio en la categoría reina, Márquez conquistó su quinto título de MotoGP (séptimo en total) con una combinación de velocidad y audacia, sellando el campeonato nuevamente en Japón.",
+      "alt": "El piloto de MotoGP Marc Márquez, un hombre blanco sonriente, se arrodilla en el podio rojo, con el puño izquierdo levantado en celebración y sosteniendo su casco negro y dorado en la mano derecha. Viste un mono de carreras blanco, naranja y azul de Repsol Honda con el número 93. Cae confeti rojo alrededor, y humo blanco se eleva del suelo del podio, mientras una multitud borrosa observa.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2018,
-    "description": "Em sua segunda temporada na Moto2, 'Pecco' Bagnaia brilhou, vencendo o campeonato pela equipe de Valentino Rossi. Sua performance dominante com 8 vitórias garantiu sua promoção para a MotoGP.",
     "category": "Moto2",
     "image": "https://cdn-9.motorsport.com/images/mgl/0L1rrkj2/s700/francesco-bagnaia-sky-racing--1.jpg",
-    "alt": "O piloto de motovelocidade Francesco Bagnaia, um homem branco sorridente com barba, vestido com um macacão de corrida preto e dourado da SKY, levanta seu capacete dourado e preto. Ele usa um boné amarelo com \"WORLD CHAMPION 2018 DUNLOP\". Uma mulher japonesa está parcialmente visível atrás dele. O fundo é um banner branco com \"SHELL MALAYSIA MOTORCYCLE GRAND PRIX\".",
-    "nationality": "Itália",
     "team": "Sky Racing Team VR46",
     "wins": 8,
     "podiums": 12,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Em sua segunda temporada na Moto2, 'Pecco' Bagnaia brilhou, vencendo o campeonato pela equipe de Valentino Rossi. Sua performance dominante com 8 vitórias garantiu sua promoção para a MotoGP.",
+      "alt": "O piloto de motovelocidade Francesco Bagnaia, um homem branco sorridente com barba, vestido com um macacão de corrida preto e dourado da SKY, levanta seu capacete dourado e preto. Ele usa um boné amarelo com \"WORLD CHAMPION 2018 DUNLOP\". Uma mulher japonesa está parcialmente visível atrás dele. O fundo é um banner branco com \"SHELL MALAYSIA MOTORCYCLE GRAND PRIX\".",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "In his second season in Moto2, 'Pecco' Bagnaia shone, winning the championship for Valentino Rossi's team. His dominant performance with 8 wins secured his promotion to MotoGP.",
+      "alt": "Motorcycle racer Francesco Bagnaia, a smiling white man with a beard, dressed in a black and gold SKY racing suit, lifts his gold and black helmet. He is wearing a yellow cap with \"WORLD CHAMPION 2018 DUNLOP\". A Japanese woman is partially visible behind him. The background is a white banner with \"SHELL MALAYSIA MOTORCYCLE GRAND PRIX\".",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "En su segunda temporada en Moto2, 'Pecco' Bagnaia brilló, ganando el campeonato para el equipo de Valentino Rossi. Su actuación dominante con 8 victorias aseguró su ascenso a MotoGP.",
+      "alt": "El piloto de motociclismo Francesco Bagnaia, un hombre blanco sonriente con barba, vestido con un mono de carreras negro y dorado de SKY, levanta su casco dorado y negro. Lleva una gorra amarilla con \"WORLD CHAMPION 2018 DUNLOP\". Una mujer japonesa es parcialmente visible detrás de él. El fondo es una pancarta blanca con \"SHELL MALAYSIA MOTORCYCLE GRAND PRIX\".",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Jorge Martín",
     "year": 2018,
-    "description": "Apelidado de 'Martinator', Jorge Martín superou uma lesão no meio da temporada para conquistar o título da Moto3 em uma batalha acirrada contra Marco Bezzecchi, mostrando grande resiliência.",
     "category": "Moto3",
     "image": "https://www.delconcausa.com/cdn/shop/articles/martin1-scaled.jpg?v=1679052857&width=1500",
-    "alt": "O piloto de motovelocidade Jorge Martín, um jovem sorridente de boné amarelo com \"DUNLOP WORLD CHAMPION 2018\", veste um macacão de corrida branco, azul e vermelho. Ele levanta seu capacete dourado com detalhes vermelhos em comemoração. À sua esquerda, há uma placa preta com \"WORLD CHAMPION 2018\" e o logotipo \"TEAM DELCONCA GRESINI Moto3\". O fundo é predominantemente amarelo com o logotipo da Shell.",
-    "nationality": "Espanha",
     "team": "Del Conca Gresini Moto3",
     "wins": 7,
     "podiums": 10,
-    "poles": 11
+    "poles": 11,
+    "pt": {
+      "description": "Apelidado de 'Martinator', Jorge Martín superou uma lesão no meio da temporada para conquistar o título da Moto3 em uma batalha acirrada contra Marco Bezzecchi, mostrando grande resiliência.",
+      "alt": "O piloto de motovelocidade Jorge Martín, um jovem sorridente de boné amarelo com \"DUNLOP WORLD CHAMPION 2018\", veste um macacão de corrida branco, azul e vermelho. Ele levanta seu capacete dourado com detalhes vermelhos em comemoração. À sua esquerda, há uma placa preta com \"WORLD CHAMPION 2018\" e o logotipo \"TEAM DELCONCA GRESINI Moto3\". O fundo é predominantemente amarelo com o logotipo da Shell.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Nicknamed 'Martinator', Jorge Martín overcame a mid-season injury to win the Moto3 title in a fierce battle against Marco Bezzecchi, showing great resilience.",
+      "alt": "Motorcycle racer Jorge Martín, a smiling young man in a yellow cap with \"DUNLOP WORLD CHAMPION 2018\", wears a white, blue, and red racing suit. He lifts his golden helmet with red details in celebration. To his left, there is a black sign with \"WORLD CHAMPION 2018\" and the \"TEAM DELCONCA GRESINI Moto3\" logo. The background is predominantly yellow with the Shell logo.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Apodado 'Martinator', Jorge Martín superó una lesión a mitad de temporada para ganar el título de Moto3 en una reñida batalla contra Marco Bezzecchi, demostrando una gran resiliencia.",
+      "alt": "El piloto de motociclismo Jorge Martín, un joven sonriente con una gorra amarilla con \"DUNLOP WORLD CHAMPION 2018\", viste un mono de carreras blanco, azul y rojo. Levanta su casco dorado con detalles rojos en celebración. A su izquierda, hay un cartel negro con \"WORLD CHAMPION 2018\" y el logotipo \"TEAM DELCONCA GRESINI Moto3\". El fondo es predominantemente amarillo con el logotipo de Shell.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Marc Márquez",
     "year": 2019,
-    "description": "Márquez teve uma das temporadas mais dominantes da história, conquistando seu oitavo título mundial. Ele terminou em primeiro ou segundo em todas as corridas que completou, somando um recorde de 420 pontos.",
     "category": "MotoGP",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Marc_M%C3%A1rquez_2019_Buriram_8.jpeg",
-    "alt": "O piloto de motovelocidade Marc Márquez, um homem branco sorridente de boné azul com o logotipo da Michelin, está sentado no pódio. Ele veste um macacão de corrida branco, laranja e azul da Repsol Honda e segura um capacete dourado e preto com o número 8 em uma mão e uma grande bola preta de bilhar com o número 8 na outra, celebrando sua oitava vitória no campeonato mundial.",
-    "nationality": "Espanha",
     "team": "Repsol Honda Team",
     "wins": 12,
     "podiums": 18,
-    "poles": 10
+    "poles": 10,
+    "pt": {
+      "description": "Márquez teve uma das temporadas mais dominantes da história, conquistando seu oitavo título mundial. Ele terminou em primeiro ou segundo em todas as corridas que completou, somando um recorde de 420 pontos.",
+      "alt": "O piloto de motovelocidade Marc Márquez, um homem branco sorridente de boné azul com o logotipo da Michelin, está sentado no pódio. Ele veste um macacão de corrida branco, laranja e azul da Repsol Honda e segura um capacete dourado e preto com o número 8 em uma mão e uma grande bola preta de bilhar com o número 8 na outra, celebrando sua oitava vitória no campeonato mundial.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Márquez had one of the most dominant seasons in history, winning his eighth world title. He finished first or second in every race he completed, scoring a record 420 points.",
+      "alt": "Motorcycle racer Marc Márquez, a smiling white man in a blue cap with the Michelin logo, is sitting on the podium. He is wearing a white, orange, and blue Repsol Honda racing suit and holding a gold and black helmet with the number 8 in one hand and a large black billiard ball with the number 8 in the other, celebrating his eighth world championship victory.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Márquez tuvo una de las temporadas más dominantes de la historia, ganando su octavo título mundial. Terminó primero o segundo en todas las carreras que completó, sumando un récord de 420 puntos.",
+      "alt": "El piloto de motociclismo Marc Márquez, un hombre blanco sonriente con una gorra azul con el logotipo de Michelin, está sentado en el podio. Viste un mono de carreras blanco, naranja y azul de Repsol Honda y sostiene un casco dorado y negro con el número 8 en una mano y una gran bola de billar negra con el número 8 en la otra, celebrando su octava victoria en el campeonato mundial.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Álex Márquez",
     "year": 2019,
-    "description": "Em um ano histórico para a família, Álex Márquez conquistou o título da Moto2, juntando-se ao seu irmão Marc (campeão da MotoGP) como campeões mundiais na mesma temporada.",
     "category": "Moto2",
     "image": "https://marcvds.com/uploads/2019/12/a9b00095-1024x683.jpg",
-    "alt": "O piloto de motovelocidade Álex Márquez, um homem branco sorridente, de boné amarelo e camiseta branca, está sentado com as pernas cruzadas no centro de um grande tapete circular que simula um alvo de dardos, com o texto \"ALEX MARQUEZ WINNER\". Ele tem os braços abertos em comemoração. À sua frente, estão um troféu prateado e seu capacete dourado. Atrás dele, uma motocicleta de corrida azul, vermelha e amarela, e uma placa azul com \"MARQUEZ 2019 MOTO2 WORLD CHAMPION\".",
-    "nationality": "Espanha",
     "team": "EG 0,0 Marc VDS",
     "wins": 5,
     "podiums": 10,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Em um ano histórico para a família, Álex Márquez conquistou o título da Moto2, juntando-se ao seu irmão Marc (campeão da MotoGP) como campeões mundiais na mesma temporada.",
+      "alt": "O piloto de motovelocidade Álex Márquez, um homem branco sorridente, de boné amarelo e camiseta branca, está sentado com as pernas cruzadas no centro de um grande tapete circular que simula um alvo de dardos, com o texto \"ALEX MARQUEZ WINNER\". Ele tem os braços abertos em comemoração. À sua frente, estão um troféu prateado e seu capacete dourado. Atrás dele, uma motocicleta de corrida azul, vermelha e amarela, e uma placa azul com \"MARQUEZ 2019 MOTO2 WORLD CHAMPION\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "In a historic year for the family, Álex Márquez won the Moto2 title, joining his brother Marc (MotoGP champion) as world champions in the same season.",
+      "alt": "Motorcycle racer Álex Márquez, a smiling white man, in a yellow cap and white t-shirt, is sitting cross-legged in the center of a large circular rug that simulates a dartboard, with the text \"ALEX MARQUEZ WINNER\". He has his arms open in celebration. In front of him are a silver trophy and his golden helmet. Behind him, a blue, red, and yellow racing motorcycle, and a blue sign with \"MARQUEZ 2019 MOTO2 WORLD CHAMPION\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "En un año histórico para la familia, Álex Márquez ganó el título de Moto2, uniéndose a su hermano Marc (campeón de MotoGP) como campeones mundiales en la misma temporada.",
+      "alt": "El piloto de motociclismo Álex Márquez, un hombre blanco sonriente, con una gorra amarilla y una camiseta blanca, está sentado con las piernas cruzadas en el centro de una gran alfombra circular que simula una diana, con el texto \"ALEX MARQUEZ WINNER\". Tiene los brazos abiertos en celebración. Frente a él hay un trofeo de plata y su casco dorado. Detrás de él, una motocicleta de carreras azul, roja y amarilla, y un cartel azul con \"MARQUEZ 2019 MOTO2 WORLD CHAMPION\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Lorenzo Dalla Porta",
     "year": 2019,
-    "description": "Com uma temporada marcada pela inteligência e consistência, Lorenzo Dalla Porta se tornou campeão da Moto3, sendo o piloto que mais pontuou e subiu ao pódio durante o ano.",
     "category": "Moto3",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbS7m5XhJY0oDAdZxcTVjyUMsw0Z2mtozfA&s",
-    "alt": "O piloto de motovelocidade Lorenzo Dalla Porta, um homem branco sorridente, usando um boné amarelo com \"DUNLOP GENERIC\" e uma camiseta branca com a inscrição \"WORLD CHAMPION\". Ele segura seu capacete preto com detalhes italianos e o número 1 dourado. Um fundo branco e vermelho com logos de patrocinadores é visível atrás dele.",
-    "nationality": "Itália",
     "team": "Leopard Racing",
     "wins": 4,
     "podiums": 11,
-    "poles": 1
+    "poles": 1,
+    "pt": {
+      "description": "Com uma temporada marcada pela inteligência e consistência, Lorenzo Dalla Porta se tornou campeão da Moto3, sendo o piloto que mais pontuou e subiu ao pódio durante o ano.",
+      "alt": "O piloto de motovelocidade Lorenzo Dalla Porta, um homem branco sorridente, usando um boné amarelo com \"DUNLOP GENERIC\" e uma camiseta branca com a inscrição \"WORLD CHAMPION\". Ele segura seu capacete preto com detalhes italianos e o número 1 dourado. Um fundo branco e vermelho com logos de patrocinadores é visível atrás dele.",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "With a season marked by intelligence and consistency, Lorenzo Dalla Porta became Moto3 champion, being the rider who scored the most points and podiums during the year.",
+      "alt": "Motorcycle racer Lorenzo Dalla Porta, a smiling white man, wearing a yellow cap with \"DUNLOP GENERIC\" and a white t-shirt with the inscription \"WORLD CHAMPION\". He holds his black helmet with Italian details and the golden number 1. A white and red background with sponsor logos is visible behind him.",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "Con una temporada marcada por la inteligencia y la consistencia, Lorenzo Dalla Porta se convirtió en campeón de Moto3, siendo el piloto que más puntos y podios sumó durante el año.",
+      "alt": "El piloto de motociclismo Lorenzo Dalla Porta, un hombre blanco sonriente, con una gorra amarilla con \"DUNLOP GENERIC\" y una camiseta blanca con la inscripción \"WORLD CHAMPION\". Sostiene su casco negro con detalles italianos y el número 1 dorado. Un fondo blanco y rojo con logotipos de patrocinadores es visible detrás de él.",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Joan Mir",
     "year": 2020,
-    "description": "Em uma temporada imprevisível e encurtada pela pandemia, Joan Mir e a Suzuki surpreenderam o mundo. Com uma consistência notável, ele conquistou o título da MotoGP, o primeiro da montadora em 20 anos.",
     "category": "MotoGP",
     "image": "https://cdn.crash.net/2025-01/Joan%20Mir.jpg?width=1600&aspect_ratio=1:1",
-    "alt": "O piloto de motovelocidade Joan Mir, um homem branco sorridente, veste um boné azul com o logotipo da Michelin e uma camiseta branca com o número 1 dourado. Ele segura uma grande placa preta com \"WORLD CHAMPION 2020\" acima da cabeça, enquanto também levanta uma garrafa de champanhe. O fundo é um pódio com uma multidão de pessoas desfocadas.",
-    "nationality": "Espanha",
     "team": "Team Suzuki Ecstar",
     "wins": 1,
     "podiums": 7,
-    "poles": 0
+    "poles": 0,
+    "pt": {
+      "description": "Em uma temporada imprevisível e encurtada pela pandemia, Joan Mir e a Suzuki surpreenderam o mundo. Com uma consistência notável, ele conquistou o título da MotoGP, o primeiro da montadora em 20 anos.",
+      "alt": "O piloto de motovelocidade Joan Mir, um homem branco sorridente, veste um boné azul com o logotipo da Michelin e uma camiseta branca com o número 1 dourado. Ele segura uma grande placa preta com \"WORLD CHAMPION 2020\" acima da cabeça, enquanto também levanta uma garrafa de champanhe. O fundo é um pódio com uma multidão de pessoas desfocadas.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "In an unpredictable season shortened by the pandemic, Joan Mir and Suzuki surprised the world. With remarkable consistency, he won the MotoGP title, the manufacturer's first in 20 years.",
+      "alt": "Motorcycle racer Joan Mir, a smiling white man, wears a blue cap with the Michelin logo and a white t-shirt with the golden number 1. He holds a large black sign with \"WORLD CHAMPION 2020\" above his head, while also lifting a bottle of champagne. The background is a podium with a blurred crowd of people.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "En una temporada impredecible y acortada por la pandemia, Joan Mir y Suzuki sorprendieron al mundo. Con una consistencia notable, ganó el título de MotoGP, el primero del fabricante en 20 años.",
+      "alt": "El piloto de motociclismo Joan Mir, un hombre blanco sonriente, lleva una gorra azul con el logotipo de Michelin y una camiseta blanca con el número 1 dorado. Sostiene un gran cartel negro con \"WORLD CHAMPION 2020\" sobre su cabeza, mientras también levanta una botella de champán. El fondo es un podio con una multitud de personas desenfocadas.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Enea Bastianini",
     "year": 2020,
-    "description": "Apelidado de 'La Bestia', Enea Bastianini emergiu como campeão da Moto2 em uma das temporadas mais equilibradas da história, superando seus rivais na última etapa em Portugal.",
     "category": "Moto2",
     "image": "https://bomdia.eu/luxemburgo/wp-content/uploads/sites/7/2020/11/DOC.20201122.30078830.JSG_0622.jpg",
-    "alt": "O piloto de motovelocidade Miguel Oliveira, um homem branco com cabelo comprido e sorrindo, veste um macacão de corrida azul, verde e branco. Ele usa um boné amarelo \"DUNLOP\" e faz um sinal de \"joinha\" com a mão direita, enquanto apoia o braço esquerdo em uma placa preta e verde fluorescente que exibe \"33 2020 moto2 WORLD\". O fundo é um banner preto com \"MOTOGP GRANDE PRÉMIO MEO DE PORTUGAL\".",
-    "nationality": "Itália",
     "team": "Italtrans Racing Team",
     "wins": 3,
     "podiums": 7,
-    "poles": 0
+    "poles": 0,
+    "pt": {
+      "description": "Apelidado de 'La Bestia', Enea Bastianini emergiu como campeão da Moto2 em uma das temporadas mais equilibradas da história, superando seus rivais na última etapa em Portugal.",
+      "alt": "O piloto de motovelocidade Miguel Oliveira, um homem branco com cabelo comprido e sorrindo, veste um macacão de corrida azul, verde e branco. Ele usa um boné amarelo \"DUNLOP\" e faz um sinal de \"joinha\" com a mão direita, enquanto apoia o braço esquerdo em uma placa preta e verde fluorescente que exibe \"33 2020 moto2 WORLD\". O fundo é um banner preto com \"MOTOGP GRANDE PRÉMIO MEO DE PORTUGAL\".",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "Nicknamed 'La Bestia', Enea Bastianini emerged as Moto2 champion in one of the most balanced seasons in history, overcoming his rivals in the final round in Portugal.",
+      "alt": "Motorcycle racer Miguel Oliveira, a smiling white man with long hair, wears a blue, green, and white racing suit. He wears a yellow \"DUNLOP\" cap and gives a thumbs-up with his right hand, while resting his left arm on a black and fluorescent green sign that displays \"33 2020 moto2 WORLD\". The background is a black banner with \"MOTOGP GRANDE PRÉMIO MEO DE PORTUGAL\".",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "Apodado 'La Bestia', Enea Bastianini se proclamó campeón de Moto2 en una de las temporadas más reñidas de la historia, superando a sus rivales en la última prueba en Portugal.",
+      "alt": "El piloto de motociclismo Miguel Oliveira, un hombre blanco sonriente con el pelo largo, viste un mono de carreras azul, verde y blanco. Lleva una gorra amarilla \"DUNLOP\" y hace un gesto de pulgar hacia arriba con la mano derecha, mientras apoya el brazo izquierdo en un cartel negro y verde fluorescente que muestra \"33 2020 moto2 WORLD\". El fondo es una pancarta negra con \"MOTOGP GRANDE PRÉMIO MEO DE PORTUGAL\".",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Albert Arenas",
     "year": 2020,
-    "description": "Albert Arenas conquistou o título da Moto3 em um final de temporada dramático. A decisão ficou para a última corrida em Portimão, onde ele superou Ai Ogura e Tony Arbolino por apenas quatro pontos.",
     "category": "Moto3",
     "image": "https://as.sobrenet.pt/s/image/tsr/brandm/content/1920x1280/q2acf2vxgzkzdib31tbudzatn22.jpg",
-    "alt": "O piloto de motovelocidade Albert Arenas, um homem branco de macacão de corrida branco, preto e vermelho, ergue seu capacete preto e dourado em comemoração, gritando de alegria. Ele está no pódio. Atrás dele, dois homens de máscara e um segurando uma placa preta e dourada com \"WORLD CHAMPION 2020 ARENAS ICECREAM FACTORY\". Outro homem à direita segura uma garrafa de champanhe.",
-    "nationality": "Espanha",
     "team": "Gaviota Aspar Team",
     "wins": 3,
     "podiums": 5,
-    "poles": 0
+    "poles": 0,
+    "pt": {
+      "description": "Albert Arenas conquistou o título da Moto3 em um final de temporada dramático. A decisão ficou para a última corrida em Portimão, onde ele superou Ai Ogura e Tony Arbolino por apenas quatro pontos.",
+      "alt": "O piloto de motovelocidade Albert Arenas, um homem branco de macacão de corrida branco, preto e vermelho, ergue seu capacete preto e dourado em comemoração, gritando de alegria. Ele está no pódio. Atrás dele, dois homens de máscara e um segurando uma placa preta e dourada com \"WORLD CHAMPION 2020 ARENAS ICECREAM FACTORY\". Outro homem à direita segura uma garrafa de champanhe.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "Albert Arenas won the Moto3 title in a dramatic season finale. The decision came down to the last race in Portimão, where he beat Ai Ogura and Tony Arbolino by just four points.",
+      "alt": "Motorcycle racer Albert Arenas, a white man in a white, black, and red racing suit, raises his black and gold helmet in celebration, shouting with joy. He is on the podium. Behind him, two men in masks and one holding a black and gold sign with \"WORLD CHAMPION 2020 ARENAS ICECREAM FACTORY\". Another man on the right holds a bottle of champagne.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Albert Arenas ganó el título de Moto3 en un final de temporada dramático. La decisión se redujo a la última carrera en Portimão, donde venció a Ai Ogura y Tony Arbolino por solo cuatro puntos.",
+      "alt": "El piloto de motociclismo Albert Arenas, un hombre blanco con un mono de carreras blanco, negro y rojo, levanta su casco negro y dorado en celebración, gritando de alegría. Está en el podio. Detrás de él, dos hombres con máscaras y uno sosteniendo un cartel negro y dorado con \"WORLD CHAMPION 2020 ARENAS ICECREAM FACTORY\". Otro hombre a la derecha sostiene una botella de champán.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Fabio Quartararo",
     "year": 2021,
-    "description": "Fabio Quartararo fez história ao se tornar o primeiro francês a vencer um campeonato mundial na categoria rainha. Pilotando pela Yamaha, ele mostrou velocidade e maturidade para garantir o título.",
     "category": "MotoGP",
     "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/04/26/foto-2_-fabio-quartararo-conquistou-o-campeonato-com-a-yamaha-em-2021-foto_reproducao_-motogp-_-u856bl9x9a2e.jpg",
-    "alt": "O piloto de motovelocidade Fabio Quartararo, um jovem sorridente, veste um macacão de corrida preto da Yamaha com o logotipo \"Monster Energy\". Ele levanta o dedo indicador direito em celebração e segura seu capacete dourado e preto, adornado com a inscrição \"WORLD CHAMPION 2021\" e uma coroa. Há partes de motocicletas de corrida azuis à esquerda e à direita, e confetes espalhados no chão.",
-    "nationality": "França",
     "team": "Monster Energy Yamaha MotoGP",
     "wins": 5,
     "podiums": 10,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "Fabio Quartararo fez história ao se tornar o primeiro francês a vencer um campeonato mundial na categoria rainha. Pilotando pela Yamaha, ele mostrou velocidade e maturidade para garantir o título.",
+      "alt": "O piloto de motovelocidade Fabio Quartararo, um jovem sorridente, veste um macacão de corrida preto da Yamaha com o logotipo \"Monster Energy\". Ele levanta o dedo indicador direito em celebração e segura seu capacete dourado e preto, adornado com a inscrição \"WORLD CHAMPION 2021\" e uma coroa. Há partes de motocicletas de corrida azuis à esquerda e à direita, e confetes espalhados no chão.",
+      "nationality": "França"
+    },
+    "en": {
+      "description": "Fabio Quartararo made history by becoming the first Frenchman to win a world championship in the premier class. Riding for Yamaha, he showed speed and maturity to secure the title.",
+      "alt": "Motorcycle racer Fabio Quartararo, a smiling young man, wears a black Yamaha racing suit with the \"Monster Energy\" logo. He raises his right index finger in celebration and holds his gold and black helmet, adorned with the inscription \"WORLD CHAMPION 2021\" and a crown. There are parts of blue racing motorcycles to the left and right, and confetti scattered on the floor.",
+      "nationality": "France"
+    },
+    "es": {
+      "description": "Fabio Quartararo hizo historia al convertirse en el primer francés en ganar un campeonato mundial en la categoría reina. Pilotando para Yamaha, demostró velocidad y madurez para asegurar el título.",
+      "alt": "El piloto de motociclismo Fabio Quartararo, un joven sonriente, viste un mono de carreras negro de Yamaha con el logotipo \"Monster Energy\". Levanta el dedo índice derecho en celebración y sostiene su casco dorado y negro, adornado con la inscripción \"WORLD CHAMPION 2021\" y una corona. Hay partes de motocicletas de carreras azules a la izquierda y a la derecha, y confeti esparcido por el suelo.",
+      "nationality": "Francia"
+    }
   },
   {
     "name": "Remy Gardner",
     "year": 2021,
-    "description": "Seguindo os passos de seu pai, Wayne Gardner (campeão de 500cc em 1987), Remy Gardner conquistou o título da Moto2 em uma batalha intensa com seu companheiro de equipe, Raúl Fernández.",
     "category": "Moto2",
     "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/18/42eb1709-3dd5-4226-b836-4e64bcda8afe/mcdC93sT.jpg?width=1440&height=810",
-    "alt": "O piloto de motovelocidade Remy Gardner, um homem branco com barba por fazer, sorri para a câmera enquanto aponta para cima com o dedo indicador direito. Ele usa um boné amarelo com \"DUNLOP WORLD CHAMPION\" e uma camiseta branca com logotipos de patrocinadores. Na mão esquerda, ele segura um capacete de corrida preto e colorido com a inscrição \"Remy Gardner WORLD CHAMPION 2021\" em letras douradas. Há uma multidão desfocada ao fundo.",
-    "nationality": "Austrália",
     "team": "Red Bull KTM Ajo",
     "wins": 5,
     "podiums": 12,
-    "poles": 3
+    "poles": 3,
+    "pt": {
+      "description": "Seguindo os passos de seu pai, Wayne Gardner (campeão de 500cc em 1987), Remy Gardner conquistou o título da Moto2 em uma batalha intensa com seu companheiro de equipe, Raúl Fernández.",
+      "alt": "O piloto de motovelocidade Remy Gardner, um homem branco com barba por fazer, sorri para a câmera enquanto aponta para cima com o dedo indicador direito. Ele usa um boné amarelo com \"DUNLOP WORLD CHAMPION\" e uma camiseta branca com logotipos de patrocinadores. Na mão esquerda, ele segura um capacete de corrida preto e colorido com a inscrição \"Remy Gardner WORLD CHAMPION 2021\" em letras douradas. Há uma multidão desfocada ao fundo.",
+      "nationality": "Austrália"
+    },
+    "en": {
+      "description": "Following in the footsteps of his father, Wayne Gardner (500cc champion in 1987), Remy Gardner won the Moto2 title in an intense battle with his teammate, Raúl Fernández.",
+      "alt": "Motorcycle racer Remy Gardner, a white man with stubble, smiles at the camera while pointing up with his right index finger. He is wearing a yellow cap with \"DUNLOP WORLD CHAMPION\" and a white t-shirt with sponsor logos. In his left hand, he holds a black and colorful racing helmet with the inscription \"Remy Gardner WORLD CHAMPION 2021\" in golden letters. There is a blurred crowd in the background.",
+      "nationality": "Australia"
+    },
+    "es": {
+      "description": "Siguiendo los pasos de su padre, Wayne Gardner (campeón de 500cc en 1987), Remy Gardner ganó el título de Moto2 en una intensa batalla con su compañero de equipo, Raúl Fernández.",
+      "alt": "El piloto de motociclismo Remy Gardner, un hombre blanco con barba incipiente, sonríe a la cámara mientras señala hacia arriba con el dedo índice derecho. Lleva una gorra amarilla con \"DUNLOP WORLD CHAMPION\" y una camiseta blanca con logotipos de patrocinadores. En su mano izquierda, sostiene un casco de carreras negro y colorido con la inscripción \"Remy Gardner WORLD CHAMPION 2021\" en letras doradas. Hay una multitud borrosa al fondo.",
+      "nationality": "Australia"
+    }
   },
   {
     "name": "Pedro Acosta",
     "year": 2021,
-    "description": "O 'Tubarão de Mazarrón' chocou o mundo ao vencer o campeonato da Moto3 em sua temporada de estreia. Acosta mostrou um talento geracional, com performances espetaculares como a vitória em Doha largando do pit lane.",
     "category": "Moto3",
     "image": "https://www.grandepremio.com.br/cdn-cgi/image/width=1200,height=675,fit=contain,gravity=0.5x0.5,quality=75,format=webp/wp-content/uploads/2021/11/000_9R846U.jpg",
-    "alt": "O piloto de motovelocidade Pedro Acosta, um jovem sorridente de boné amarelo, vestido com um macacão de corrida laranja e preto, segura um grande pôster que exibe uma imagem dele mesmo com os braços erguidos e a inscrição \"WORLD CHAMPION 2021 ACOSTA #KTMMoto3 WorldChampion21 #ReadyToRace KTM Factory Racing\". Ele está no pódio, e o pôster cobre parte de seu corpo.",
-    "nationality": "Espanha",
     "team": "Red Bull KTM Ajo",
     "wins": 6,
     "podiums": 8,
-    "poles": 1
+    "poles": 1,
+    "pt": {
+      "description": "O 'Tubarão de Mazarrón' chocou o mundo ao vencer o campeonato da Moto3 em sua temporada de estreia. Acosta mostrou um talento geracional, com performances espetaculares como a vitória em Doha largando do pit lane.",
+      "alt": "O piloto de motovelocidade Pedro Acosta, um jovem sorridente de boné amarelo, vestido com um macacão de corrida laranja e preto, segura um grande pôster que exibe uma imagem dele mesmo com os braços erguidos e a inscrição \"WORLD CHAMPION 2021 ACOSTA #KTMMoto3 WorldChampion21 #ReadyToRace KTM Factory Racing\". Ele está no pódio, e o pôster cobre parte de seu corpo.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "The 'Shark of Mazarrón' shocked the world by winning the Moto3 championship in his debut season. Acosta showed generational talent, with spectacular performances like the victory in Doha starting from the pit lane.",
+      "alt": "Motorcycle racer Pedro Acosta, a smiling young man in a yellow cap, dressed in an orange and black racing suit, holds a large poster displaying an image of himself with his arms raised and the inscription \"WORLD CHAMPION 2021 ACOSTA #KTMMoto3 WorldChampion21 #ReadyToRace KTM Factory Racing\". He is on the podium, and the poster covers part of his body.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "El 'Tiburón de Mazarrón' sorprendió al mundo al ganar el campeonato de Moto3 en su temporada de debut. Acosta demostró un talento generacional, con actuaciones espectaculares como la victoria en Doha saliendo desde el pit lane.",
+      "alt": "El piloto de motociclismo Pedro Acosta, un joven sonriente con una gorra amarilla, vestido con un mono de carreras naranja y negro, sostiene un gran póster que muestra una imagen de sí mismo con los brazos levantados y la inscripción \"WORLD CHAMPION 2021 ACOSTA #KTMMoto3 WorldChampion21 #ReadyToRace KTM Factory Racing\". Está en el podio, y el póster cubre parte de su cuerpo.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2022,
-    "description": "Em uma virada histórica, 'Pecco' Bagnaia reverteu um déficit de 91 pontos para Fabio Quartararo e conquistou o título para a Ducati, o primeiro da montadora desde 2007 e o primeiro de um piloto italiano em moto italiana desde 1972.",
     "category": "MotoGP",
     "image": "https://cdn-4.motorsport.com/images/mgl/6AEoEoo6/s8/francesco-bagnaia-ducati-team-1.jpg",
-    "alt": "O piloto de MotoGP Francesco Bagnaia, sorridente e vestido com um macacão de corrida vermelho e azul da Ducati, levanta seu capacete preto com detalhes coloridos e faz o sinal de número um com o dedo indicador da mão direita. Ele está em um pódio, e à sua esquerda, uma grande placa preta com inscrições douradas \"2022 MotoGP WORLD CHAMPION\" é visível. O fundo é vermelho com a inscrição \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
-    "nationality": "Itália",
     "team": "Ducati Lenovo Team",
     "wins": 7,
     "podiums": 10,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "Em uma virada histórica, 'Pecco' Bagnaia reverteu um déficit de 91 pontos para Fabio Quartararo e conquistou o título para a Ducati, o primeiro da montadora desde 2007 e o primeiro de um piloto italiano em moto italiana desde 1972.",
+      "alt": "O piloto de MotoGP Francesco Bagnaia, sorridente e vestido com um macacão de corrida vermelho e azul da Ducati, levanta seu capacete preto com detalhes coloridos e faz o sinal de número um com o dedo indicador da mão direita. Ele está em um pódio, e à sua esquerda, uma grande placa preta com inscrições douradas \"2022 MotoGP WORLD CHAMPION\" é visível. O fundo é vermelho com a inscrição \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "In a historic comeback, 'Pecco' Bagnaia overturned a 91-point deficit to Fabio Quartararo and won the title for Ducati, the manufacturer's first since 2007 and the first for an Italian rider on an Italian bike since 1972.",
+      "alt": "MotoGP rider Francesco Bagnaia, smiling and dressed in a red and blue Ducati racing suit, lifts his black helmet with colorful details and makes the number one sign with his right index finger. He is on a podium, and to his left, a large black sign with golden inscriptions \"2022 MotoGP WORLD CHAMPION\" is visible. The background is red with the inscription \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "En una remontada histórica, 'Pecco' Bagnaia revirtió un déficit de 91 puntos sobre Fabio Quartararo y ganó el título para Ducati, el primero del fabricante desde 2007 y el primero de un piloto italiano en una moto italiana desde 1972.",
+      "alt": "El piloto de MotoGP Francesco Bagnaia, sonriente y vestido con un mono de carreras rojo y azul de Ducati, levanta su casco negro con detalles de colores y hace la señal de número uno con el dedo índice de la mano derecha. Está en un podio, y a su izquierda, un gran cartel negro con inscripciones doradas \"2022 MotoGP WORLD CHAMPION\" es visible. El fondo es rojo con la inscripción \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Augusto Fernández",
     "year": 2022,
-    "description": "Após uma temporada de grande consistência e batalhas emocionantes com Ai Ogura, Augusto Fernández sagrou-se campeão da Moto2 na última etapa em Valência, garantindo sua vaga na MotoGP.",
     "category": "Moto2",
     "image": "https://s7g10.scene7.com/is/image/ktm/AF_VAL_?wid=1000&dpr=off",
-    "alt": "O piloto de motovelocidade Augusto Fernández, um homem sorridente de óculos escuros, boné amarelo e macacão de corrida dourado e preto da KTM, ergue o punho direito em comemoração. Ele segura seu capacete preto e dourado com a inscrição \"WORLD CHAMPION\" na mão esquerda, com a boca aberta em um grito de alegria. Ele está em um pódio vermelho com a inscrição \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
-    "nationality": "Espanha",
     "team": "Red Bull KTM Ajo",
     "wins": 4,
     "podiums": 9,
-    "poles": 2
+    "poles": 2,
+    "pt": {
+      "description": "Após uma temporada de grande consistência e batalhas emocionantes com Ai Ogura, Augusto Fernández sagrou-se campeão da Moto2 na última etapa em Valência, garantindo sua vaga na MotoGP.",
+      "alt": "O piloto de motovelocidade Augusto Fernández, um homem sorridente de óculos escuros, boné amarelo e macacão de corrida dourado e preto da KTM, ergue o punho direito em comemoração. Ele segura seu capacete preto e dourado com a inscrição \"WORLD CHAMPION\" na mão esquerda, com a boca aberta em um grito de alegria. Ele está em um pódio vermelho com a inscrição \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "After a season of great consistency and exciting battles with Ai Ogura, Augusto Fernández became Moto2 champion in the final round in Valencia, securing his spot in MotoGP.",
+      "alt": "Motorcycle racer Augusto Fernández, a smiling man with sunglasses, a yellow cap, and a gold and black KTM racing suit, raises his right fist in celebration. He holds his black and gold helmet with the inscription \"WORLD CHAMPION\" in his left hand, his mouth open in a shout of joy. He is on a red podium with the inscription \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Tras una temporada de gran consistencia y emocionantes batallas con Ai Ogura, Augusto Fernández se proclamó campeón de Moto2 en la última prueba en Valencia, asegurando su plaza en MotoGP.",
+      "alt": "El piloto de motociclismo Augusto Fernández, un hombre sonriente con gafas de sol, una gorra amarilla y un mono de carreras dorado y negro de KTM, levanta el puño derecho en celebración. Sostiene su casco negro y dorado con la inscripción \"WORLD CHAMPION\" en la mano izquierda, con la boca abierta en un grito de alegría. Está en un podio rojo con la inscripción \"GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Izan Guevara",
     "year": 2022,
-    "description": "Com um estilo de pilotagem agressivo e veloz, Izan Guevara dominou a temporada da Moto3, conquistando o título com duas corridas de antecedência na Austrália.",
     "category": "Moto3",
     "image": "https://thumbs.web.sapo.io/?W=800&H=0&delay_optim=1&epic=ODZleoXqbqVoHi1pZ81L2/mq0kxQxrl5oNjDMO4xEv8KEK0dybEy6rUXgGCVrgPIpjkk07hibH3m/lqMopD4VjL+EfeCZGa2i3NXsXRu4/GrtS0=",
-    "alt": "O piloto de motovelocidade Izan Guevara, um jovem de óculos escuros e boné amarelo, veste um macacão de corrida branco e vermelho. Ele sorri enquanto segura um grande disco prateado circular em uma mão e um capacete dourado e preto com \"WORLD CHAMPION\" na outra. À esquerda, uma placa preta e dourada mostra \"2022 moto3 WORLD\". O fundo é um pódio branco com a inscrição \"INTERNATIONAL MOTOCYCLISME\".",
-    "nationality": "Espanha",
     "team": "Valresa GasGas Aspar Team",
     "wins": 7,
     "podiums": 12,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "Com um estilo de pilotagem agressivo e veloz, Izan Guevara dominou a temporada da Moto3, conquistando o título com duas corridas de antecedência na Austrália.",
+      "alt": "O piloto de motovelocidade Izan Guevara, um jovem de óculos escuros e boné amarelo, veste um macacão de corrida branco e vermelho. Ele sorri enquanto segura um grande disco prateado circular em uma mão e um capacete dourado e preto com \"WORLD CHAMPION\" na outra. À esquerda, uma placa preta e dourada mostra \"2022 moto3 WORLD\". O fundo é um pódio branco com a inscrição \"INTERNATIONAL MOTOCYCLISME\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "With an aggressive and fast riding style, Izan Guevara dominated the Moto3 season, winning the title with two races to spare in Australia.",
+      "alt": "Motorcycle racer Izan Guevara, a young man with sunglasses and a yellow cap, wears a white and red racing suit. He smiles while holding a large circular silver disc in one hand and a gold and black helmet with \"WORLD CHAMPION\" in the other. To the left, a black and gold sign shows \"2022 moto3 WORLD\". The background is a white podium with the inscription \"INTERNATIONAL MOTOCYCLISME\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Con un estilo de pilotaje agresivo y veloz, Izan Guevara dominó la temporada de Moto3, conquistando el título a falta de dos carreras en Australia.",
+      "alt": "El piloto de motociclismo Izan Guevara, un joven con gafas de sol y una gorra amarilla, viste un mono de carreras blanco y rojo. Sonríe mientras sostiene un gran disco circular de plata en una mano y un casco dorado y negro con \"WORLD CHAMPION\" en la otra. A la izquierda, un cartel negro y dorado muestra \"2022 moto3 WORLD\". El fondo es un podio blanco con la inscripción \"INTERNATIONAL MOTOCYCLISME\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Francesco Bagnaia",
     "year": 2023,
-    "description": "Bagnaia defendeu seu título em uma temporada marcada pela rivalidade com Jorge Martín e pela introdução das Corridas Sprint. Ele superou a pressão e uma lesão grave para se tornar bicampeão na última etapa.",
     "category": "MotoGP",
     "image": "https://www.grandepremio.com.br/wp-content/uploads/2023/11/F_3yjyyWMAAxzD9-1024x684.jpeg",
-    "alt": "O piloto de MotoGP Francesco Bagnaia, vestido com um macacão de corrida vermelho e azul da Ducati, está no pódio. Ele segura uma grande placa preta e dourada que diz \"2023 MotoGP WORLD CHAMPION\" e faz uma careta divertida, mostrando a língua. Ele usa um boné azul com o logo da Michelin.",
-    "nationality": "Itália",
     "team": "Ducati Lenovo Team",
     "wins": 7,
     "podiums": 15,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Bagnaia defendeu seu título em uma temporada marcada pela rivalidade com Jorge Martín e pela introdução das Corridas Sprint. Ele superou a pressão e uma lesão grave para se tornar bicampeão na última etapa.",
+      "alt": "O piloto de MotoGP Francesco Bagnaia, vestido com um macacão de corrida vermelho e azul da Ducati, está no pódio. Ele segura uma grande placa preta e dourada que diz \"2023 MotoGP WORLD CHAMPION\" e faz uma careta divertida, mostrando a língua. Ele usa um boné azul com o logo da Michelin.",
+      "nationality": "Itália"
+    },
+    "en": {
+      "description": "Bagnaia defended his title in a season marked by the rivalry with Jorge Martín and the introduction of Sprint Races. He overcame pressure and a serious injury to become a two-time champion in the final round.",
+      "alt": "MotoGP rider Francesco Bagnaia, dressed in a red and blue Ducati racing suit, is on the podium. He holds a large black and gold sign that says \"2023 MotoGP WORLD CHAMPION\" and makes a funny face, sticking out his tongue. He is wearing a blue cap with the Michelin logo.",
+      "nationality": "Italy"
+    },
+    "es": {
+      "description": "Bagnaia defendió su título en una temporada marcada por la rivalidad con Jorge Martín y la introducción de las Carreras Sprint. Superó la presión y una grave lesión para convertirse en bicampeón en la última prueba.",
+      "alt": "El piloto de MotoGP Francesco Bagnaia, vestido con un mono de carreras rojo y azul de Ducati, está en el podio. Sostiene un gran cartel negro y dorado que dice \"2023 MotoGP WORLD CHAMPION\" y hace una cara divertida, sacando la lengua. Lleva una gorra azul con el logo de Michelin.",
+      "nationality": "Italia"
+    }
   },
   {
     "name": "Pedro Acosta",
     "year": 2023,
-    "description": "Em apenas sua segunda temporada na Moto2, Pedro Acosta demonstrou novamente seu talento excepcional, conquistando seu segundo título mundial com uma performance dominante ao longo do ano.",
     "category": "Moto2",
     "image": "https://www.mcnews.com.au/wp-content/uploads/2023/11/2023-Moto2-World-Champion-Pedro-Acosta-10.jpg",
-    "alt": "O piloto de motovelocidade Pedro Acosta, um jovem sorridente de cabelo espetado, vestido com um macacão laranja, preto e branco, aponta para cima com o dedo indicador esquerdo. Ele está segurando um capacete colorido e chamativo com \"WORLD CHAMPION\" e \"GIVES YOU WINGS\" em letras douradas. Há um pódio ao fundo, com a inscrição \"Moto2 World Champion 2023\".",
-    "nationality": "Espanha",
     "team": "Red Bull KTM Ajo",
     "wins": 7,
     "podiums": 14,
-    "poles": 3
+    "poles": 3,
+    "pt": {
+      "description": "Em apenas sua segunda temporada na Moto2, Pedro Acosta demonstrou novamente seu talento excepcional, conquistando seu segundo título mundial com uma performance dominante ao longo do ano.",
+      "alt": "O piloto de motovelocidade Pedro Acosta, um jovem sorridente de cabelo espetado, vestido com um macacão laranja, preto e branco, aponta para cima com o dedo indicador esquerdo. Ele está segurando um capacete colorido e chamativo com \"WORLD CHAMPION\" e \"GIVES YOU WINGS\" em letras douradas. Há um pódio ao fundo, com a inscrição \"Moto2 World Champion 2023\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "In just his second season in Moto2, Pedro Acosta once again demonstrated his exceptional talent, winning his second world title with a dominant performance throughout the year.",
+      "alt": "Motorcycle racer Pedro Acosta, a smiling young man with spiky hair, dressed in an orange, black, and white suit, points up with his left index finger. He is holding a colorful and eye-catching helmet with \"WORLD CHAMPION\" and \"GIVES YOU WINGS\" in golden letters. There is a podium in the background, with the inscription \"Moto2 World Champion 2023\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "En solo su segunda temporada en Moto2, Pedro Acosta demostró una vez más su talento excepcional, ganando su segundo título mundial con una actuación dominante durante todo el año.",
+      "alt": "El piloto de motociclismo Pedro Acosta, un joven sonriente con el pelo de punta, vestido con un mono naranja, negro y blanco, señala hacia arriba con el dedo índice izquierdo. Sostiene un casco colorido y llamativo con \"WORLD CHAMPION\" y \"GIVES YOU WINGS\" en letras doradas. Hay un podio al fondo, con la inscripción \"Moto2 World Champion 2023\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Jaume Masià",
     "year": 2023,
-    "description": "Após várias temporadas na categoria, o experiente Jaume Masià finalmente conquistou o cobiçado título da Moto3, usando sua consistência e velocidade para superar os rivais em um ano muito disputado.",
     "category": "Moto3",
     "image": "https://kytasia.com/wp-content/uploads/2024/04/Masia-champion.webp",
-    "alt": "O piloto de motovelocidade Jaume Masià, um homem sorridente de boné amarelo, sentado no pódio com um macacão azul-claro, amarelo e branco. Ele aponta para cima com o dedo indicador direito e segura seu capacete preto e dourado com a inscrição \"WORLD CHAMPION\" na mão esquerda. Atrás dele, uma placa preta e dourada com a palavra \"WORLD CHAMPION\" e um grande troféu dourado. O fundo é um banner da \"QATAR AIRWAYS GRAND PRIX OF QATAR 2023\".",
-    "nationality": "Espanha",
     "team": "Leopard Racing",
     "wins": 4,
     "podiums": 10,
-    "poles": 6
+    "poles": 6,
+    "pt": {
+      "description": "Após várias temporadas na categoria, o experiente Jaume Masià finalmente conquistou o cobiçado título da Moto3, usando sua consistência e velocidade para superar os rivais em um ano muito disputado.",
+      "alt": "O piloto de motovelocidade Jaume Masià, um homem sorridente de boné amarelo, sentado no pódio com um macacão azul-claro, amarelo e branco. Ele aponta para cima com o dedo indicador direito e segura seu capacete preto e dourado com a inscrição \"WORLD CHAMPION\" na mão esquerda. Atrás dele, uma placa preta e dourada com a palavra \"WORLD CHAMPION\" e um grande troféu dourado. O fundo é um banner da \"QATAR AIRWAYS GRAND PRIX OF QATAR 2023\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "After several seasons in the category, the experienced Jaume Masià finally won the coveted Moto3 title, using his consistency and speed to overcome rivals in a very competitive year.",
+      "alt": "Motorcycle racer Jaume Masià, a smiling man in a yellow cap, sitting on the podium in a light blue, yellow, and white suit. He points up with his right index finger and holds his black and gold helmet with the inscription \"WORLD CHAMPION\" in his left hand. Behind him, a black and gold sign with the word \"WORLD CHAMPION\" and a large golden trophy. The background is a banner for the \"QATAR AIRWAYS GRAND PRIX OF QATAR 2023\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Tras varias temporadas en la categoría, el experimentado Jaume Masià finalmente ganó el codiciado título de Moto3, usando su consistencia y velocidad para superar a sus rivales en un año muy competitivo.",
+      "alt": "El piloto de motociclismo Jaume Masià, un hombre sonriente con una gorra amarilla, sentado en el podio con un mono azul claro, amarillo y blanco. Señala hacia arriba con el dedo índice derecho y sostiene su casco negro y dorado con la inscripción \"WORLD CHAMPION\" en la mano izquierda. Detrás de él, un cartel negro y dorado con la palabra \"WORLD CHAMPION\" y un gran trofeo dorado. El fondo es una pancarta del \"QATAR AIRWAYS GRAND PRIX OF QATAR 2023\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Jorge Martín",
     "year": 2024,
-    "description": "Após ser vice-campeão em 2023, Jorge Martín finalmente alcançou a glória máxima, tornando-se campeão mundial de MotoGP. Com velocidade explosiva, ele se tornou o primeiro campeão por uma equipe satélite na era moderna.",
     "category": "MotoGP",
     "image": "https://cdn.motorsport.com/images/mgl/2eAoNXb2/s1000/jorge-martin-pramac-racing.jpg",
-    "alt": "Um piloto de motovelocidade de lado, vestido em um macacão roxo, preto e vermelho da Pramac Ducati, levanta uma garrafa de champanhe e aponta para cima com a outra mão. Ele está em um pódio sob uma grande faixa branca com \"2024 MotoGP\" e a palavra \"WORLD\" parcialmente visível. À direita, há uma placa laranja e preta com o número \"89\" e \"2024 motoGP\".",
-    "nationality": "Espanha",
     "team": "Prima Pramac Racing",
     "wins": 3,
     "podiums": 13,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Após ser vice-campeão em 2023, Jorge Martín finalmente alcançou a glória máxima, tornando-se campeão mundial de MotoGP. Com velocidade explosiva, ele se tornou o primeiro campeão por uma equipe satélite na era moderna.",
+      "alt": "Um piloto de motovelocidade de lado, vestido em um macacão roxo, preto e vermelho da Pramac Ducati, levanta uma garrafa de champanhe e aponta para cima com a outra mão. Ele está em um pódio sob uma grande faixa branca com \"2024 MotoGP\" e a palavra \"WORLD\" parcialmente visível. À direita, há uma placa laranja e preta com o número \"89\" e \"2024 motoGP\".",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "After being runner-up in 2023, Jorge Martín finally achieved ultimate glory, becoming MotoGP world champion. With explosive speed, he became the first satellite team champion in the modern era.",
+      "alt": "A motorcycle racer from the side, dressed in a purple, black, and red Pramac Ducati suit, lifts a bottle of champagne and points up with the other hand. He is on a podium under a large white banner with \"2024 MotoGP\" and the word \"WORLD\" partially visible. To the right, there is an orange and black sign with the number \"89\" and \"2024 motoGP\".",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Tras ser subcampeón en 2023, Jorge Martín finalmente alcanzó la gloria máxima, convirtiéndose en campeón mundial de MotoGP. Con una velocidad explosiva, se convirtió en el primer campeón de un equipo satélite en la era moderna.",
+      "alt": "Un piloto de motociclismo de lado, vestido con un mono morado, negro y rojo de Pramac Ducati, levanta una botella de champán y señala hacia arriba con la otra mano. Está en un podio bajo una gran pancarta blanca con \"2024 MotoGP\" y la palabra \"WORLD\" parcialmente visible. A la derecha, hay un cartel naranja y negro con el número \"89\" y \"2024 motoGP\".",
+      "nationality": "España"
+    }
   },
   {
     "name": "Ai Ogura",
     "year": 2024,
-    "description": "Depois de quase vencer em 2022, Ai Ogura realizou seu sonho e se tornou o primeiro campeão mundial japonês na Moto2. Sua pilotagem suave e inteligente o levou ao título em uma temporada consistente.",
     "category": "Moto2",
     "image": "https://imagenes.heraldo.es/files/image_990_556/uploads/imagenes/2024/10/27/motorcycling-grand-prix-of-thailand-race.jpeg",
-    "alt": "O piloto de motovelocidade Ai Ogura, um homem asiático sorridente, vestido com um macacão de corrida azul marinho e branco, levanta os braços em comemoração, segurando seu capacete dourado e preto na mão esquerda. Ele está no pódio com uma placa preta e dourada com a inscrição \"OGURA 2024 moto2 WORLD CHAMPION\" ao seu lado direito. O fundo é verde com logos \"PT\".",
-    "nationality": "Japão",
     "team": "MT Helmets - MSi",
     "wins": 3,
     "podiums": 8,
-    "poles": 2
+    "poles": 2,
+    "pt": {
+      "description": "Depois de quase vencer em 2022, Ai Ogura realizou seu sonho e se tornou o primeiro campeão mundial japonês na Moto2. Sua pilotagem suave e inteligente o levou ao título em uma temporada consistente.",
+      "alt": "O piloto de motovelocidade Ai Ogura, um homem asiático sorridente, vestido com um macacão de corrida azul marinho e branco, levanta os braços em comemoração, segurando seu capacete dourado e preto na mão esquerda. Ele está no pódio com uma placa preta e dourada com a inscrição \"OGURA 2024 moto2 WORLD CHAMPION\" ao seu lado direito. O fundo é verde com logos \"PT\".",
+      "nationality": "Japão"
+    },
+    "en": {
+      "description": "After nearly winning in 2022, Ai Ogura fulfilled his dream and became the first Japanese world champion in Moto2. His smooth and intelligent riding led him to the title in a consistent season.",
+      "alt": "Motorcycle racer Ai Ogura, a smiling Asian man dressed in a navy blue and white racing suit, raises his arms in celebration, holding his gold and black helmet in his left hand. He is on the podium with a black and gold sign with the inscription \"OGURA 2024 moto2 WORLD CHAMPION\" to his right. The background is green with \"PT\" logos.",
+      "nationality": "Japan"
+    },
+    "es": {
+      "description": "Después de casi ganar en 2022, Ai Ogura cumplió su sueño y se convirtió en el primer campeón mundial japonés de Moto2. Su pilotaje suave e inteligente lo llevó al título en una temporada consistente.",
+      "alt": "El piloto de motociclismo Ai Ogura, un hombre asiático sonriente, vestido con un mono de carreras azul marino y blanco, levanta los brazos en celebración, sosteniendo su casco dorado y negro en la mano izquierda. Está en el podio con un cartel negro y dorado con la inscripción \"OGURA 2024 moto2 WORLD CHAMPION\" a su derecha. El fondo es verde con logotipos \"PT\".",
+      "nationality": "Japón"
+    }
   },
   {
     "name": "David Alonso",
     "year": 2024,
-    "description": "David Alonso fez história para seu país ao se tornar o primeiro colombiano campeão mundial de motovelocidade. Com uma temporada de domínio absoluto na Moto3, ele quebrou recordes e garantiu o título com antecedência.",
     "category": "Moto3",
     "image": "https://www.grandepremio.com.br/wp-content/uploads/2024/10/Moto3-2024-Japao-Motegi-Domingo-Aspar-David-Alonso4-1200x800.jpeg",
-    "alt": "Um jovem piloto de motovelocidade de óculos escuros e boné amarelo, vestido em um macacão de corrida azul-petróleo e preto, sorri e segura seu capacete azul escuro com detalhes coloridos. Ele está em um pódio vermelho com a inscrição \"MOTUL GRAND PRIX OF JAPAN 2024\". Ao seu lado, há uma placa preta e dourada com a bandeira da Colômbia e as palavras \"2024 moto3 WORLD CHAMPION\".",
-    "nationality": "Colômbia",
     "team": "CFMoto Aspar Team",
     "wins": 14,
     "podiums": 15,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "David Alonso fez história para seu país ao se tornar o primeiro colombiano campeão mundial de motovelocidade. Com uma temporada de domínio absoluto na Moto3, ele quebrou recordes e garantiu o título com antecedência.",
+      "alt": "Um jovem piloto de motovelocidade de óculos escuros e boné amarelo, vestido em um macacão de corrida azul-petróleo e preto, sorri e segura seu capacete azul escuro com detalhes coloridos. Ele está em um pódio vermelho com a inscrição \"MOTUL GRAND PRIX OF JAPAN 2024\". Ao seu lado, há uma placa preta e dourada com a bandeira da Colômbia e as palavras \"2024 moto3 WORLD CHAMPION\".",
+      "nationality": "Colômbia"
+    },
+    "en": {
+      "description": "David Alonso made history for his country by becoming the first Colombian world champion in motorcycle racing. With a season of absolute dominance in Moto3, he broke records and secured the title early.",
+      "alt": "A young motorcycle racer with sunglasses and a yellow cap, dressed in a teal and black racing suit, smiles and holds his dark blue helmet with colorful details. He is on a red podium with the inscription \"MOTUL GRAND PRIX OF JAPAN 2024\". Beside him, there is a black and gold sign with the Colombian flag and the words \"2024 moto3 WORLD CHAMPION\".",
+      "nationality": "Colombia"
+    },
+    "es": {
+      "description": "David Alonso hizo historia para su país al convertirse en el primer campeón mundial colombiano de motociclismo. Con una temporada de dominio absoluto en Moto3, batió récords y aseguró el título con antelación.",
+      "alt": "Un joven piloto de motociclismo con gafas de sol y una gorra amarilla, vestido con un mono de carreras verde azulado y negro, sonríe y sostiene su casco azul oscuro con detalles de colores. Está en un podio rojo con la inscripción \"MOTUL GRAND PRIX OF JAPAN 2024\". A su lado, hay un cartel negro y dorado con la bandera de Colombia y las palabras \"2024 moto3 WORLD CHAMPION\".",
+      "nationality": "Colombia"
+    }
   },
   {
     "name": "Marc Márquez",
     "year": 2025,
-    "description": "Campeão da MotoGP de maneira muito dominante, conquistando o título com 5 corridas de antecedencia. Com esse título ele conseguiu fazer uma das maiores voltas por cima da história dos esportes voltando a ser campeão 5 anos depois de ter quebrado o braço.",
     "category": "MotoGP",
     "image": "https://motociclismoonline.com.br/wp-content/uploads/2025/09/Marc-Marquez-campeao-motogp-2025-02.jpg",
-    "alt": "O piloto de MotoGP Marc Márquez, em seu macacão de corrida vermelho da Ducati, ergue os braços cerrados em comemoração, em pé sobre um pódio de formato incomum que se assemelha a um grande troféu torcido e prateado. Ele está sob um arco preto com o logo 'MotoGP' e a inscrição 'WORLD CHAMPION 2025'. À esquerda, parte de uma motocicleta de corrida vermelha é visível. O céu nublado forma o fundo.",
-    "nationality": "Espanha",
     "team": "Ducati Lenovo Team",
     "wins": 11,
     "podiums": 15,
-    "poles": 8
+    "poles": 8,
+    "pt": {
+      "description": "Campeão da MotoGP de maneira muito dominante, conquistando o título com 5 corridas de antecedencia. Com esse título ele conseguiu fazer uma das maiores voltas por cima da história dos esportes voltando a ser campeão 5 anos depois de ter quebrado o braço.",
+      "alt": "O piloto de MotoGP Marc Márquez, em seu macacão de corrida vermelho da Ducati, ergue os braços cerrados em comemoração, em pé sobre um pódio de formato incomum que se assemelha a um grande troféu torcido e prateado. Ele está sob um arco preto com o logo 'MotoGP' e a inscrição 'WORLD CHAMPION 2025'. À esquerda, parte de uma motocicleta de corrida vermelha é visível. O céu nublado forma o fundo.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "A very dominant MotoGP champion, winning the title with 5 races to spare. With this title, he managed one of the greatest comebacks in sports history, becoming champion again 5 years after breaking his arm.",
+      "alt": "MotoGP rider Marc Márquez, in his red Ducati racing suit, raises his clenched fists in celebration, standing on an unusually shaped podium that resembles a large, twisted silver trophy. He is under a black arch with the 'MotoGP' logo and the inscription 'WORLD CHAMPION 2025'. To the left, part of a red racing motorcycle is visible. The cloudy sky forms the background.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "Un campeón de MotoGP muy dominante, ganando el título con 5 carreras de antelación. Con este título, logró una de las mayores remontadas en la historia del deporte, volviendo a ser campeón 5 años después de romperse el brazo.",
+      "alt": "El piloto de MotoGP Marc Márquez, con su mono de carreras rojo de Ducati, levanta los puños cerrados en celebración, de pie en un podio de forma inusual que se asemeja a un gran trofeo plateado y retorcido. Está bajo un arco negro con el logo 'MotoGP' y la inscripción 'WORLD CHAMPION 2025'. A la izquierda, se ve parte de una motocicleta de carreras roja. El cielo nublado forma el fondo.",
+      "nationality": "España"
+    }
   },
   {
     "name": "Diogo Moreira",
     "year": 2025,
-    "description": "Diogo Moreira tornou-se o primeiro brasileiro a conquistar um título no Mundial de Motovelocidade ao vencer a Moto2 em 2025. Ao longo da temporada, demonstrou enorme força mental: chegou a ficar 61 pontos atrás na disputa, mas virou o jogo rodada após rodada e garantiu o campeonato de forma emocionante na última corrida.",
     "category": "Moto2",
     "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/11/16/imagem-do-whatsapp-de-2025-11-16-a(s)-10-52-23_f2f80d4f-1ji4huc1sko4x.jpg",
-    "alt": "Uma visão de perto de um piloto de motovelocidade, visto de trás, ajoelhado na pista de corrida. Ele está usando um capacete com um design verde, amarelo e branco que inclui as palavras 'GIVES YOU WINGS' e 'OBRIGADO WORLD CHAMPION' em letras douradas. O piloto usa luvas verdes e amarelas, e seus dedos estão cruzados em oração ou reflexão sobre a parte de trás do capacete. O asfalto da pista e o público ao fundo são ligeiramente desfocados.",
-    "nationality": "Brasil",
     "team": "Italtrans Racing Team",
     "wins": 4,
     "podiums": 9,
-    "poles": 7
+    "poles": 7,
+    "pt": {
+      "description": "Diogo Moreira tornou-se o primeiro brasileiro a conquistar um título no Mundial de Motovelocidade ao vencer a Moto2 em 2025. Ao longo da temporada, demonstrou enorme força mental: chegou a ficar 61 pontos atrás na disputa, mas virou o jogo rodada após rodada e garantiu o campeonato de forma emocionante na última corrida.",
+      "alt": "Uma visão de perto de um piloto de motovelocidade, visto de trás, ajoelhado na pista de corrida. Ele está usando um capacete com um design verde, amarelo e branco que inclui as palavras 'GIVES YOU WINGS' e 'OBRIGADO WORLD CHAMPION' em letras douradas. O piloto usa luvas verdes e amarelas, e seus dedos estão cruzados em oração ou reflexão sobre a parte de trás do capacete. O asfalto da pista e o público ao fundo são ligeiramente desfocados.",
+      "nationality": "Brasil"
+    },
+    "en": {
+      "description": "Diogo Moreira became the first Brazilian to win a title in the Motorcycle World Championship by winning Moto2 in 2025. Throughout the season, he showed enormous mental strength: he was 61 points behind in the dispute, but turned the game around round after round and secured the championship in an exciting way in the last race.",
+      "alt": "A close-up view of a motorcycle racer, seen from behind, kneeling on the racetrack. He is wearing a helmet with a green, yellow, and white design that includes the words 'GIVES YOU WINGS' and 'OBRIGADO WORLD CHAMPION' in golden letters. The rider wears green and yellow gloves, and his fingers are crossed in prayer or reflection on the back of the helmet. The track asphalt and the crowd in the background are slightly blurred.",
+      "nationality": "Brazil"
+    },
+    "es": {
+      "description": "Diogo Moreira se convirtió en el primer brasileño en ganar un título en el Campeonato Mundial de Motociclismo al ganar Moto2 en 2025. A lo largo de la temporada, demostró una enorme fortaleza mental: llegó a estar 61 puntos por detrás en la disputa, pero dio la vuelta a la situación ronda tras ronda y aseguró el campeonato de forma emocionante en la última carrera.",
+      "alt": "Una vista de cerca de un piloto de motociclismo, visto desde atrás, arrodillado en la pista de carreras. Lleva un casco con un diseño verde, amarillo y blanco que incluye las palabras 'GIVES YOU WINGS' y 'OBRIGADO WORLD CHAMPION' en letras doradas. El piloto usa guantes verdes y amarillos, y sus dedos están cruzados en oración o reflexión sobre la parte posterior del casco. El asfalto de la pista y el público al fondo están ligeramente desenfocados.",
+      "nationality": "Brasil"
+    }
   },
   {
     "name": "José Antonio Rueda",
     "year": 2025,
-    "description": "José Antonio Rueda dominou a temporada da Moto3, garantindo o título com várias corridas de antecedência. Sua campanha foi brilhante, porém, foi interrompida por um grave acidente que o tirou das etapas finais do campeonato.",
     "category": "Moto3",
     "image": "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2025/10/26/rueda-1jygktrnrn8m9.jpg",
-    "alt": "Um jovem piloto de motovelocidade, sorrindo e segurando seu capacete preto e laranja com detalhes em vermelho, está em pé no degrau mais alto de um pódio. Ele veste um macacão de corrida laranja, preto e branco com o número 1 estampado. Atrás dele, há uma grande placa azul e branca exibindo 'MOTO3 WORLD CHAMPION 2025'. O céu azul claro é visível no topo da imagem.",
-    "nationality": "Espanha",
     "team": "Red Bull KTM Ajo",
     "wins": 9,
     "podiums": 13,
-    "poles": 5
+    "poles": 5,
+    "pt": {
+      "description": "José Antonio Rueda dominou a temporada da Moto3, garantindo o título com várias corridas de antecedência. Sua campanha foi brilhante, porém, foi interrompida por um grave acidente que o tirou das etapas finais do campeonato.",
+      "alt": "Um jovem piloto de motovelocidade, sorrindo e segurando seu capacete preto e laranja com detalhes em vermelho, está em pé no degrau mais alto de um pódio. Ele veste um macacão de corrida laranja, preto e branco com o número 1 estampado. Atrás dele, há uma grande placa azul e branca exibindo 'MOTO3 WORLD CHAMPION 2025'. O céu azul claro é visível no topo da imagem.",
+      "nationality": "Espanha"
+    },
+    "en": {
+      "description": "José Antonio Rueda dominated the Moto3 season, securing the title with several races to spare. His campaign was brilliant, however, it was interrupted by a serious accident that took him out of the final stages of the championship.",
+      "alt": "A young motorcycle racer, smiling and holding his black and orange helmet with red details, is standing on the top step of a podium. He is wearing an orange, black, and white racing suit with the number 1 printed on it. Behind him, there is a large blue and white sign displaying 'MOTO3 WORLD CHAMPION 2025'. The clear blue sky is visible at the top of the image.",
+      "nationality": "Spain"
+    },
+    "es": {
+      "description": "José Antonio Rueda dominó la temporada de Moto3, asegurando el título con varias carreras de antelación. Su campaña fue brillante, sin embargo, se vio interrumpida por un grave accidente que lo apartó de las etapas finales del campeonato.",
+      "alt": "Un joven piloto de motociclismo, sonriendo y sosteniendo su casco negro y naranja con detalles en rojo, está de pie en el escalón más alto de un podio. Viste un mono de carreras naranja, negro y blanco con el número 1 impreso. Detrás de él, hay un gran cartel azul y blanco que muestra 'MOTO3 WORLD CHAMPION 2025'. El cielo azul claro es visible en la parte superior de la imagen.",
+      "nationality": "España"
+    }
   }
 ]

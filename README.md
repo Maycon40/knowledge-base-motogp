@@ -5,7 +5,7 @@
 O principal objetivo é apresentar ao máximo de pessoas o mundo da motovelocidade onde as disputas são intensas e emocionantes, compartilhando um pouco da minha paixão pelo esporte.
 Para isso construi uma base de dados dos campeões mundias da MotoGP, Moto2 e Moto3 desde 2015 até 2025, falando um pouco sobre essas grandes referências do esporte para que as pessoas possam conhecer um pouco de cada um dos pilotos.
 
-Mim esforcei para deixar o site acessível para todas as pessoas tomando o cuidado de colocar cores de alto contraste, de descrever cada imagem da tela e também de facilitar a navegação usando o teclado.
+Mim esforcei para deixar o site acessível para todas as pessoas tomando o cuidado de colocar cores de alto contraste, de descrever cada imagem da tela, de tornar o site responsivo, de colocar uma versão do site em inglês/português/espanhol e também de facilitar a navegação usando o teclado.
 
 ## Funcionalidades
 
@@ -41,6 +41,10 @@ O projeto foi desenvolvido com um forte compromisso com a acessibilidade e a per
 
 - **Labels e Atributos ARIA:** Controles de formulário possuem `label`s associadas e botões que utilizam apenas ícones possuem o atributo `aria-label` para fornecer uma descrição textual de sua ação.
 
+- **Responsividade:** site responsivo para poder ser usado em dispositivos mobile.
+
+- **Idiomas:** site com tradução para os seguintes idiomas: português, inglês e espanhol.
+
 <br/>
 
 ### Ferramentas usadas para testar a acessibilidade e performance
@@ -63,7 +67,6 @@ https://www.color-blindness.com/coblis-color-blindness-simulator/
 - **JavaScript:**
   - Lógica da aplicação, manipulação do DOM e interatividade.
   - Filtros, busca, troca de layouts e navegação detalhada.
-  - Integração com a API do Gemini para o chatbot.
 - **Google Fonts:** Ícones e fontes personalizadas para uma melhor experiência visual.
 
 ## Como Rodar a Aplicação Localmente

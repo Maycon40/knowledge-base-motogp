@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
+/* === Reset Básico e Box Sizing === */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,6 +52,7 @@ body.light-theme {
   border-width: 0;
 }
 /* === Estilos Gerais e Cabeçalho === */
+/* Estilos aplicados ao corpo da página, incluindo transições de tema */
 
 body {
   background: var(--bg-color);
@@ -59,6 +61,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de tema */
 }
 
+/* Estilos do cabeçalho fixo, com efeito de desfoque */
 header {
   padding: 1.5rem 2rem;
   display: flex;
@@ -85,6 +88,7 @@ header h1 {
   text-align: center;
 }
 
+/* Estilos para o formulário de busca */
 .search-form {
   display: flex;
   width: 100%;
@@ -133,6 +137,7 @@ header h1 {
   border-color: var(--primary-color-dark);
 }
 
+/* Estilos para os botões de troca de layout */
 .layout-switcher {
   display: flex;
   background-color: var(--surface-color);
@@ -152,7 +157,7 @@ header h1 {
   transition: all 0.3s ease;
 }
 
-/* Estilo específico para o botão de tema */
+/* Estilo para o botão de troca de tema */
 #theme-switcher {
   width: 44px; /* Tamanho do botão */
   height: 44px;
@@ -175,6 +180,7 @@ header h1 {
   color: var(--secondary-color);
 }
 
+/* Estilos para a navegação de filtros */
 .filter-nav {
   display: flex;
   gap: 1.5rem;
@@ -241,6 +247,7 @@ header h1 {
 
 /* === Estilos dos Cards === */
 
+/* Contêiner em grade para os cards */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -250,6 +257,7 @@ header h1 {
   margin: 0 auto;
 }
 
+/* Estilo base para cada card individual */
 .card {
   background: var(--surface-color);
   border-radius: 8px;
@@ -267,6 +275,7 @@ header h1 {
   border-color: #444;
 }
 
+/* Contêiner da imagem do card */
 .card-image-container {
   width: 100%;
   height: 200px; /* Altura fixa para a imagem */
@@ -285,6 +294,7 @@ header h1 {
   transform: scale(1.05); /* Efeito de zoom suave no hover */
 }
 
+/* Tag de categoria posicionada sobre o card */
 .card-category {
   position: absolute;
   top: 0;
@@ -298,6 +308,7 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
+/* Cores específicas para cada categoria */
 .category-motogp {
   background-color: var(--motogp-color);
 }
@@ -309,12 +320,13 @@ header h1 {
   background-color: var(--moto3-color);
 }
 
-/* O conteúdo do card agora é uma <figcaption> */
+/* Estrutura semântica do card usando figure e figcaption */
 .card figure {
   display: flex;
   flex-direction: column;
   height: 100%; /* Garante que a figure ocupe todo o espaço do card */
 }
+/* Conteúdo de texto do card */
 figcaption.card-content {
   padding: 1.5rem;
 }
@@ -354,6 +366,7 @@ figcaption.card-content {
 
 /* === Layout de Visualização Detalhada === */
 
+/* Ativa o modo de layout detalhado, travando o scroll da página */
 .detailed-layout-active {
   display: flex;
   flex-direction: column;
@@ -365,6 +378,7 @@ figcaption.card-content {
   display: none; /* Esconde o rodapé no modo detalhes */
 }
 
+/* Wrapper principal do conteúdo que permite o posicionamento dos slides */
 .content-wrapper {
   flex: 1; /* Faz este container ocupar todo o espaço restante */
   position: relative; /* Cria um contexto para os filhos posicionados absolutamente */
@@ -377,6 +391,7 @@ figcaption.card-content {
   display: none !important;
 }
 
+/* Contêiner que centraliza o card detalhado */
 .detailed-container {
   position: absolute; /* Ocupa o espaço do content-wrapper */
   top: 0;
@@ -389,7 +404,7 @@ figcaption.card-content {
   align-items: center;
 }
 
-/* Este é o "palco" onde os cards detalhados são animados */
+/* Palco onde os cards detalhados são renderizados e animados */
 #detailed-card-content {
   position: relative; /* Cria o contexto de posicionamento para os cards */
   width: 95%;
@@ -397,6 +412,7 @@ figcaption.card-content {
   max-height: 80vh;
 }
 
+/* Estilo do card na visualização detalhada */
 .detailed-view {
   background-color: var(--surface-color);
   border-radius: 12px;
@@ -414,7 +430,8 @@ figcaption.card-content {
     grid-template-columns: 40% 60%; /* Duas colunas em telas maiores */
   }
 }
-/* Novas animações horizontais */
+
+/* Animações de slide para a navegação na visualização detalhada */
 @keyframes slideInRight {
   from {
     transform: translateX(100%);
@@ -475,6 +492,7 @@ figcaption.card-content {
   border-radius: 0;
 }
 
+/* Estilos para o conteúdo de texto na visualização detalhada */
 figcaption.card-content,
 .detailed-view .card-content {
   display: flex;
@@ -501,6 +519,7 @@ figcaption.card-content,
   margin-bottom: 0;
 }
 
+/* Grid para exibir as estatísticas do piloto (vitórias, pódios, etc.) */
 .detailed-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -528,6 +547,7 @@ figcaption.card-content,
   text-transform: uppercase;
 }
 
+/* Botões de navegação (anterior/próximo) na visualização detalhada */
 .detailed-nav-btn {
   position: absolute;
   top: 50%;
@@ -562,6 +582,8 @@ figcaption.card-content,
   opacity: 0.2;
   cursor: not-allowed;
 }
+
+/* === Estilos do Rodapé === */
 .footer {
   text-align: center;
   padding: 2rem;
@@ -590,6 +612,8 @@ figcaption.card-content,
   color: var(--primary-color);
 }
 
+/* === Media Queries para Responsividade === */
+/* Ajustes para tablets e telas menores */
 @media (max-width: 768px) {
   header {
     padding: 1.5rem 1rem;
@@ -634,6 +658,7 @@ figcaption.card-content,
   }
 }
 
+/* Ajuste fino de espaçamento para o contêiner detalhado */
 .detailed-container {
   padding: 1rem;
 }

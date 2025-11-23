@@ -21,55 +21,79 @@
   </head>
   <body>
     <header>
-      <h1>Campeões da Motovelocidade</h1>
+      <!-- Título principal da página -->
+      <h1 data-lang-key="main_title">Campeões da Motovelocidade</h1>
       <form class="search-form">
         <input
           type="text"
           id="search-input"
           placeholder="Pesquise por piloto ou ano..."
+          data-lang-key="search_placeholder"
         />
-        <button id="botao-busca" type="submit">Buscar</button>
-      </form>
-      <nav class="filter-nav">
-        <button id="theme-switcher" class="layout-btn" aria-label="Mudar tema">
-          <span class="material-symbols-outlined"
-            ><!-- O ícone será inserido pelo JS --></span
-          >
+        <button id="botao-busca" type="submit" data-lang-key="search_button">
+          Buscar
         </button>
+      </form>
+      <!-- Navegação com filtros, troca de tema e idioma -->
+      <nav class="filter-nav">
+        <!-- Botão para alternar entre tema claro e escuro -->
+        <button id="theme-switcher" class="layout-btn" aria-label="Mudar tema">
+          <span class="material-symbols-outlined"> </span>
+        </button>
+        <!-- Seletor de idioma -->
+        <select
+          id="lang-switcher"
+          class="filter-select"
+          aria-label="Mudar idioma"
+        >
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+        <!-- Botões para alternar o layout entre grid e detalhes -->
         <div class="layout-switcher">
-          <button class="layout-btn active" data-layout="grid">Cards</button>
-          <button class="layout-btn" data-layout="detailed">Detalhes</button>
+          <button class="layout-btn active" data-layout="grid" data-lang-key="layout_cards">
+            Cards
+          </button>
+          <button class="layout-btn" data-layout="detailed" data-lang-key="layout_details">
+            Detalhes
+          </button>
         </div>
+        <!-- Grupo de botões para filtrar por categoria (MotoGP, Moto2, Moto3) -->
         <div class="filter-group">
-          <button class="filter-btn active" data-category="all">Todos</button>
+          <button class="filter-btn active" data-category="all" data-lang-key="filter_all_categories">Todos</button>
           <button class="filter-btn" data-category="MotoGP">MotoGP</button>
           <button class="filter-btn" data-category="Moto2">Moto2</button>
           <button class="filter-btn" data-category="Moto3">Moto3</button>
         </div>
+        <!-- Grupo de filtro por nacionalidade -->
         <div class="filter-group">
-          <label for="nationality-filter" class="sr-only">Filtrar por nacionalidade</label>
+          <label for="nationality-filter" class="sr-only" data-lang-key="filter_nationality_label">Filtrar por nacionalidade</label>
           <select id="nationality-filter" class="filter-select">
-            <option value="all">Todas as Nacionalidades</option>
+            <option value="all" data-lang-key="filter_all_nationalities">Todas as Nacionalidades</option>
           </select>
         </div>
       </nav>
     </header>
     
     <!-- A tag <main> agora envolve todo o conteúdo principal -->
+    <!-- Conteúdo Principal: Contêiner para os cards e a visualização detalhada -->
     <main class="content-wrapper">
+      <!-- Seção para exibir os cards no layout de grade -->
       <section class="card-container">
         <!-- Cards são renderizados aqui -->
       </section>
+      <!-- Seção para a visualização detalhada de um único card -->
       <section class="detailed-container hidden">
-        <!-- O conteúdo do card detalhado será renderizado aqui -->
+        <!-- Palco onde o card detalhado é renderizado e animado -->
         <div id="detailed-card-content"></div>
-        <button class="detailed-nav-btn left" id="prev-btn" aria-label="Anterior">&lt;</button>
-        <button class="detailed-nav-btn right" id="next-btn" aria-label="Próximo">&gt;</button>
+        <button class="detailed-nav-btn left" id="prev-btn" aria-label="Anterior" data-lang-key="nav_prev_aria">&lt;</button>
+        <button class="detailed-nav-btn right" id="next-btn" aria-label="Próximo" data-lang-key="nav_next_aria">&gt;</button>
       </section>
     </main>
-
+    <!-- Rodapé da Página -->
     <footer class="footer">
-      <p>
+      <p data-lang-key="footer_text">
         &copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.
       </p>
       <ul class="footer-links">
