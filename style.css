@@ -180,6 +180,20 @@ header h1 {
   color: var(--secondary-color);
 }
 
+/* Botão para mostrar/esconder filtros em mobile */
+#toggle-filters-btn {
+  display: none; /* Escondido por padrão em telas grandes */
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500; /* Garante consistência com outros filtros */
+}
+
+#toggle-filters-btn .material-symbols-outlined {
+  font-size: 1.25rem; /* Ajusta o tamanho do ícone */
+  margin-bottom: -2px; /* Alinhamento vertical fino */
+}
+
 /* Estilos para a navegação de filtros */
 .filter-nav {
   display: flex;
@@ -187,6 +201,10 @@ header h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.filters-wrapper {
+  display: contents; /* Comportamento padrão em telas grandes */
 }
 
 .filter-group {
@@ -655,6 +673,29 @@ figcaption.card-content,
   .detailed-container {
     position: relative;
     height: auto;
+  }
+
+  /* Mostra o botão de filtros e ajusta o layout da navegação */
+  #toggle-filters-btn {
+    display: flex; /* Mostra o botão em telas pequenas */
+  }
+
+  .filter-nav {
+    width: 100%;
+    justify-content: space-around; /* Distribui melhor os itens visíveis */
+  }
+
+  /* Esconde o wrapper de filtros por padrão em mobile */
+  .filters-wrapper {
+    display: none;
+    flex-basis: 100%; /* Ocupa a largura total quando visível */
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .filters-wrapper.visible {
+    display: flex; /* Mostra os filtros quando a classe 'visible' é adicionada */
   }
 }
 

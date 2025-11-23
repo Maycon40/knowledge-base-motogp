@@ -59,19 +59,27 @@
             Detalhes
           </button>
         </div>
-        <!-- Grupo de botões para filtrar por categoria (MotoGP, Moto2, Moto3) -->
-        <div class="filter-group">
-          <button class="filter-btn active" data-category="all" data-lang-key="filter_all_categories">Todos</button>
-          <button class="filter-btn" data-category="MotoGP">MotoGP</button>
-          <button class="filter-btn" data-category="Moto2">Moto2</button>
-          <button class="filter-btn" data-category="Moto3">Moto3</button>
-        </div>
-        <!-- Grupo de filtro por nacionalidade -->
-        <div class="filter-group">
-          <label for="nationality-filter" class="sr-only" data-lang-key="filter_nationality_label">Filtrar por nacionalidade</label>
-          <select id="nationality-filter" class="filter-select">
-            <option value="all" data-lang-key="filter_all_nationalities">Todas as Nacionalidades</option>
-          </select>
+        <!-- Botão para mostrar/esconder filtros em mobile -->
+        <button id="toggle-filters-btn" class="filter-select" data-lang-key="toggle_filters_btn">
+          <span class="material-symbols-outlined">filter_list</span>
+          Filtros
+        </button>
+        <!-- Wrapper para os filtros que serão escondidos em mobile -->
+        <div class="filters-wrapper">
+          <!-- Grupo de botões para filtrar por categoria (MotoGP, Moto2, Moto3) -->
+          <div class="filter-group">
+            <button class="filter-btn active" data-category="all" data-lang-key="filter_all_categories">Todos</button>
+            <button class="filter-btn" data-category="MotoGP">MotoGP</button>
+            <button class="filter-btn" data-category="Moto2">Moto2</button>
+            <button class="filter-btn" data-category="Moto3">Moto3</button>
+          </div>
+          <!-- Grupo de filtro por nacionalidade -->
+          <div class="filter-group">
+            <label for="nationality-filter" class="sr-only" data-lang-key="filter_nationality_label">Filtrar por nacionalidade</label>
+            <select id="nationality-filter" class="filter-select">
+              <option value="all" data-lang-key="filter_all_nationalities">Todas as Nacionalidades</option>
+            </select>
+          </div>
         </div>
       </nav>
     </header>

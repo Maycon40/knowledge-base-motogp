@@ -119,6 +119,7 @@ class LanguageSwitcher {
         filter_all_nationalities: "Todas as Nacionalidades",
         nav_prev_aria: "Anterior",
         nav_next_aria: "Próximo",
+        toggle_filters_btn: "Filtros",
         footer_text:
           "&copy; 2025 Base de Conhecimento MotoGP. Todos os direitos reservados.",
         no_results: "Nenhum resultado encontrado.",
@@ -137,6 +138,7 @@ class LanguageSwitcher {
         filter_all_nationalities: "All Nationalities",
         nav_prev_aria: "Previous",
         nav_next_aria: "Next",
+        toggle_filters_btn: "Filters",
         footer_text: "&copy; 2025 MotoGP Knowledge Base. All rights reserved.",
         no_results: "No results found.",
         stat_wins: "Wins",
@@ -154,6 +156,7 @@ class LanguageSwitcher {
         filter_all_nationalities: "Todas las Nacionalidades",
         nav_prev_aria: "Anterior",
         nav_next_aria: "Siguiente",
+        toggle_filters_btn: "Filtros",
         footer_text:
           "&copy; 2025 Base de Conocimiento de MotoGP. Todos los derechos reservados.",
         no_results: "No se encontraron resultados.",
@@ -224,6 +227,8 @@ class App {
     this.detailedCardContent = document.getElementById("detailed-card-content");
     this.prevBtn = document.getElementById("prev-btn");
     this.nextBtn = document.getElementById("next-btn");
+    this.toggleFiltersBtn = document.getElementById("toggle-filters-btn");
+    this.filtersWrapper = document.querySelector(".filters-wrapper");
 
     // --- Estado da Aplicação ---
     // Guarda os dados e o estado atual dos filtros e layout.
@@ -330,6 +335,11 @@ class App {
     // Previne o formulário de recarregar a página
     this.searchForm.addEventListener("submit", (event) => {
       event.preventDefault();
+    });
+
+    // Botão para mostrar/esconder filtros em mobile
+    this.toggleFiltersBtn.addEventListener("click", () => {
+      this.filtersWrapper.classList.toggle("visible");
     });
 
     // Filtro de categoria
